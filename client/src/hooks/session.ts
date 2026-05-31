@@ -3,6 +3,7 @@ const KEY = 'anime_quiz_session';
 export interface SessionData {
   roomId: string;
   role: 'quizmaster' | 'player';
+  quizmasterId?: string;
   playerId?: string;
   playerName?: string;
 }

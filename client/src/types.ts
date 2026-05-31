@@ -12,7 +12,6 @@ export interface Character {
 export interface Player {
   id: string;
   name: string;
-  socketId: string;
 }
 
 export interface GameSettings {
@@ -21,25 +20,12 @@ export interface GameSettings {
   difficulty: 'all' | 'easy' | 'hard';
 }
 
-export interface RoomState {
-  id: string;
-  players: Player[];
-  status: 'waiting' | 'playing' | 'result';
-  settings: GameSettings;
-  currentIndex: number;
-  scores: Record<string, number>;
-  totalQuestions: number;
-}
-
-export interface GameEndData {
+export interface ResultPageState {
   scores: Record<string, number>;
   players: Player[];
-  questions: Character[];
   roomId: string;
-}
-
-export interface ResultPageState extends GameEndData {
   isQuizmaster: boolean;
+  quizmasterId?: string;
   myPlayerId?: string;
   myPlayerName?: string;
 }

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { ResultPageState, Player } from '../types';
-import socket from '../hooks/useSocket';
+import { ResultPageState } from '../types';
+import { onRoomChange, restartGame } from '../lib/roomService';
 import { clearSession } from '../hooks/session';
 
 export default function ResultPage() {
@@ -14,36 +14,37 @@ export default function ResultPage() {
     if (!data) navigate('/');
   }, [data, navigate]);
 
+  // Listen for restart (quizmaster set status back to 'waiting')
   useEffect(() => {
     if (!data?.roomId) return;
-    const onRestarted = ({ roomId, players }: { roomId: string; players: Player[] }) => {
-      if (data.isQuizmaster) {
-        navigate(`/quizmaster/${roomId}`, { state: { initialPlayers: players } });
-      } else {
-        navigate(`/player/${roomId}`, {
-          state: {
-            playerName: data.myPlayerName ?? '',
-            playerId: data.myPlayerId ?? '',
-            initialPlayers: players,
-          },
-        });
+    const unsub = onRoomChange(data.roomId, (room) => {
+      if (!room) return;
+      if (room.status === 'waiting') {
+        if (data.isQuizmaster) {
+          navigate(`/quizmaster/${data.roomId}`);
+        } else {
+          navigate(`/player/${data.roomId}`, {
+            state: { playerName: data.myPlayerName ?? '', playerId: data.myPlayerId ?? '' },
+          });
+        }
       }
-    };
-    socket.on('game_restarted', onRestarted);
-    return () => { socket.off('game_restarted', onRestarted); };
+    });
+    return unsub;
   }, [data, navigate]);
 
   if (!data) return null;
 
-  const { scores, players, isQuizmaster, myPlayerId, myPlayerName, roomId } = data;
+  const { scores, players, isQuizmaster, myPlayerId, myPlayerName, roomId, quizmasterId } = data;
   const sorted = [...players].sort((a, b) => (scores[b.id] || 0) - (scores[a.id] || 0));
 
-  const handleRestart = () => {
+  const handleRestart = async () => {
     if (!roomId) { navigate('/'); return; }
-    if (isQuizmaster) {
+    if (isQuizmaster && quizmasterId) {
       setRestarting(true);
-      socket.emit('restart_game', { roomId });
+      await restartGame(roomId, quizmasterId);
+      // Navigation handled by the onRoomChange listener above
     } else {
+      // Player waits — the listener will navigate when quizmaster restarts
       navigate(`/player/${roomId}`, {
         state: { playerName: myPlayerName ?? '', playerId: myPlayerId ?? '' },
       });
@@ -59,7 +60,6 @@ export default function ResultPage() {
           <p className="text-gray-400 text-sm mt-1">最終結果</p>
         </div>
 
-        {/* Rankings */}
         <div className="card divide-y divide-gray-700 p-0 overflow-hidden">
           {sorted.map((player, i) => {
             const score = scores[player.id] || 0;
@@ -91,7 +91,6 @@ export default function ResultPage() {
           )}
         </div>
 
-        {/* Actions */}
         <div className="flex gap-3">
           <button onClick={() => { clearSession(); navigate('/'); }} className="btn btn-secondary flex-1">
             ホームに戻る
@@ -110,7 +109,6 @@ export default function ResultPage() {
             ? '「もう一度」を押すと全員が同じルームで再開します'
             : '出題者が「もう一度」を押すと自動で再開します'}
         </p>
-
       </div>
     </div>
   );

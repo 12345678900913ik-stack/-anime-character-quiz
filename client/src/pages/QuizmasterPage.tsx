@@ -1,8 +1,19 @@
 import { useEffect, useState, useRef } from 'react';
-import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import socket from '../hooks/useSocket';
-import { getSession, clearSession } from '../hooks/session';
-import { Character, Player, GameSettings, GameEndData } from '../types';
+import { useParams, useNavigate } from 'react-router-dom';
+import {
+  onRoomChange,
+  startGame,
+  nextQuestion,
+  judgeCorrect,
+  judgeWrong,
+  toPlayerArray,
+  toQuestionArray,
+  RoomData,
+  Character,
+  FirebasePlayer,
+} from '../lib/roomService';
+import { getSession } from '../hooks/session';
+import { GameSettings, ResultPageState } from '../types';
 import CharacterImage from '../components/CharacterImage';
 import ScoreBoard from '../components/ScoreBoard';
 import AnswerPanel from '../components/AnswerPanel';
@@ -11,7 +22,7 @@ type Status = 'waiting' | 'playing';
 type MobileTab = 'answer' | 'score';
 
 function JudgeModal({ players, onSelect, onCancel }: {
-  players: Player[];
+  players: FirebasePlayer[];
   onSelect: (id: string) => void;
   onCancel: () => void;
 }) {
@@ -41,12 +52,12 @@ function JudgeModal({ players, onSelect, onCancel }: {
 export default function QuizmasterPage() {
   const { roomId } = useParams<{ roomId: string }>();
   const navigate = useNavigate();
-  const location = useLocation();
-  const initialPlayers = (location.state as { initialPlayers?: Player[] } | null)?.initialPlayers ?? [];
+
+  const session = getSession();
+  const quizmasterId = session?.quizmasterId ?? '';
 
   const [status, setStatus] = useState<Status>('waiting');
-  const [players, setPlayers] = useState<Player[]>(initialPlayers);
-  const playersRef = useRef<Player[]>(initialPlayers);
+  const [players, setPlayers] = useState<FirebasePlayer[]>([]);
   const [scores, setScores] = useState<Record<string, number>>({});
   const [currentChar, setCurrentChar] = useState<Character | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,88 +71,63 @@ export default function QuizmasterPage() {
     difficulty: 'all',
   });
 
-  useEffect(() => { playersRef.current = players; }, [players]);
+  const prevStatusRef = useRef<string>('waiting');
+  const questionsRef = useRef<Character[]>([]);
 
   useEffect(() => {
     if (!roomId) return;
+    const unsub = onRoomChange(roomId, (room: RoomData | null) => {
+      if (!room) { navigate('/'); return; }
 
-    // Session recovery: called on mount (if already connected) and on every reconnect
-    const doReconnect = () => {
-      if ((socket as any).recovered) return; // socket.io already replayed missed events
-      const session = getSession();
-      if (session?.roomId === roomId && session.role === 'quizmaster') {
-        socket.emit('reconnect_session', session);
-      }
-    };
-    socket.on('connect', doReconnect);
-    if (socket.connected) doReconnect();
+      const ps = toPlayerArray(room.players);
+      const qs = toQuestionArray(room.questions);
+      questionsRef.current = qs;
 
-    const onPlayers = ({ players: ps }: { players: Player[] }) => setPlayers(ps);
-    const onStarted = ({ totalQuestions: total }: any) => { setTotalQuestions(total); setStatus('playing'); };
-    const onAnswer = ({ character }: { character: Character }) => {
-      setCurrentChar(character);
-      setMobileTab('answer');
-    };
-    const onChanged = ({ index }: { index: number }) => setCurrentIndex(index);
-    const onCorrect = ({ playerId, scores: s }: { playerId: string; scores: Record<string, number> }) => {
-      setScores(s);
-      setFlashPlayerId(playerId);
-      setMobileTab('score');
-      setTimeout(() => setFlashPlayerId(null), 2000);
-    };
-    const onEnd = (data: GameEndData) =>
-      navigate('/result', { state: { ...data, isQuizmaster: true } });
+      setPlayers(ps);
+      setScores(room.scores ?? {});
 
-    const onRestored = (payload: any) => {
-      if (payload.role !== 'quizmaster') return;
-      if (payload.status === 'result') {
-        clearSession();
-        navigate('/');
+      if (room.status === 'result') {
+        const state: ResultPageState = {
+          scores: room.scores ?? {},
+          players: ps,
+          roomId: roomId!,
+          isQuizmaster: true,
+          quizmasterId,
+        };
+        navigate('/result', { state });
         return;
       }
-      setPlayers(payload.players ?? []);
-      setScores(payload.scores ?? {});
-      if (payload.status === 'playing') {
-        setStatus('playing');
-        setCurrentIndex(payload.currentIndex ?? 0);
-        setTotalQuestions(payload.totalQuestions ?? 0);
-        if (payload.settings) setSettings(payload.settings);
-        if (payload.currentQuestion) setCurrentChar(payload.currentQuestion);
+
+      if (room.status === 'playing') {
+        if (prevStatusRef.current !== 'playing') setStatus('playing');
+        setCurrentIndex(room.currentIndex);
+        setTotalQuestions(qs.length);
+        setCurrentChar(qs[room.currentIndex] ?? null);
+        setMobileTab('answer');
       }
-    };
 
-    const onExpired = () => {
-      clearSession();
-      navigate('/');
-    };
+      if (room.status === 'waiting') {
+        setStatus('waiting');
+      }
 
-    socket.on('players_updated', onPlayers);
-    socket.on('game_started', onStarted);
-    socket.on('question_answer', onAnswer);
-    socket.on('question_changed', onChanged);
-    socket.on('correct_answer', onCorrect);
-    socket.on('game_end', onEnd);
-    socket.on('session_restored', onRestored);
-    socket.on('session_expired', onExpired);
+      // Flash correct player
+      const ev = room.lastEvent;
+      if (ev?.type === 'correct' && ev.playerId) {
+        setFlashPlayerId(ev.playerId);
+        setMobileTab('score');
+        setTimeout(() => setFlashPlayerId(null), 2000);
+      }
 
-    return () => {
-      socket.off('connect', doReconnect);
-      socket.off('players_updated', onPlayers);
-      socket.off('game_started', onStarted);
-      socket.off('question_answer', onAnswer);
-      socket.off('question_changed', onChanged);
-      socket.off('correct_answer', onCorrect);
-      socket.off('game_end', onEnd);
-      socket.off('session_restored', onRestored);
-      socket.off('session_expired', onExpired);
-    };
-  }, [roomId, navigate]);
+      prevStatusRef.current = room.status;
+    });
+    return unsub;
+  }, [roomId, navigate, quizmasterId]);
 
-  const startGame = () => socket.emit('start_game', { roomId, settings });
-  const nextQuestion = () => socket.emit('next_question', { roomId });
-  const judgeWrong = () => socket.emit('judge_wrong', { roomId });
-  const judgeCorrect = (playerId: string) => {
-    socket.emit('judge_correct', { roomId, playerId });
+  const handleStartGame = () => startGame(roomId!, quizmasterId, settings);
+  const handleNextQuestion = () => nextQuestion(roomId!, quizmasterId);
+  const handleJudgeWrong = () => judgeWrong(roomId!, quizmasterId);
+  const handleJudgeCorrect = (playerId: string) => {
+    judgeCorrect(roomId!, quizmasterId, playerId);
     setShowJudgeModal(false);
   };
 
@@ -233,7 +219,7 @@ export default function QuizmasterPage() {
           </div>
 
           <button
-            onClick={startGame}
+            onClick={handleStartGame}
             disabled={players.length === 0}
             className="btn btn-primary btn-lg w-full"
           >
@@ -260,14 +246,14 @@ export default function QuizmasterPage() {
         <span className="text-xs">正解</span>
       </button>
       <button
-        onClick={judgeWrong}
+        onClick={handleJudgeWrong}
         className={`btn btn-danger flex-col gap-0.5 ${size === 'lg' ? 'h-14 flex-1' : 'py-4 h-auto gap-1'}`}
       >
         <span className={size === 'lg' ? 'text-2xl leading-none' : 'text-lg'}>✕</span>
         <span className="text-xs">不正解</span>
       </button>
       <button
-        onClick={nextQuestion}
+        onClick={handleNextQuestion}
         className={`btn btn-secondary flex-col gap-0.5 ${size === 'lg' ? 'h-14 flex-1' : 'py-4 h-auto gap-1'}`}
       >
         <span className={size === 'lg' ? 'text-2xl leading-none' : 'text-lg'}>→</span>
@@ -278,8 +264,6 @@ export default function QuizmasterPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-900">
-
-      {/* Header */}
       <header className="flex items-center justify-between px-4 py-3 border-b border-gray-700 bg-gray-800 flex-shrink-0">
         <span className="font-mono text-blue-400 font-semibold text-sm">{roomId}</span>
         <span className="text-gray-400 text-sm">
@@ -287,9 +271,8 @@ export default function QuizmasterPage() {
         </span>
       </header>
 
-      {/* ── MOBILE LAYOUT (< lg) ── */}
+      {/* MOBILE */}
       <div className="flex-1 flex flex-col lg:hidden overflow-y-auto">
-        {/* Image */}
         <div className="h-[42vh] flex-shrink-0 bg-gray-950">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
@@ -297,8 +280,6 @@ export default function QuizmasterPage() {
             className="w-full h-full"
           />
         </div>
-
-        {/* Tab bar */}
         <div className="flex bg-gray-800 border-b border-gray-700 flex-shrink-0">
           {(['answer', 'score'] as MobileTab[]).map(tab => (
             <button
@@ -314,8 +295,6 @@ export default function QuizmasterPage() {
             </button>
           ))}
         </div>
-
-        {/* Tab content */}
         <div className="flex-1 p-3" style={{ paddingBottom: 'calc(80px + env(safe-area-inset-bottom, 0px))' }}>
           {mobileTab === 'answer'
             ? <AnswerPanel character={currentChar} />
@@ -324,7 +303,6 @@ export default function QuizmasterPage() {
         </div>
       </div>
 
-      {/* Mobile fixed bottom judge buttons */}
       <div
         className="lg:hidden fixed bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 flex gap-2 px-3 pt-2"
         style={{ paddingBottom: 'max(8px, env(safe-area-inset-bottom, 8px))' }}
@@ -332,9 +310,8 @@ export default function QuizmasterPage() {
         {judgeButtons('lg')}
       </div>
 
-      {/* ── DESKTOP LAYOUT (>= lg) ── */}
+      {/* DESKTOP */}
       <div className="hidden lg:flex flex-1 gap-4 p-4 min-h-0">
-        {/* Image */}
         <div className="flex-1 min-h-0 rounded-xl overflow-hidden bg-gray-950">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
@@ -342,8 +319,6 @@ export default function QuizmasterPage() {
             className="w-full h-full"
           />
         </div>
-
-        {/* Right panel */}
         <div className="w-72 flex flex-col gap-3 overflow-y-auto">
           <AnswerPanel character={currentChar} />
           <div className="card space-y-2">
@@ -359,7 +334,7 @@ export default function QuizmasterPage() {
       {showJudgeModal && (
         <JudgeModal
           players={players}
-          onSelect={judgeCorrect}
+          onSelect={handleJudgeCorrect}
           onCancel={() => setShowJudgeModal(false)}
         />
       )}
