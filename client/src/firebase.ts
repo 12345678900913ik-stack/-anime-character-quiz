@@ -3,13 +3,13 @@ import { getDatabase } from 'firebase/database';
 
 // Firebaseコンソール(https://console.firebase.google.com)から取得した設定に置き換えてください
 const firebaseConfig = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME.firebaseapp.com",
-  databaseURL: "https://REPLACE_ME-default-rtdb.firebaseio.com",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME.appspot.com",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME",
+  apiKey: "AIzaSyDFxNrY7Gs8uW_XiCVGpDLz35o3p-yjNAI",
+  authDomain: "anime-quiz-6515c.firebaseapp.com",
+  databaseURL: "https://anime-quiz-6515c-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "anime-quiz-6515c",
+  storageBucket: "anime-quiz-6515c.firebasestorage.app",
+  messagingSenderId: "853763937783",
+  appId: "1:853763937783:web:cf9bb04c8ea261b9fb0af2"
 };
 
 const app = initializeApp(firebaseConfig);
