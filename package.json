@@ -1,0 +1,18 @@
+{
+  "name": "anime-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "data:excel-to-json": "python scripts/excel-to-json.py",
+    "data:generate": "node scripts/generate-from-excel.mjs --anime-only",
+    "data:generate-resume": "node scripts/generate-from-excel.mjs --anime-only --resume",
+    "data:generate-manga": "node scripts/generate-from-excel.mjs --resume",
+    "data:download-images": "node scripts/download-images.mjs",
+    "data:monitor": "node scripts/monitor.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #111827;
+    color: #f3f4f6;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  }
+  * { box-sizing: border-box; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg font-medium
+           text-sm transition-colors duration-100 active:opacity-80
+           disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer;
+  }
+  .btn-primary {
+    @apply btn bg-blue-600 hover:bg-blue-500 text-white;
+  }
+  .btn-secondary {
+    @apply btn bg-gray-700 hover:bg-gray-600 text-gray-200 border border-gray-600;
+  }
+  .btn-success {
+    @apply btn bg-green-700 hover:bg-green-600 text-white;
+  }
+  .btn-danger {
+    @apply btn bg-red-700 hover:bg-red-600 text-white;
+  }
+  .btn-lg {
+    @apply px-5 py-3 text-base;
+  }
+  .card {
+    @apply bg-gray-800 border border-gray-700 rounded-xl p-4;
+  }
+  .input-field {
+    @apply bg-gray-700 border border-gray-600 rounded-lg px-3 py-2.5 text-gray-100
+           placeholder-gray-500 focus:outline-none focus:border-blue-500
+           focus:ring-1 focus:ring-blue-500 transition-colors w-full text-sm;
+  }
+  .section-label {
+    @apply text-xs font-semibold text-gray-400 uppercase tracking-wider;
+  }
+}
+
+/* Result overlay animations */
+@keyframes correct-pop {
+  0%   { opacity: 0; transform: scale(0.6); }
+  60%  { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes wrong-shake {
+  0%, 100% { transform: translateX(0); }
+  20%  { transform: translateX(-10px); }
+  40%  { transform: translateX(10px); }
+  60%  { transform: translateX(-5px); }
+  80%  { transform: translateX(5px); }
+}
+.animate-correct-pop { animation: correct-pop 0.4s ease-out forwards; }
+.animate-wrong-shake { animation: wrong-shake 0.4s ease-in-out; }
+
+/* Mobile safe area utilities */
+.pt-safe { padding-top: env(safe-area-inset-top, 0px); }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+.mb-safe { margin-bottom: env(safe-area-inset-bottom, 0px); }
+
+/* Confetti */
+@keyframes confetti-fall {
+  0%   { transform: translateY(-5%) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(105vh) rotate(540deg); opacity: 0; }
+}
+.confetti-piece {
+  position: fixed;
+  border-radius: 2px;
+  animation: confetti-fall linear forwards;
+  pointer-events: none;
+}
