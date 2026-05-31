@@ -18,9 +18,6 @@ client/dist/
 scripts/excel_data.json
 scripts/progress.json
 
-# Generated image cache
-client/public/images/
-
 # OS files
 .DS_Store
 Thumbs.db

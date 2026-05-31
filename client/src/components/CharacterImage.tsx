@@ -8,9 +8,18 @@ interface Props {
 
 const COLORS = ['#6366f1', '#8b5cf6', '#ec4899', '#ef4444', '#f59e0b', '#10b981', '#3b82f6'];
 
+// Prepend Vite's base path (e.g. /-anime-character-quiz/) to local image paths
+// so they resolve correctly on GitHub Pages. Remote URLs are used as-is.
+function resolveUrl(url: string): string {
+  if (!url) return '';
+  if (/^https?:\/\//.test(url)) return url;
+  return import.meta.env.BASE_URL.replace(/\/$/, '') + '/' + url.replace(/^\//, '');
+}
+
 export default function CharacterImage({ imageUrl, characterName = '?', className = '' }: Props) {
   const [imgError, setImgError] = useState(false);
   const color = COLORS[characterName.charCodeAt(0) % COLORS.length];
+  const resolvedUrl = resolveUrl(imageUrl);
   const showPlaceholder = !imageUrl || imgError;
 
   useEffect(() => {
@@ -21,8 +30,8 @@ export default function CharacterImage({ imageUrl, characterName = '?', classNam
     <div className={`relative overflow-hidden ${className}`}>
       {!showPlaceholder && (
         <img
-          key={imageUrl}
-          src={imageUrl}
+          key={resolvedUrl}
+          src={resolvedUrl}
           alt={characterName}
           className="w-full h-full object-contain"
           style={{ backgroundColor: '#111' }}
