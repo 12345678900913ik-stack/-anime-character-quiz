@@ -28,9 +28,10 @@ const IMAGES_DIR = path.join(__dirname, "../client/public/images");
 const JIKAN_BASE = "https://api.jikan.moe/v4";
 const FAILED_LOG = path.join(__dirname, "failed_characters.txt");
 const PROGRESS_FILE = path.join(__dirname, "progress.json");
+const PROCESSED_TITLES_FILE = path.join(__dirname, "processed_titles.json");
 
 // Jikan API レート制限: 3req/sec, 60req/min
-const DELAY_MS = 400;
+const DELAY_MS = 350;
 const RETRY_WAIT_MS = 12000;
 
 // CLI オプション
@@ -178,17 +179,37 @@ async function main() {
     } catch (_) {}
   };
 
+  // 処理済みタイトルを読み込む（resumeモードで高速スキップ用）
+  const processedTitles = new Set(
+    RESUME && fs.existsSync(PROCESSED_TITLES_FILE)
+      ? JSON.parse(fs.readFileSync(PROCESSED_TITLES_FILE, "utf-8"))
+      : []
+  );
+
+  const saveProcessedTitles = () => {
+    try {
+      fs.writeFileSync(PROCESSED_TITLES_FILE, JSON.stringify([...processedTitles]), "utf-8");
+    } catch (_) {}
+  };
+
   // 処理対象を絞り込む
   let targets = excelData;
   if (ANIME_ONLY) targets = targets.filter((t) => t.endpoint === "anime");
   if (LIMIT < Infinity) targets = targets.slice(0, LIMIT);
 
-  console.log(`処理対象: ${targets.length} 作品 / 1作品あたり最大 ${MAX_PER_TITLE} キャラ`);
-  console.log(`想定API呼び出し数: 約 ${targets.length * (1 + MAX_PER_TITLE)} 回`);
+  const skippedTitles = targets.filter(t => processedTitles.has(t.mal_id)).length;
+  console.log(`処理対象: ${targets.length} 作品 / うち処理済みスキップ: ${skippedTitles} 作品`);
+  console.log(`Excelキャラ全員対象 (フォールバック最大${MAX_PER_TITLE}件)`);
   console.log("─".repeat(60));
 
   for (let ti = 0; ti < targets.length; ti++) {
     const title = targets[ti];
+    // 処理済みタイトルはAPIコールなしでスキップ
+    if (processedTitles.has(title.mal_id)) {
+      process.stdout.write(`[${ti + 1}/${targets.length}] SKIP(done) ${title.title}\n`);
+      continue;
+    }
+
     writeProgress(ti + 1, targets.length, title.title, "");
     console.log(`\n[${ti + 1}/${targets.length}] ${title.title} (${title.endpoint}/${title.mal_id})`);
 
@@ -205,18 +226,48 @@ async function main() {
       continue;
     }
 
-    // 2. Main → Supporting の順に並べて上位 MAX_PER_TITLE 件を選択
-    const sorted = [
-      ...charList.filter((c) => c.role === "Main"),
-      ...charList.filter((c) => c.role === "Supporting"),
-    ].slice(0, MAX_PER_TITLE);
+    // 2. Excel のキャラ名と Jikan の結果をマッチングして選択
+    const excelNames = title.characters || [];
+    const norm = (s) => s.toLowerCase().replace(/[\s,.\-']/g, "");
 
-    if (sorted.length === 0) {
+    let selected;
+    if (excelNames.length > 0) {
+      // Excel 記載のキャラを名前でマッチング（前方一致・部分一致）
+      const matched = charList.filter((c) => {
+        const jName = norm(c.character?.name || "");
+        return excelNames.some((en) => {
+          const eName = norm(en);
+          return jName === eName || jName.includes(eName) || eName.includes(jName);
+        });
+      });
+      // マッチしたものを Excel の順番に並べ直す
+      selected = excelNames
+        .map((en) => matched.find((c) => {
+          const jName = norm(c.character?.name || "");
+          const eName = norm(en);
+          return jName === eName || jName.includes(eName) || eName.includes(jName);
+        }))
+        .filter(Boolean);
+      // マッチゼロの場合は Main/Supporting 上位にフォールバック
+      if (selected.length === 0) {
+        selected = [
+          ...charList.filter((c) => c.role === "Main"),
+          ...charList.filter((c) => c.role === "Supporting"),
+        ].slice(0, MAX_PER_TITLE);
+      }
+    } else {
+      selected = [
+        ...charList.filter((c) => c.role === "Main"),
+        ...charList.filter((c) => c.role === "Supporting"),
+      ].slice(0, MAX_PER_TITLE);
+    }
+
+    if (selected.length === 0) {
       console.log("  [SKIP] キャラが見つからない");
       continue;
     }
 
-    for (const entry of sorted) {
+    for (const entry of selected) {
       const charMalId = entry.character?.mal_id;
       const charNameEn = entry.character?.name || "";
       const role = entry.role || "Supporting";
@@ -302,9 +353,14 @@ async function main() {
         console.log(`  [SAVE] ${characters.length} 件保存`);
       }
     }
+
+    // タイトル処理完了を記録（次回resumeでスキップ）
+    processedTitles.add(title.mal_id);
+    if ((ti + 1) % 20 === 0) saveProcessedTitles();
   }
 
   // 最終保存
+  saveProcessedTitles();
   fs.writeFileSync(CHARACTERS_PATH, JSON.stringify(characters, null, 2), "utf-8");
 
   // 失敗ログ

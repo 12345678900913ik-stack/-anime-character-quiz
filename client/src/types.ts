@@ -18,6 +18,7 @@ export interface GameSettings {
   totalQuestions: number;
   timeLimit: number;
   difficulty: 'all' | 'easy' | 'hard';
+  excludedAnime: string[];
 }
 
 export interface ResultPageState {
