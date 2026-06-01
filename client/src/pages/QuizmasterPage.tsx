@@ -17,6 +17,7 @@ import { GameSettings, ResultPageState } from '../types';
 import CharacterImage from '../components/CharacterImage';
 import ScoreBoard from '../components/ScoreBoard';
 import AnswerPanel from '../components/AnswerPanel';
+import AnimeFilterPanel, { loadExcludedAnime } from '../components/AnimeFilterPanel';
 
 type Status = 'waiting' | 'playing';
 type MobileTab = 'answer' | 'score';
@@ -69,10 +70,13 @@ export default function QuizmasterPage() {
     totalQuestions: 10,
     timeLimit: 30,
     difficulty: 'all',
+    excludedAnime: loadExcludedAnime(),
   });
 
   const prevStatusRef = useRef<string>('waiting');
   const questionsRef = useRef<Character[]>([]);
+  const prevIndexRef = useRef<number>(-1);
+  const lastEventTsRef = useRef<number>(0);
 
   useEffect(() => {
     if (!roomId) return;
@@ -103,19 +107,28 @@ export default function QuizmasterPage() {
         setCurrentIndex(room.currentIndex);
         setTotalQuestions(qs.length);
         setCurrentChar(qs[room.currentIndex] ?? null);
-        setMobileTab('answer');
+        // Reset to the answer tab only when a new question actually starts,
+        // so we don't override the quizmaster's manual tab choice on every update.
+        if (room.currentIndex !== prevIndexRef.current) {
+          prevIndexRef.current = room.currentIndex;
+          setMobileTab('answer');
+        }
       }
 
       if (room.status === 'waiting') {
         setStatus('waiting');
+        prevIndexRef.current = -1;
       }
 
-      // Flash correct player
+      // Flash correct player — only react to genuinely new events.
       const ev = room.lastEvent;
-      if (ev?.type === 'correct' && ev.playerId) {
-        setFlashPlayerId(ev.playerId);
-        setMobileTab('score');
-        setTimeout(() => setFlashPlayerId(null), 2000);
+      if (ev && ev.timestamp > lastEventTsRef.current) {
+        lastEventTsRef.current = ev.timestamp;
+        if (ev.type === 'correct' && ev.playerId) {
+          setFlashPlayerId(ev.playerId);
+          setMobileTab('score');
+          setTimeout(() => setFlashPlayerId(null), 2000);
+        }
       }
 
       prevStatusRef.current = room.status;
@@ -123,9 +136,17 @@ export default function QuizmasterPage() {
     return unsub;
   }, [roomId, navigate, quizmasterId]);
 
-  const handleStartGame = () => startGame(roomId!, quizmasterId, settings);
+  const handleStartGame = async () => {
+    const ok = await startGame(roomId!, quizmasterId, settings);
+    if (!ok) alert('ゲームを開始できませんでした。ページを更新して再試行してください。');
+  };
   const handleNextQuestion = () => nextQuestion(roomId!, quizmasterId);
   const handleJudgeWrong = () => judgeWrong(roomId!, quizmasterId);
+  const handleReset = () => {
+    if (window.confirm('ゲームをリセットしてロビーに戻りますか？\nスコアがリセットされます。')) {
+      import('../lib/roomService').then(m => m.restartGame(roomId!, quizmasterId));
+    }
+  };
   const handleJudgeCorrect = (playerId: string) => {
     judgeCorrect(roomId!, quizmasterId, playerId);
     setShowJudgeModal(false);
@@ -218,6 +239,11 @@ export default function QuizmasterPage() {
             </div>
           </div>
 
+          <AnimeFilterPanel
+            excludedAnime={settings.excludedAnime}
+            onChange={excluded => setSettings(s => ({ ...s, excludedAnime: excluded }))}
+          />
+
           <button
             onClick={handleStartGame}
             disabled={players.length === 0}
@@ -263,12 +289,18 @@ export default function QuizmasterPage() {
   );
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-900">
+    <div className="h-[100dvh] overflow-hidden flex flex-col bg-gray-900">
       <header className="flex items-center justify-between px-4 py-3 border-b border-gray-700 bg-gray-800 flex-shrink-0">
         <span className="font-mono text-blue-400 font-semibold text-sm">{roomId}</span>
         <span className="text-gray-400 text-sm">
           問題 {currentIndex + 1} / {totalQuestions}
         </span>
+        <button
+          onClick={handleReset}
+          className="text-xs text-red-400 hover:text-red-300 border border-red-900 hover:border-red-700 px-2 py-1 rounded transition-colors"
+        >
+          リセット
+        </button>
       </header>
 
       {/* MOBILE */}
@@ -312,11 +344,11 @@ export default function QuizmasterPage() {
 
       {/* DESKTOP */}
       <div className="hidden lg:flex flex-1 gap-4 p-4 min-h-0">
-        <div className="flex-1 min-h-0 rounded-xl overflow-hidden bg-gray-950">
+        <div className="flex-1 min-h-0 relative rounded-xl overflow-hidden bg-gray-950">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
             characterName={currentChar?.name ?? '?'}
-            className="w-full h-full"
+            className="absolute inset-0 w-full h-full"
           />
         </div>
         <div className="w-72 flex flex-col gap-3 overflow-y-auto">

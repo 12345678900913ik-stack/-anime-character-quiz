@@ -29,6 +29,7 @@ export default function PlayerPage() {
   const [judgeResult, setJudgeResult] = useState<JudgeResult>(null);
   const [correctPlayerName, setCorrectPlayerName] = useState('');
 
+  const gameStatusRef = useRef<GameStatus>('waiting');
   const timeLimitRef = useRef(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const lastEventTimestampRef = useRef(0);
@@ -67,8 +68,18 @@ export default function PlayerPage() {
         return;
       }
 
+      if (room.status === 'waiting') {
+        if (timerRef.current) clearInterval(timerRef.current);
+        prevIndexRef.current = -1;
+        lastEventTimestampRef.current = 0;
+        gameStatusRef.current = 'waiting';
+        setJudgeResult(null);
+        setGameStatus('waiting');
+      }
+
       if (room.status === 'playing') {
-        if (gameStatus !== 'playing') {
+        if (gameStatusRef.current !== 'playing') {
+          gameStatusRef.current = 'playing';
           setGameStatus('playing');
           const lim = room.settings?.timeLimit ?? 0;
           setTimeLimit(lim);
@@ -110,7 +121,7 @@ export default function PlayerPage() {
       unsub();
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [roomId, navigate, myPlayerId, playerName, gameStatus, startTimer]);
+  }, [roomId, navigate, myPlayerId, playerName, startTimer]);
 
   const handleDismiss = useCallback(() => setJudgeResult(null), []);
 
@@ -142,7 +153,7 @@ export default function PlayerPage() {
     timeLeft <= 10 ? 'text-yellow-400' : 'text-gray-200';
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-950 select-none">
+    <div className="h-[100dvh] overflow-hidden flex flex-col bg-gray-950 select-none">
       <header
         className="flex items-center justify-between px-4 py-2.5 bg-gray-900 border-b border-gray-800 z-10 flex-shrink-0"
         style={{ paddingTop: 'max(10px, env(safe-area-inset-top, 10px))' }}
@@ -168,10 +179,8 @@ export default function PlayerPage() {
         )}
       </header>
 
-      <div className="flex-1 min-h-0 flex items-center justify-center bg-gray-950">
-        <div className="relative w-full h-full">
-          <CharacterImage imageUrl={imageUrl} className="absolute inset-0 w-full h-full" />
-        </div>
+      <div className="flex-1 min-h-0 relative overflow-hidden bg-gray-950">
+        <CharacterImage imageUrl={imageUrl} className="absolute inset-0 w-full h-full" />
       </div>
 
       <footer
