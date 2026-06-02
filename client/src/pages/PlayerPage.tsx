@@ -153,7 +153,7 @@ export default function PlayerPage() {
     timeLeft <= 10 ? 'text-yellow-400' : 'text-gray-200';
 
   return (
-    <div className="h-[100dvh] overflow-hidden flex flex-col bg-gray-950 select-none">
+    <div className="fixed inset-0 overflow-hidden flex flex-col bg-gray-950 select-none">
       <header
         className="flex items-center justify-between px-4 py-2.5 bg-gray-900 border-b border-gray-800 z-10 flex-shrink-0"
         style={{ paddingTop: 'max(10px, env(safe-area-inset-top, 10px))' }}

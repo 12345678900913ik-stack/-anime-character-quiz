@@ -289,7 +289,7 @@ export default function QuizmasterPage() {
   );
 
   return (
-    <div className="h-[100dvh] overflow-hidden flex flex-col bg-gray-900">
+    <div className="fixed inset-0 overflow-hidden flex flex-col bg-gray-900">
       <header className="flex items-center justify-between px-4 py-3 border-b border-gray-700 bg-gray-800 flex-shrink-0">
         <span className="font-mono text-blue-400 font-semibold text-sm">{roomId}</span>
         <span className="text-gray-400 text-sm">

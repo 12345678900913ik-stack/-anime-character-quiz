@@ -27,7 +27,7 @@ export default function CharacterImage({ imageUrl, characterName = '?', classNam
   }, [imageUrl]);
 
   return (
-    <div className={`relative overflow-hidden ${className}`}>
+    <div className={`overflow-hidden ${className}`}>
       {!showPlaceholder && (
         <img
           key={resolvedUrl}
