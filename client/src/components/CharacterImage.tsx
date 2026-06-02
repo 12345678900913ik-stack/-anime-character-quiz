@@ -41,12 +41,12 @@ export default function CharacterImage({ imageUrl, characterName = '?', classNam
   }
 
   return (
-    <div className={`flex items-center justify-center overflow-hidden bg-gray-900 ${className}`}>
+    <div className={`flex items-center justify-center overflow-hidden bg-gray-900 p-3 ${className}`}>
       <img
         key={resolvedUrl}
         src={resolvedUrl}
         alt={characterName}
-        className="object-contain w-full h-full block"
+        className="object-contain max-h-full max-w-full block"
         onError={() => setImgError(true)}
       />
     </div>

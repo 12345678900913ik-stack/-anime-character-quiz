@@ -297,15 +297,15 @@ export default function QuizmasterPage() {
         </span>
         <button
           onClick={handleReset}
-          className="text-xs text-red-400 hover:text-red-300 border border-red-900 hover:border-red-700 px-2 py-1 rounded transition-colors"
+          className="text-sm font-semibold text-white bg-red-700 hover:bg-red-600 active:bg-red-800 px-3 py-1.5 rounded transition-colors"
         >
-          リセット
+          🔄 リセット
         </button>
       </header>
 
       {/* MOBILE */}
       <div className="flex-1 flex flex-col lg:hidden overflow-y-auto">
-        <div className="h-[28vh] flex-shrink-0 bg-gray-950">
+        <div className="h-[36vh] flex-shrink-0 bg-gray-950">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
             characterName={currentChar?.name ?? '?'}
