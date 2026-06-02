@@ -8,8 +8,6 @@ interface Props {
 
 const COLORS = ['#6366f1', '#8b5cf6', '#ec4899', '#ef4444', '#f59e0b', '#10b981', '#3b82f6'];
 
-// Prepend Vite's base path (e.g. /-anime-character-quiz/) to local image paths
-// so they resolve correctly on GitHub Pages. Remote URLs are used as-is.
 function resolveUrl(url: string): string {
   if (!url) return '';
   if (/^https?:\/\//.test(url)) return url;
@@ -26,31 +24,31 @@ export default function CharacterImage({ imageUrl, characterName = '?', classNam
     setImgError(false);
   }, [imageUrl]);
 
-  return (
-    <div className={`overflow-hidden ${className}`}>
-      {!showPlaceholder && (
-        <img
-          key={resolvedUrl}
-          src={resolvedUrl}
-          alt={characterName}
-          className="w-full h-full object-contain"
-          style={{ backgroundColor: '#111' }}
-          onError={() => setImgError(true)}
-        />
-      )}
-      {showPlaceholder && (
-        <div
-          className="w-full h-full flex items-center justify-center"
-          style={{ background: `linear-gradient(135deg, ${color}55, ${color}22)` }}
+  if (showPlaceholder) {
+    return (
+      <div
+        className={`flex items-center justify-center ${className}`}
+        style={{ background: `linear-gradient(135deg, ${color}55, ${color}22)` }}
+      >
+        <span
+          className="font-bold text-white/40 select-none leading-none"
+          style={{ fontSize: 'clamp(4rem, 20vmin, 12rem)' }}
         >
-          <span
-            className="font-bold text-white/40 select-none leading-none"
-            style={{ fontSize: 'clamp(4rem, 20vmin, 12rem)' }}
-          >
-            {characterName.charAt(0)}
-          </span>
-        </div>
-      )}
+          {characterName.charAt(0)}
+        </span>
+      </div>
+    );
+  }
+
+  return (
+    <div className={`flex items-center justify-center overflow-hidden bg-gray-900 ${className}`}>
+      <img
+        key={resolvedUrl}
+        src={resolvedUrl}
+        alt={characterName}
+        style={{ height: '100%', width: 'auto', maxWidth: '100%', display: 'block' }}
+        onError={() => setImgError(true)}
+      />
     </div>
   );
 }

@@ -344,11 +344,11 @@ export default function QuizmasterPage() {
 
       {/* DESKTOP */}
       <div className="hidden lg:flex flex-1 gap-4 p-4 min-h-0">
-        <div className="flex-1 min-h-0 relative rounded-xl overflow-hidden bg-gray-950">
+        <div className="flex-1 min-h-0 rounded-xl overflow-hidden bg-gray-950">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
             characterName={currentChar?.name ?? '?'}
-            className="absolute inset-0 w-full h-full"
+            className="h-full w-full"
           />
         </div>
         <div className="w-72 flex flex-col gap-3 overflow-y-auto">
