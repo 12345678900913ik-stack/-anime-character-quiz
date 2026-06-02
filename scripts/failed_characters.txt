@@ -1,3 +1,4 @@
-[IMG] char_01886 Cheni: image too small
-[IMG] char_01931 Andrew: image too small
-[IMG] char_02244 Shiori Aoki: image too small
+[IMG] char_03099 Collegue 1: image too small
+[IMG] char_03246 Announcement: image too small
+[IMG] char_03514 Jun: image too small
+[IMG] char_03897 Kyouya Hashiguchi: image too small
