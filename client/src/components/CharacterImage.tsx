@@ -46,7 +46,7 @@ export default function CharacterImage({ imageUrl, characterName = '?', classNam
         key={resolvedUrl}
         src={resolvedUrl}
         alt={characterName}
-        style={{ height: '100%', width: 'auto', maxWidth: '100%', display: 'block' }}
+        className="object-contain w-full h-full block"
         onError={() => setImgError(true)}
       />
     </div>

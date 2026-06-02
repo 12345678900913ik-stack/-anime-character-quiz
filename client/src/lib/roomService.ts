@@ -80,7 +80,7 @@ export async function createRoom(): Promise<{ roomId: string; quizmasterId: stri
   await set(ref(db, `rooms/${roomId}`), {
     status: 'waiting',
     quizmasterId,
-    settings: { totalQuestions: 10, timeLimit: 30, difficulty: 'all' },
+    settings: { totalQuestions: 10, timeLimit: 30, difficulty: 'all', excludedAnime: [] },
     players: { _placeholder: null },
     scores: { _placeholder: null },
     questions: { _placeholder: null },
@@ -122,7 +122,9 @@ export async function startGame(
   const room = snapshot.val() as RoomData;
   if (room.quizmasterId !== quizmasterId) return false;
 
+  const excluded = new Set(settings.excludedAnime ?? []);
   const filtered = characters.filter((c) => {
+    if (excluded.has(c.anime)) return false;
     if (settings.difficulty === 'easy') return c.difficulty === 1;
     if (settings.difficulty === 'hard') return c.difficulty >= 2;
     return true;

@@ -179,8 +179,8 @@ export default function PlayerPage() {
         )}
       </header>
 
-      <div className="flex-1 min-h-0 overflow-hidden bg-gray-950">
-        <CharacterImage imageUrl={imageUrl} className="h-full w-full" />
+      <div className="flex-1 min-h-0 bg-gray-950 flex items-center justify-center">
+        <CharacterImage imageUrl={imageUrl} className="h-[50vh] w-full" />
       </div>
 
       <footer

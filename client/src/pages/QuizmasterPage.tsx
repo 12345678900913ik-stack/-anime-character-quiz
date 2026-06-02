@@ -54,8 +54,8 @@ export default function QuizmasterPage() {
   const { roomId } = useParams<{ roomId: string }>();
   const navigate = useNavigate();
 
-  const session = getSession();
-  const quizmasterId = session?.quizmasterId ?? '';
+  const quizmasterIdRef = useRef<string>(getSession()?.quizmasterId ?? '');
+  const quizmasterId = quizmasterIdRef.current;
 
   const [status, setStatus] = useState<Status>('waiting');
   const [players, setPlayers] = useState<FirebasePlayer[]>([]);
@@ -305,7 +305,7 @@ export default function QuizmasterPage() {
 
       {/* MOBILE */}
       <div className="flex-1 flex flex-col lg:hidden overflow-y-auto">
-        <div className="h-[42vh] flex-shrink-0 bg-gray-950">
+        <div className="h-[28vh] flex-shrink-0 bg-gray-950">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
             characterName={currentChar?.name ?? '?'}
@@ -344,11 +344,11 @@ export default function QuizmasterPage() {
 
       {/* DESKTOP */}
       <div className="hidden lg:flex flex-1 gap-4 p-4 min-h-0">
-        <div className="flex-1 min-h-0 rounded-xl overflow-hidden bg-gray-950">
+        <div className="flex-1 min-h-0 rounded-xl bg-gray-950 flex items-center justify-center p-4">
           <CharacterImage
             imageUrl={currentChar?.imageUrl ?? ''}
             characterName={currentChar?.name ?? '?'}
-            className="h-full w-full"
+            className="max-h-[72vh] max-w-[70vw] w-full h-full"
           />
         </div>
         <div className="w-72 flex flex-col gap-3 overflow-y-auto">
