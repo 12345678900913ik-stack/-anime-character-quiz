@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { onRoomChange, toPlayerArray, toQuestionArray, RoomData } from '../lib/roomService';
+import { onRoomChange, toPlayerArray, toQuestionArray, RoomData, buzz as buzzIn } from '../lib/roomService';
 import { getSession } from '../hooks/session';
 import { ResultPageState } from '../types';
 import CharacterImage from '../components/CharacterImage';
@@ -28,6 +28,8 @@ export default function PlayerPage() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [judgeResult, setJudgeResult] = useState<JudgeResult>(null);
   const [correctPlayerName, setCorrectPlayerName] = useState('');
+  const [hasBuzzed, setHasBuzzed] = useState(false);
+  const [myBuzzRank, setMyBuzzRank] = useState<number | null>(null);
 
   const gameStatusRef = useRef<GameStatus>('waiting');
   const timeLimitRef = useRef(0);
@@ -90,11 +92,20 @@ export default function PlayerPage() {
         setImageUrl(room.currentImageUrl ?? '');
         setMyScore((room.scores ?? {})[myPlayerId] ?? 0);
 
+        // Buzz rankings
+        const buzzEntries = Object.entries(room.buzzes ?? {})
+          .filter(([id, ts]) => id !== '_placeholder' && ts != null)
+          .sort(([, a], [, b]) => (a as number) - (b as number));
+        const myRankIdx = buzzEntries.findIndex(([id]) => id === myPlayerId);
+        setMyBuzzRank(myRankIdx >= 0 ? myRankIdx + 1 : null);
+
         // New question
         if (room.currentIndex !== prevIndexRef.current) {
           prevIndexRef.current = room.currentIndex;
           setCurrentIndex(room.currentIndex);
           setJudgeResult(null);
+          setHasBuzzed(false);
+          setMyBuzzRank(null);
           startTimer(timeLimitRef.current);
         }
 
@@ -124,6 +135,12 @@ export default function PlayerPage() {
   }, [roomId, navigate, myPlayerId, playerName, startTimer]);
 
   const handleDismiss = useCallback(() => setJudgeResult(null), []);
+
+  const handleBuzz = useCallback(async () => {
+    if (hasBuzzed || !roomId) return;
+    setHasBuzzed(true);
+    await buzzIn(roomId, myPlayerId);
+  }, [hasBuzzed, roomId, myPlayerId]);
 
   /* ── WAITING ── */
   if (gameStatus === 'waiting') {
@@ -180,7 +197,30 @@ export default function PlayerPage() {
       </header>
 
       <div className="flex-1 min-h-0 bg-gray-950 flex items-center justify-center">
-        <CharacterImage imageUrl={imageUrl} className="h-[40vh] w-full" />
+        <CharacterImage imageUrl={imageUrl} className="h-[35vh] w-full" />
+      </div>
+
+      <div className="flex-shrink-0 px-4 py-3 bg-gray-950">
+        <button
+          onClick={handleBuzz}
+          disabled={hasBuzzed}
+          className={`w-full rounded-2xl font-bold text-3xl py-6 transition-all select-none ${
+            hasBuzzed
+              ? myBuzzRank === 1
+                ? 'bg-yellow-500/15 border-2 border-yellow-500 text-yellow-400'
+                : 'bg-gray-800 border-2 border-gray-700 text-gray-500 cursor-not-allowed'
+              : 'bg-blue-600 active:bg-blue-800 active:scale-[0.97] text-white shadow-xl shadow-blue-900/50'
+          }`}
+        >
+          {hasBuzzed
+            ? myBuzzRank === 1
+              ? '1位！'
+              : myBuzzRank
+                ? `${myBuzzRank}位 / 挙手済み`
+                : '挙手済み'
+            : '挙手！'
+          }
+        </button>
       </div>
 
       <footer

@@ -6,6 +6,7 @@ import {
   nextQuestion,
   judgeCorrect,
   judgeWrong,
+  clearBuzzes,
   toPlayerArray,
   toQuestionArray,
   RoomData,
@@ -66,6 +67,7 @@ export default function QuizmasterPage() {
   const [showJudgeModal, setShowJudgeModal] = useState(false);
   const [flashPlayerId, setFlashPlayerId] = useState<string | null>(null);
   const [mobileTab, setMobileTab] = useState<MobileTab>('answer');
+  const [buzzes, setBuzzes] = useState<Record<string, number | null>>({});
   const [settings, setSettings] = useState<GameSettings>({
     totalQuestions: 10,
     timeLimit: 30,
@@ -89,6 +91,7 @@ export default function QuizmasterPage() {
 
       setPlayers(ps);
       setScores(room.scores ?? {});
+      setBuzzes((room.buzzes ?? {}) as Record<string, number | null>);
 
       if (room.status === 'result') {
         const state: ResultPageState = {
@@ -141,6 +144,7 @@ export default function QuizmasterPage() {
     if (!ok) alert('ゲームを開始できませんでした。ページを更新して再試行してください。');
   };
   const handleNextQuestion = () => nextQuestion(roomId!, quizmasterId);
+  const handleClearBuzzes = () => clearBuzzes(roomId!, quizmasterId);
   const handleJudgeWrong = () => judgeWrong(roomId!, quizmasterId);
   const handleReset = () => {
     if (window.confirm('ゲームをリセットしてロビーに戻りますか？\nスコアがリセットされます。')) {
@@ -262,6 +266,54 @@ export default function QuizmasterPage() {
   }
 
   /* ── PLAYING ── */
+  const buzzRankings = Object.entries(buzzes)
+    .filter(([id, ts]) => id !== '_placeholder' && ts != null)
+    .sort(([, a], [, b]) => (a as number) - (b as number))
+    .map(([id], idx) => ({
+      rank: idx + 1,
+      name: players.find(p => p.id === id)?.name ?? '???',
+      id,
+    }));
+
+  const buzzPanel = (
+    <div className="card space-y-2">
+      <div className="flex items-center justify-between">
+        <p className="section-label">早押し順位</p>
+        {buzzRankings.length > 0 && (
+          <button
+            onClick={handleClearBuzzes}
+            className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+          >
+            リセット
+          </button>
+        )}
+      </div>
+      {buzzRankings.length === 0 ? (
+        <p className="text-xs text-gray-600 py-1">まだ挙手なし</p>
+      ) : (
+        <div className="space-y-1">
+          {buzzRankings.map(({ rank, name, id }) => (
+            <div
+              key={id}
+              className={`flex items-center gap-2 px-2 py-1.5 rounded text-sm ${
+                rank === 1 ? 'bg-yellow-500/10 border border-yellow-500/30' : ''
+              }`}
+            >
+              <span className={`font-bold tabular-nums w-5 text-right flex-shrink-0 ${
+                rank === 1 ? 'text-yellow-400' : 'text-gray-500'
+              }`}>
+                {rank}
+              </span>
+              <span className={rank === 1 ? 'text-yellow-300 font-semibold' : 'text-gray-300'}>
+                {name}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+
   const judgeButtons = (size: 'sm' | 'lg') => (
     <>
       <button
@@ -327,9 +379,9 @@ export default function QuizmasterPage() {
             </button>
           ))}
         </div>
-        <div className="flex-1 p-3" style={{ paddingBottom: 'calc(80px + env(safe-area-inset-bottom, 0px))' }}>
+        <div className="flex-1 p-3 space-y-3" style={{ paddingBottom: 'calc(80px + env(safe-area-inset-bottom, 0px))' }}>
           {mobileTab === 'answer'
-            ? <AnswerPanel character={currentChar} />
+            ? <><AnswerPanel character={currentChar} />{buzzPanel}</>
             : <ScoreBoard players={players} scores={scores} highlightPlayerId={flashPlayerId ?? undefined} />
           }
         </div>
@@ -353,6 +405,7 @@ export default function QuizmasterPage() {
         </div>
         <div className="w-72 flex flex-col gap-3 overflow-y-auto">
           <AnswerPanel character={currentChar} />
+          {buzzPanel}
           <div className="card space-y-2">
             <p className="section-label">判定</p>
             <div className="grid grid-cols-3 gap-2">

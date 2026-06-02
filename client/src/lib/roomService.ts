@@ -36,6 +36,7 @@ export interface RoomData {
   currentImageUrl: string;
   questionStartTime: number;
   lastEvent: LastEvent;
+  buzzes?: Record<string, number | null> | null;
   createdAt: number;
 }
 
@@ -139,6 +140,7 @@ export async function startGame(
     currentImageUrl: shuffled[0]?.imageUrl ?? '',
     questionStartTime: Date.now(),
     lastEvent: { type: 'none', timestamp: Date.now() },
+    buzzes: { _placeholder: null },
   });
 
   return true;
@@ -164,6 +166,7 @@ export async function nextQuestion(roomId: string, quizmasterId: string): Promis
       currentImageUrl: qs[nextIndex].imageUrl,
       questionStartTime: Date.now(),
       lastEvent: { type: 'none', timestamp: Date.now() },
+      buzzes: { _placeholder: null },
     });
   }
 }
@@ -216,6 +219,16 @@ export async function restartGame(roomId: string, quizmasterId: string): Promise
     scores: resetScores,
     lastEvent: { type: 'restarted', timestamp: Date.now() },
   });
+}
+
+export async function buzz(roomId: string, playerId: string): Promise<void> {
+  await set(ref(db, `rooms/${roomId}/buzzes/${playerId}`), Date.now());
+}
+
+export async function clearBuzzes(roomId: string, quizmasterId: string): Promise<void> {
+  const snap = await get(ref(db, `rooms/${roomId}/quizmasterId`));
+  if (!snap.exists() || snap.val() !== quizmasterId) return;
+  await set(ref(db, `rooms/${roomId}/buzzes`), { _placeholder: null });
 }
 
 export function onRoomChange(
