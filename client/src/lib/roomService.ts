@@ -42,6 +42,21 @@ export interface RoomData {
 
 const characters = charactersData as Character[];
 
+const LS_FILTER_KEY = 'anime_quiz_excluded_anime';
+
+function loadSavedExcludedAnime(): string[] {
+  try {
+    const raw = localStorage.getItem(LS_FILTER_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch { return []; }
+}
+
+function persistExcludedAnime(list: string[]) {
+  try { localStorage.setItem(LS_FILTER_KEY, JSON.stringify(list)); } catch {}
+}
+
 function generateRoomCode(): string {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
   let code = '';
@@ -81,7 +96,7 @@ export async function createRoom(): Promise<{ roomId: string; quizmasterId: stri
   await set(ref(db, `rooms/${roomId}`), {
     status: 'waiting',
     quizmasterId,
-    settings: { totalQuestions: 10, timeLimit: 30, difficulty: 'all', excludedAnime: [] },
+    settings: { totalQuestions: 10, timeLimit: 30, difficulty: 'all', excludedAnime: loadSavedExcludedAnime() },
     players: { _placeholder: null },
     scores: { _placeholder: null },
     questions: { _placeholder: null },
@@ -226,6 +241,7 @@ export async function buzz(roomId: string, playerId: string): Promise<void> {
 }
 
 export async function updateExcludedAnime(roomId: string, excludedAnime: string[]): Promise<void> {
+  persistExcludedAnime(excludedAnime);
   await update(ref(db, `rooms/${roomId}`), {
     'settings/excludedAnime': excludedAnime,
   });
