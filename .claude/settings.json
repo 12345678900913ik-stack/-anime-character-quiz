@@ -6,7 +6,13 @@
       "Read(//c/tmp/**)",
       "Bash(npm init *)",
       "Bash(node -e ' *)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "Read(//c/�A�j���L�������ăQ�[��/server/data/**)",
+      "Bash(node scripts/lookup-mal-ids.mjs)",
+      "Bash(node scripts/update-excel-data.mjs)",
+      "Bash(node scripts/add-missing-chars.mjs)",
+      "Bash(node scripts/check-chars.mjs)",
+      "Bash(node scripts/fix-missing-chars.mjs)"
     ]
   }
 }
