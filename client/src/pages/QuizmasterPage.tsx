@@ -7,6 +7,7 @@ import {
   judgeCorrect,
   judgeWrong,
   clearBuzzes,
+  updateExcludedAnime,
   toPlayerArray,
   toQuestionArray,
   RoomData,
@@ -18,7 +19,7 @@ import { GameSettings, ResultPageState } from '../types';
 import CharacterImage from '../components/CharacterImage';
 import ScoreBoard from '../components/ScoreBoard';
 import AnswerPanel from '../components/AnswerPanel';
-import AnimeFilterPanel, { loadExcludedAnime } from '../components/AnimeFilterPanel';
+import AnimeFilterPanel from '../components/AnimeFilterPanel';
 
 type Status = 'waiting' | 'playing';
 type MobileTab = 'answer' | 'score';
@@ -72,7 +73,7 @@ export default function QuizmasterPage() {
     totalQuestions: 10,
     timeLimit: 30,
     difficulty: 'all',
-    excludedAnime: loadExcludedAnime(),
+    excludedAnime: [],
   });
 
   const prevStatusRef = useRef<string>('waiting');
@@ -121,6 +122,7 @@ export default function QuizmasterPage() {
       if (room.status === 'waiting') {
         setStatus('waiting');
         prevIndexRef.current = -1;
+        setSettings(s => ({ ...s, excludedAnime: room.settings?.excludedAnime ?? [] }));
       }
 
       // Flash correct player — only react to genuinely new events.
@@ -245,7 +247,10 @@ export default function QuizmasterPage() {
 
           <AnimeFilterPanel
             excludedAnime={settings.excludedAnime}
-            onChange={excluded => setSettings(s => ({ ...s, excludedAnime: excluded }))}
+            onChange={excluded => {
+              setSettings(s => ({ ...s, excludedAnime: excluded }));
+              updateExcludedAnime(roomId!, excluded);
+            }}
           />
 
           <button

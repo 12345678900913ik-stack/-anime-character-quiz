@@ -13,23 +13,6 @@ for (const c of characters) {
   ANIME_CHAR_COUNT[c.anime] = (ANIME_CHAR_COUNT[c.anime] || 0) + 1;
 }
 
-const LS_KEY = 'anime_quiz_excluded_anime';
-
-export function loadExcludedAnime(): string[] {
-  try {
-    const raw = localStorage.getItem(LS_KEY);
-    if (!raw) return [];
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
-
-function persist(list: string[]) {
-  try { localStorage.setItem(LS_KEY, JSON.stringify(list)); } catch {}
-}
-
 interface Props {
   excludedAnime: string[];
   onChange: (excluded: string[]) => void;
@@ -57,17 +40,12 @@ export default function AnimeFilterPanel({ excludedAnime, onChange }: Props) {
     const next = excludedSet.has(anime)
       ? excludedAnime.filter(a => a !== anime)
       : [...excludedAnime, anime];
-    persist(next);
     onChange(next);
   };
 
-  const enableAll = () => { persist([]); onChange([]); };
-  const disableAll = () => { persist([...ALL_ANIME]); onChange([...ALL_ANIME]); };
-  const invert = () => {
-    const next = ALL_ANIME.filter(a => !excludedSet.has(a));
-    persist(next);
-    onChange(next);
-  };
+  const enableAll = () => onChange([]);
+  const disableAll = () => onChange([...ALL_ANIME]);
+  const invert = () => onChange(ALL_ANIME.filter(a => !excludedSet.has(a)));
 
   const includedCount = ALL_ANIME.length - excludedAnime.length;
   const activeCharCount = characters.filter(c => !excludedSet.has(c.anime)).length;

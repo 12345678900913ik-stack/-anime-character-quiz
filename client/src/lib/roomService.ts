@@ -225,6 +225,12 @@ export async function buzz(roomId: string, playerId: string): Promise<void> {
   await set(ref(db, `rooms/${roomId}/buzzes/${playerId}`), Date.now());
 }
 
+export async function updateExcludedAnime(roomId: string, excludedAnime: string[]): Promise<void> {
+  await update(ref(db, `rooms/${roomId}`), {
+    'settings/excludedAnime': excludedAnime,
+  });
+}
+
 export async function clearBuzzes(roomId: string, quizmasterId: string): Promise<void> {
   const snap = await get(ref(db, `rooms/${roomId}/quizmasterId`));
   if (!snap.exists() || snap.val() !== quizmasterId) return;

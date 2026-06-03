@@ -1,10 +1,11 @@
 import { useEffect, useState, useRef, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { onRoomChange, toPlayerArray, toQuestionArray, RoomData, buzz as buzzIn } from '../lib/roomService';
+import { onRoomChange, toPlayerArray, toQuestionArray, updateExcludedAnime, RoomData, buzz as buzzIn } from '../lib/roomService';
 import { getSession } from '../hooks/session';
 import { ResultPageState } from '../types';
 import CharacterImage from '../components/CharacterImage';
 import ResultOverlay from '../components/ResultOverlay';
+import AnimeFilterPanel from '../components/AnimeFilterPanel';
 
 type GameStatus = 'waiting' | 'playing';
 type JudgeResult = 'correct' | 'wrong' | null;
@@ -20,6 +21,7 @@ export default function PlayerPage() {
   const myPlayerId = locState?.playerId ?? session?.playerId ?? '';
 
   const [gameStatus, setGameStatus] = useState<GameStatus>('waiting');
+  const [excludedAnime, setExcludedAnime] = useState<string[]>([]);
   const [imageUrl, setImageUrl] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(0);
@@ -77,6 +79,7 @@ export default function PlayerPage() {
         gameStatusRef.current = 'waiting';
         setJudgeResult(null);
         setGameStatus('waiting');
+        setExcludedAnime(room.settings?.excludedAnime ?? []);
       }
 
       if (room.status === 'playing') {
@@ -146,18 +149,27 @@ export default function PlayerPage() {
   if (gameStatus === 'waiting') {
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
-        <div className="card text-center max-w-xs w-full py-10 space-y-5">
-          <div>
-            <p className="text-gray-400 text-sm">参加者</p>
-            <p className="text-xl font-semibold text-gray-100 mt-0.5">{playerName}</p>
+        <div className="w-full max-w-sm space-y-4">
+          <div className="card text-center py-8 space-y-4">
+            <div>
+              <p className="text-gray-400 text-sm">参加者</p>
+              <p className="text-xl font-semibold text-gray-100 mt-0.5">{playerName}</p>
+            </div>
+            <div>
+              <p className="section-label mb-1">ルームコード</p>
+              <span className="font-mono text-4xl font-bold tracking-widest text-blue-400">
+                {roomId}
+              </span>
+            </div>
+            <p className="text-gray-500 text-sm">出題者がゲームを開始するまでお待ちください</p>
           </div>
-          <div>
-            <p className="section-label mb-1">ルームコード</p>
-            <span className="font-mono text-4xl font-bold tracking-widest text-blue-400">
-              {roomId}
-            </span>
-          </div>
-          <p className="text-gray-500 text-sm">出題者がゲームを開始するまでお待ちください</p>
+          <AnimeFilterPanel
+            excludedAnime={excludedAnime}
+            onChange={excluded => {
+              setExcludedAnime(excluded);
+              if (roomId) updateExcludedAnime(roomId, excluded);
+            }}
+          />
         </div>
       </div>
     );
