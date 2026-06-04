@@ -267,91 +267,94 @@ async function main() {
       continue;
     }
 
+    // 3. 候補リストを収集（詳細APIスキップ・英語名をそのまま使用）
+    const DOWNLOAD_CONCURRENCY = 3;
+    const candidates = [];
     for (const entry of selected) {
       const charMalId = entry.character?.mal_id;
       const charNameEn = entry.character?.name || "";
       const role = entry.role || "Supporting";
 
-      // すでに処理済みならスキップ
       if (charMalId && processedCharIds.has(String(charMalId))) {
         console.log(`  [SKIP] ${charNameEn} (already processed)`);
         continue;
       }
 
-      // 3. キャラ詳細を取得して日本語名を得る
-      let nameJa = null;
-      let imageUrl = entry.character?.images?.jpg?.image_url
+      const imageUrl = entry.character?.images?.jpg?.image_url
         || entry.character?.images?.webp?.image_url
         || null;
 
-      try {
-        await sleep(DELAY_MS);
-        const detail = await fetchWithRetry(`${JIKAN_BASE}/characters/${charMalId}`);
-        nameJa = detail.data?.name_kanji || null;
-        // 詳細の画像の方が高解像度な場合がある
-        const detailImg =
-          detail.data?.images?.jpg?.image_url ||
-          detail.data?.images?.webp?.image_url;
-        if (detailImg) imageUrl = detailImg;
-      } catch (e) {
-        // 日本語名取得失敗はフォールバック（処理継続）
-        if (e.message !== "NOT_FOUND") {
-          console.log(`  [WARN] 詳細取得失敗 ${charNameEn}: ${e.message}`);
-        }
-      }
-
-      const displayName = nameJa || formatEnglishName(charNameEn);
-      counter++;
-      const id = `char_${String(counter).padStart(5, "0")}`;
-      const filename = `${id}.jpg`;
-      const destPath = path.join(IMAGES_DIR, filename);
-
-      // 4. 画像ダウンロード
-      let dlOk = false;
-      if (fs.existsSync(destPath) && fs.statSync(destPath).size > 1000) {
-        dlOk = true;
-        process.stdout.write(`  [${id}] ${displayName} ... SKIP(exists)\n`);
-      } else if (imageUrl) {
-        process.stdout.write(`  [${id}] ${displayName} ... `);
-        try {
-          await downloadImage(imageUrl, destPath);
-          const size = fs.statSync(destPath).size;
-          if (size < 500) throw new Error("image too small");
-          process.stdout.write(`OK (${Math.round(size / 1024)}KB)\n`);
-          writeProgress(ti + 1, targets.length, title.title, displayName);
-          dlOk = true;
-        } catch (e) {
-          process.stdout.write(`DL ERROR: ${e.message}\n`);
-          failedList.push(`[IMG] ${id} ${displayName}: ${e.message}`);
-          counter--; // ID を戻す
-          continue;
-        }
-      } else {
-        process.stdout.write(`  [${id}] ${displayName} ... NO IMAGE\n`);
-        failedList.push(`[NOIMG] ${displayName} (${title.title})`);
-        counter--;
+      if (!imageUrl) {
+        failedList.push(`[NOIMG] ${formatEnglishName(charNameEn)} (${title.title})`);
         continue;
       }
 
-      characters.push({
-        id,
-        name: displayName,
-        nameEn: formatEnglishName(charNameEn),
-        anime: title.title,
-        imageUrl: `/images/${filename}`,
-        difficulty: role === "Main" ? 1 : 2,
-        tags: [title.type, yearTag(title.start_year)],
-        memo: "",
-        malCharId: charMalId || null,
+      candidates.push({ charMalId, charNameEn, imageUrl, role });
+    }
+
+    // 4. 画像を並列ダウンロード（DOWNLOAD_CONCURRENCY 枚同時）
+    const downloaded = [];
+    for (let ci = 0; ci < candidates.length; ci += DOWNLOAD_CONCURRENCY) {
+      const batch = candidates.slice(ci, ci + DOWNLOAD_CONCURRENCY);
+      const batchWithIds = batch.map((c) => {
+        counter++;
+        return {
+          ...c,
+          id: `char_${String(counter).padStart(5, "0")}`,
+          displayName: formatEnglishName(c.charNameEn),
+        };
       });
 
-      if (charMalId) processedCharIds.add(String(charMalId));
+      const results = await Promise.allSettled(
+        batchWithIds.map(async (c) => {
+          const destPath = path.join(IMAGES_DIR, `${c.id}.jpg`);
+          if (fs.existsSync(destPath) && fs.statSync(destPath).size > 1000) {
+            process.stdout.write(`  [${c.id}] ${c.displayName} ... SKIP(exists)\n`);
+            return c;
+          }
+          process.stdout.write(`  [${c.id}] ${c.displayName} ... `);
+          await downloadImage(c.imageUrl, destPath);
+          const size = fs.statSync(destPath).size;
+          if (size < 500) throw new Error("image too small");
+          process.stdout.write(`OK (${Math.round(size / 1024)}KB)\n`);
+          return c;
+        })
+      );
 
-      // 定期保存（50件ごと）
-      if (characters.length % 50 === 0) {
-        fs.writeFileSync(CHARACTERS_PATH, JSON.stringify(characters, null, 2), "utf-8");
-        console.log(`  [SAVE] ${characters.length} 件保存`);
+      for (let j = 0; j < results.length; j++) {
+        if (results[j].status === "fulfilled") {
+          downloaded.push(batchWithIds[j]);
+        } else {
+          const c = batchWithIds[j];
+          process.stdout.write(`  [${c.id}] ${c.displayName} ... DL ERROR: ${results[j].reason?.message}\n`);
+          failedList.push(`[IMG] ${c.id} ${c.displayName}: ${results[j].reason?.message}`);
+        }
       }
+    }
+
+    for (const c of downloaded) {
+      characters.push({
+        id: c.id,
+        name: c.displayName,
+        nameEn: c.displayName,
+        anime: title.title,
+        imageUrl: `/images/${c.id}.jpg`,
+        difficulty: c.role === "Main" ? 1 : 2,
+        tags: [title.type, yearTag(title.start_year)],
+        memo: "",
+        malCharId: c.charMalId || null,
+      });
+      if (c.charMalId) processedCharIds.add(String(c.charMalId));
+    }
+
+    if (downloaded.length > 0) {
+      writeProgress(ti + 1, targets.length, title.title, downloaded[downloaded.length - 1].displayName);
+    }
+
+    // 定期保存（50件ごと）
+    if (characters.length % 50 === 0) {
+      fs.writeFileSync(CHARACTERS_PATH, JSON.stringify(characters, null, 2), "utf-8");
+      console.log(`  [SAVE] ${characters.length} 件保存`);
     }
 
     // タイトル処理完了を記録（次回resumeでスキップ）

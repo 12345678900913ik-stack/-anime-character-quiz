@@ -12,7 +12,13 @@
       "Bash(node scripts/update-excel-data.mjs)",
       "Bash(node scripts/add-missing-chars.mjs)",
       "Bash(node scripts/check-chars.mjs)",
-      "Bash(node scripts/fix-missing-chars.mjs)"
+      "Bash(node scripts/fix-missing-chars.mjs)",
+      "Bash(find /mnt/c -name \"missing_popular_jump_focused_no_vjump_with_characters_final*\" 2>/dev/null)",
+      "Read(//mnt/**)",
+      "PowerShell(python --version)",
+      "PowerShell(python -c \"import pandas; print\\('pandas OK'\\)\" 2>&1)",
+      "PowerShell(Get-Process | Where-Object { $_.Name -eq \"node\" } | Select-Object Id, Name, CPU)",
+      "PowerShell(Stop-Process -Id 23116 -Force)"
     ]
   }
 }

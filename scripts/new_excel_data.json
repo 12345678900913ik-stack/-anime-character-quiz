@@ -1,0 +1,6841 @@
+[
+  {
+    "title": "CLAYMORE",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 583,
+    "endpoint": "manga",
+    "characters": [
+      "Clare",
+      "Deneve",
+      "Helen",
+      "Miria",
+      "Raki",
+      "Abigail",
+      "Agatha",
+      "Alicia",
+      "Anastasia",
+      "Audrey"
+    ]
+  },
+  {
+    "title": "D.Gray-man",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 24,
+    "endpoint": "manga",
+    "characters": [
+      "Kanda",
+      "Yuu",
+      "Lavi",
+      "Lee",
+      "Lenalee",
+      "Walker",
+      "Allen",
+      "Anita",
+      "Apocryphos",
+      "Barry"
+    ]
+  },
+  {
+    "title": "エルフェンリート",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 226,
+    "endpoint": "anime",
+    "characters": [
+      "Kouta",
+      "Lucy",
+      "Mayu",
+      "Nana",
+      "Yuka",
+      "Arakawa",
+      "Bandou",
+      "Crepe Store Owner",
+      "Detective",
+      "Isobe"
+    ]
+  },
+  {
+    "title": "ドラゴンボールZ",
+    "type": "アニメ",
+    "start_year": 1989,
+    "mal_id": 813,
+    "endpoint": "anime",
+    "characters": [
+      "Kuririn",
+      "Piccolo",
+      "Son",
+      "Gohan",
+      "Son",
+      "Gokuu",
+      "Vegeta",
+      "#C6",
+      "15th Generation's Higashi no Kaioshin",
+      "Ackman"
+    ]
+  },
+  {
+    "title": "LIAR GAME",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 1649,
+    "endpoint": "manga",
+    "characters": [
+      "Akiyama",
+      "Shinichi",
+      "Kanzaki",
+      "Nao",
+      "Abe",
+      "Yukiyo",
+      "Akagi",
+      "Kouta",
+      "Alsab",
+      "Artier"
+    ]
+  },
+  {
+    "title": "リアル",
+    "type": "漫画",
+    "start_year": 1999,
+    "mal_id": 657,
+    "endpoint": "manga",
+    "characters": [
+      "野宮朋美",
+      "高橋久信",
+      "戸川清春",
+      "白鳥加州雄",
+      "高橋久行",
+      "安積久美",
+      "勝田虎",
+      "長野満",
+      "山下夏美",
+      "山内仁史"
+    ]
+  },
+  {
+    "title": "幽☆遊☆白書",
+    "type": "アニメ",
+    "start_year": 1992,
+    "mal_id": 392,
+    "endpoint": "anime",
+    "characters": [
+      "Botan",
+      "Hiei",
+      "Kurama",
+      "Kuwabara",
+      "Kazuma",
+      "Urameshi",
+      "Yuusuke",
+      "Akarenja",
+      "Akashi",
+      "Amanuma"
+    ]
+  },
+  {
+    "title": "源君物語",
+    "type": "漫画",
+    "start_year": 2011,
+    "mal_id": 30123,
+    "endpoint": "manga",
+    "characters": [
+      "Fujiwara",
+      "Kaoruko",
+      "Minamoto",
+      "Terumi",
+      "Chuujou",
+      "Tsukasa",
+      "Gennai",
+      "Noriko",
+      "Hanada",
+      "Chisato"
+    ]
+  },
+  {
+    "title": "ドラゴンボールGT",
+    "type": "アニメ",
+    "start_year": 1996,
+    "mal_id": 225,
+    "endpoint": "anime",
+    "characters": [
+      "Giru",
+      "Pan",
+      "Son",
+      "Gokuu",
+      "Trunks",
+      "Babidi",
+      "Baby"
+    ]
+  },
+  {
+    "title": "いちご100%",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 45,
+    "endpoint": "manga",
+    "characters": [
+      "Kitaouji",
+      "Satsuki",
+      "Manaka",
+      "Junpei",
+      "Minamito",
+      "Yui",
+      "Nishino",
+      "Tsukasa",
+      "Toujou",
+      "Aya"
+    ]
+  },
+  {
+    "title": "エム×ゼロ",
+    "type": "漫画",
+    "start_year": 2006,
+    "mal_id": 616,
+    "endpoint": "manga",
+    "characters": [
+      "Hiiragi",
+      "Aika",
+      "Kuzumi",
+      "Taiga",
+      "Daimon",
+      "Takahiko",
+      "Hiiragi",
+      "Kenjirou",
+      "Inui",
+      "Michiyo"
+    ]
+  },
+  {
+    "title": "DOGS / BULLETS & CARNAGE",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 648,
+    "endpoint": "manga",
+    "characters": [
+      "バドー・ネイルズ",
+      "ハイネ・ラムシュタイナー",
+      "冬峰直刀",
+      "ミハイ",
+      "ニル",
+      "ジョヴァンニ・ラムシュタイナー",
+      "ルキ",
+      "エルネスト・ラムシュタイナー",
+      "曲刀",
+      "カンパネルラ・フリューリング"
+    ]
+  },
+  {
+    "title": "アヤシモン",
+    "type": "漫画",
+    "start_year": 2021,
+    "mal_id": 141583,
+    "endpoint": "manga",
+    "characters": [
+      "海堂マルオ",
+      "ウララ",
+      "灯独歩",
+      "テン",
+      "十一号"
+    ]
+  },
+  {
+    "title": "あねどきっ",
+    "type": "漫画",
+    "start_year": 2009,
+    "mal_id": 14710,
+    "endpoint": "manga",
+    "characters": [
+      "Hagiwara",
+      "Natsuki",
+      "Ochiai",
+      "Kouta",
+      "Hagiwara",
+      "Chiaki",
+      "Hagiwara",
+      "Haruki",
+      "Sakurai",
+      "Kanade"
+    ]
+  },
+  {
+    "title": "アイズ",
+    "type": "漫画",
+    "start_year": 1997,
+    "mal_id": 818,
+    "endpoint": "manga",
+    "characters": [
+      "葦月伊織",
+      "秋葉いつき",
+      "瀬戸一貴",
+      "磯崎泉",
+      "寺谷靖雅",
+      "ナミ",
+      "麻生藍子",
+      "越苗純",
+      "森崎祐加",
+      "Marionette King"
+    ]
+  },
+  {
+    "title": "B型H系",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 7817,
+    "endpoint": "anime",
+    "characters": [
+      "Kosuda",
+      "Takashi",
+      "Yamada",
+      "Akai",
+      "Akimoto",
+      "Kouta",
+      "Female Porn Star",
+      "Ishihara",
+      "Mrs."
+    ]
+  },
+  {
+    "title": "シャーマンキング",
+    "type": "アニメ",
+    "start_year": 2001,
+    "mal_id": 154,
+    "endpoint": "anime",
+    "characters": [
+      "Amidamaru",
+      "Asakura",
+      "Hao",
+      "Asakura",
+      "You",
+      "Kyouyama",
+      "Anna",
+      "Oyamada",
+      "Manta",
+      "Tao"
+    ]
+  },
+  {
+    "title": "かぐや様は告らせたい -ファーストキッスは終わらない-",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 52198,
+    "endpoint": "anime",
+    "characters": [
+      "Shinomiya",
+      "Kaguya",
+      "Shirogane",
+      "Miyuki",
+      "Fujiwara",
+      "Chika",
+      "Fujiwara",
+      "Moeha",
+      "Hayasaka",
+      "Ai"
+    ]
+  },
+  {
+    "title": "ガンツ",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 384,
+    "endpoint": "anime",
+    "characters": [
+      "Katou",
+      "Masaru",
+      "Kishimoto",
+      "Kei",
+      "Kurono",
+      "Kei",
+      "Adult Greenonion",
+      "Furuta",
+      "Giichi",
+      "Gantz"
+    ]
+  },
+  {
+    "title": "銀河英雄伝説",
+    "type": "アニメ",
+    "start_year": 1988,
+    "mal_id": 820,
+    "endpoint": "anime",
+    "characters": [
+      "Attenborough",
+      "Dusty",
+      "Greenhill",
+      "Frederica",
+      "Kircheis",
+      "Siegfried",
+      "Minci",
+      "Julian",
+      "Mittermeyer",
+      "Wolfgang"
+    ]
+  },
+  {
+    "title": "テガミバチ",
+    "type": "漫画",
+    "start_year": 2006,
+    "mal_id": 1709,
+    "endpoint": "manga",
+    "characters": [
+      "Niche",
+      "Seeing",
+      "Lag",
+      "Steak",
+      "Alcott",
+      "Louisa",
+      "Alcott",
+      "Vincent",
+      "Attlee",
+      "Ray"
+    ]
+  },
+  {
+    "title": "この音とまれ！",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38080,
+    "endpoint": "anime",
+    "characters": [
+      "Adachi",
+      "Saneyasu",
+      "Houzuki",
+      "Satowa",
+      "Kudou",
+      "Chika",
+      "Kurata",
+      "Takezou",
+      "Kurusu",
+      "Hiro"
+    ]
+  },
+  {
+    "title": "ROOKIES",
+    "type": "漫画",
+    "start_year": 1998,
+    "mal_id": 915,
+    "endpoint": "manga",
+    "characters": [
+      "Akaboshi",
+      "Shoji",
+      "Aniya",
+      "Keiichi",
+      "Kawato",
+      "Koichi",
+      "Mikoshiba",
+      "Toru",
+      "Sekikawa",
+      "Shuta"
+    ]
+  },
+  {
+    "title": "スラムダンク",
+    "type": "アニメ",
+    "start_year": 1993,
+    "mal_id": 170,
+    "endpoint": "anime",
+    "characters": [
+      "Akagi",
+      "Takenori",
+      "Mitsui",
+      "Hisashi",
+      "Miyagi",
+      "Ryouta",
+      "Rukawa",
+      "Kaede",
+      "Sakuragi",
+      "Hanamichi"
+    ]
+  },
+  {
+    "title": "ピンポン",
+    "type": "漫画",
+    "start_year": 1996,
+    "mal_id": 5744,
+    "endpoint": "manga",
+    "characters": [
+      "Hoshino",
+      "Yutaka",
+      "Tsukimoto",
+      "Makoto",
+      "Kazama",
+      "Ryuuichi",
+      "Koizumi",
+      "Jou",
+      "Kong",
+      "Wenge"
+    ]
+  },
+  {
+    "title": "SSSS.GRIDMAN",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 35847,
+    "endpoint": "anime",
+    "characters": [
+      "Gridman",
+      "Hibiki",
+      "Yuuta",
+      "Shinjou",
+      "Akane",
+      "Takarada",
+      "Rikka",
+      "Utsumi",
+      "Shou"
+    ]
+  },
+  {
+    "title": "十二大戦",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 35076,
+    "endpoint": "anime",
+    "characters": [
+      "Dotsuku",
+      "Hitsujii",
+      "Inounoshishi",
+      "Nezumi",
+      "Niwatori"
+    ]
+  },
+  {
+    "title": "ロマンティック・キラー",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 52865,
+    "endpoint": "anime",
+    "characters": [
+      "Hayami",
+      "Junta",
+      "Hoshino",
+      "Anzu",
+      "Kazuki",
+      "Tsukasa",
+      "Koganei",
+      "Hijiri",
+      "Riri"
+    ]
+  },
+  {
+    "title": "ハロー・ワールド",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38816,
+    "endpoint": "anime",
+    "characters": [
+      "Ichigyou",
+      "Ruri",
+      "Katagaki",
+      "Naomi",
+      "Crow",
+      "Kadenokouji",
+      "Misuzu",
+      "Senko",
+      "Tsunehisa"
+    ]
+  },
+  {
+    "title": "シャドーハウス",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 43439,
+    "endpoint": "anime",
+    "characters": [
+      "Emilico",
+      "Kate",
+      "Barbara",
+      "Barbie",
+      "Belle"
+    ]
+  },
+  {
+    "title": "ブラックキャット",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 68,
+    "endpoint": "anime",
+    "characters": [
+      "Eve",
+      "Heartnet",
+      "Train",
+      "Vollfied",
+      "Sven",
+      "Walker",
+      "Rinslet",
+      "Adam"
+    ]
+  },
+  {
+    "title": "鏡の国の針栖川",
+    "type": "漫画",
+    "start_year": 2011,
+    "mal_id": 26584,
+    "endpoint": "manga",
+    "characters": [
+      "Harisugawa",
+      "Tetsu",
+      "Matsukawa",
+      "Saki",
+      "Satomi",
+      "Mao"
+    ]
+  },
+  {
+    "title": "魔人探偵脳噛ネウロ",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 674,
+    "endpoint": "manga",
+    "characters": [
+      "Akane",
+      "Godai",
+      "Shinobu",
+      "Katsuragi",
+      "Yako",
+      "Nougami",
+      "Neuro",
+      "Ai"
+    ]
+  },
+  {
+    "title": "魔都精兵のスレイブ",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 50392,
+    "endpoint": "anime",
+    "characters": [
+      "Azuma",
+      "Himari",
+      "Ookawamura",
+      "Nei",
+      "Suruga",
+      "Shushu",
+      "Uzen",
+      "Kyouka",
+      "Wakura",
+      "Yuuki"
+    ]
+  },
+  {
+    "title": "劣等眼の転生魔術師 ～虐げられた元勇者は未来の世界を余裕で生き抜く～",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 119997,
+    "endpoint": "manga",
+    "characters": [
+      "アベル",
+      "リリス",
+      "エリザ"
+    ]
+  },
+  {
+    "title": "エクソシストを堕とせない",
+    "type": "漫画",
+    "start_year": 2021,
+    "mal_id": 142629,
+    "endpoint": "manga",
+    "characters": [
+      "Atsuki",
+      "Imuri",
+      "Shinpu",
+      "Asmodeus",
+      "Barbara",
+      "Bel"
+    ]
+  },
+  {
+    "title": "久保さんは僕を許さない",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 51815,
+    "endpoint": "anime",
+    "characters": [
+      "Kubo",
+      "Nagisa",
+      "Shiraishi",
+      "Junta",
+      "Kubo",
+      "Akina",
+      "Kubo",
+      "Saki",
+      "Kudou",
+      "Hazuki"
+    ]
+  },
+  {
+    "title": "クソ女に幸あれ",
+    "type": "漫画",
+    "start_year": 2023,
+    "mal_id": 163630,
+    "endpoint": "manga",
+    "characters": [
+      "Akiyoshi",
+      "Sunao",
+      "Kogahara",
+      "Natsumi",
+      "Nishikawa",
+      "Lemon",
+      "Asagi",
+      "Raika",
+      "Miho"
+    ]
+  },
+  {
+    "title": "檻ノ中のソリスト",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 117623,
+    "endpoint": "manga",
+    "characters": [
+      "Chloe",
+      "Leo",
+      "Locke",
+      "Askalonov",
+      "Sylvia",
+      "Bearman",
+      "Hachi"
+    ]
+  },
+  {
+    "title": "プリティフェイス",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 48,
+    "endpoint": "manga",
+    "characters": [
+      "政乱堂",
+      "栗見理奈",
+      "真鍋順",
+      "栗見由奈"
+    ]
+  },
+  {
+    "title": "スケットダンス",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 9863,
+    "endpoint": "anime",
+    "characters": [
+      "Fujisaki",
+      "Yuusuke",
+      "Onizuka",
+      "Hime",
+      "Usui",
+      "Kazuyoshi",
+      "Agata",
+      "Saaya",
+      "Agata",
+      "Soujirou"
+    ]
+  },
+  {
+    "title": "TIGER & BUNNY （タイガー・アンド・バニー）",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 9941,
+    "endpoint": "anime",
+    "characters": [
+      "Brooks Jr.",
+      "Barnaby",
+      "Kaburagi",
+      "Kotetsu T.",
+      "Bombeman",
+      "Brooks",
+      "Barnaby",
+      "Brooks",
+      "Emily"
+    ]
+  },
+  {
+    "title": "Dr.STONE reboot：百夜",
+    "type": "漫画",
+    "start_year": 2019,
+    "mal_id": 122464,
+    "endpoint": "manga",
+    "characters": [
+      "Ishigami",
+      "Byakuya",
+      "Rei",
+      "Chrome",
+      "Ishigami",
+      "Senkuu",
+      "Kaseki"
+    ]
+  },
+  {
+    "title": "戦奏教室",
+    "type": "漫画",
+    "start_year": 2022,
+    "mal_id": 147585,
+    "endpoint": "manga",
+    "characters": [
+      "ルーカス",
+      "ゾエ",
+      "ミウラ",
+      "デミ",
+      "教皇",
+      "ポピー"
+    ]
+  },
+  {
+    "title": "シティーハンター",
+    "type": "漫画",
+    "start_year": 1985,
+    "mal_id": 792,
+    "endpoint": "manga",
+    "characters": [
+      "冴羽獠",
+      "槇村香",
+      "野上冴子",
+      "海坊主",
+      "槇村秀幸",
+      "美樹",
+      "野上麗香",
+      "手塚 明美",
+      "岩井善美",
+      "銀狐"
+    ]
+  },
+  {
+    "title": "Dr. スランプ",
+    "type": "漫画",
+    "start_year": 1980,
+    "mal_id": 796,
+    "endpoint": "manga",
+    "characters": [
+      "Norimaki",
+      "Arale",
+      "Norimaki",
+      "Gajira",
+      "Norimaki",
+      "Senbei",
+      "Norimaki",
+      "Turbo",
+      "Obotchaman"
+    ]
+  },
+  {
+    "title": "劇場版 NARUTO -ナルト- 大興奮!みかづき島のアニマル騒動だってばよ",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 2144,
+    "endpoint": "anime",
+    "characters": [
+      "Haruno",
+      "Sakura",
+      "Hatake",
+      "Kakashi",
+      "Tsuki",
+      "Hikaru",
+      "Tsuki",
+      "Michiru",
+      "Uzumaki",
+      "Naruto"
+    ]
+  },
+  {
+    "title": "ローゼンメイデン",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 64,
+    "endpoint": "anime",
+    "characters": [
+      "Hinaichigo",
+      "Sakurada",
+      "Jun",
+      "Shinku",
+      "Souseiseki",
+      "Suigintou"
+    ]
+  },
+  {
+    "title": "劇場版 HUNTER×HUNTER 緋色の幻影（ファントム・ルージュ）",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 13271,
+    "endpoint": "anime",
+    "characters": [
+      "Freecss",
+      "Gon",
+      "Kurapika",
+      "Paladiknight",
+      "Leorio",
+      "Zoldyck",
+      "Killua",
+      "Bordeaux",
+      "Franklin"
+    ]
+  },
+  {
+    "title": "magico -マジコ-",
+    "type": "漫画",
+    "start_year": 2011,
+    "mal_id": 24825,
+    "endpoint": "manga",
+    "characters": [
+      "Anise",
+      "Eliphas Levi",
+      "Shion",
+      "Emma",
+      "Luu",
+      "Eliphas Levi",
+      "Faust"
+    ]
+  },
+  {
+    "title": "明日ちゃんのセーラー服",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 48553,
+    "endpoint": "anime",
+    "characters": [
+      "Akebi",
+      "Komichi",
+      "Akebi",
+      "Kao",
+      "Akebi",
+      "Sato",
+      "Akebi"
+    ]
+  },
+  {
+    "title": "カラフル",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 8142,
+    "endpoint": "anime",
+    "characters": [
+      "Kobayashi",
+      "Makoto",
+      "Kobayashi",
+      "Father",
+      "Kobayashi",
+      "Mitsuru",
+      "Kobayashi"
+    ]
+  },
+  {
+    "title": "潔癖男子！青山くん",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34825,
+    "endpoint": "anime",
+    "characters": [
+      "Aoyama-kun",
+      "Aoi",
+      "Sanmyaku",
+      "Ariga",
+      "Sayaka",
+      "Blue Wizard",
+      "Bushi Thunder"
+    ]
+  },
+  {
+    "title": "かぐや様は告らせたい 同人版",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 114871,
+    "endpoint": "manga",
+    "characters": [
+      "Fujiwara",
+      "Chika",
+      "Hayasaka",
+      "Ai",
+      "Iino",
+      "Miko",
+      "Ishigami"
+    ]
+  },
+  {
+    "title": "早乙女姉妹は漫画のためなら!?",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 114829,
+    "endpoint": "manga",
+    "characters": [
+      "Saotome",
+      "Kanon",
+      "Saotome",
+      "Mobuyuki",
+      "Saotome",
+      "Noan",
+      "Iritsuki"
+    ]
+  },
+  {
+    "title": "ノー・ガンズ・ライフ",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 39539,
+    "endpoint": "anime",
+    "characters": [
+      "Arahabaki",
+      "Tetsurou",
+      "Inui",
+      "Juuzou",
+      "Steinberg",
+      "Mary",
+      "Colt"
+    ]
+  },
+  {
+    "title": "HUNTER×HUNTER クラピカ追憶編",
+    "type": "漫画",
+    "start_year": 2012,
+    "mal_id": 45996,
+    "endpoint": "manga",
+    "characters": [
+      "Kurapika",
+      "Pyro",
+      "クラピカ",
+      "パイロ",
+      "シーラ"
+    ]
+  },
+  {
+    "title": "クオリディア・コード",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 32360,
+    "endpoint": "anime",
+    "characters": [
+      "Chigusa",
+      "Asuha",
+      "Chigusa",
+      "Kasumi",
+      "Rindou",
+      "Hotaru",
+      "Suzaku"
+    ]
+  },
+  {
+    "title": ".hack//黄昏の腕輪伝説",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 117,
+    "endpoint": "manga",
+    "characters": [
+      "Kunisaki",
+      "Rena",
+      "Kunisaki",
+      "Shugo",
+      "Zefie",
+      "Albireo",
+      "Aura"
+    ]
+  },
+  {
+    "title": "聖闘士星矢(セイントセイヤ)",
+    "type": "アニメ",
+    "start_year": 1986,
+    "mal_id": 1254,
+    "endpoint": "anime",
+    "characters": [
+      "Andromeda",
+      "Shun",
+      "Cygnus",
+      "Hyouga",
+      "Dragon",
+      "Shiryuu",
+      "Kido"
+    ]
+  },
+  {
+    "title": "電影少女",
+    "type": "漫画",
+    "start_year": 1989,
+    "mal_id": 755,
+    "endpoint": "manga",
+    "characters": [
+      "Amano",
+      "Ai",
+      "Moteuchi",
+      "Youta",
+      "Hayakawa",
+      "Moemi",
+      "Manager of Gokuraku"
+    ]
+  },
+  {
+    "title": "ZOMBIEPOWDER.",
+    "type": "漫画",
+    "start_year": 1999,
+    "mal_id": 39,
+    "endpoint": "manga",
+    "characters": [
+      "Akutabi",
+      "Gamma",
+      "C.T. Smith",
+      "Getto",
+      "Wolfgangina Lalla",
+      "Shepherd",
+      "John Elwood"
+    ]
+  },
+  {
+    "title": "姉のともだち",
+    "type": "漫画",
+    "start_year": 2022,
+    "mal_id": 157378,
+    "endpoint": "manga",
+    "characters": [
+      "筧日向子",
+      "アサヒ",
+      "姉"
+    ]
+  },
+  {
+    "title": "天上天下",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 174,
+    "endpoint": "anime",
+    "characters": [
+      "Makihara",
+      "Bob",
+      "Nagi",
+      "Souichirou",
+      "Natsume",
+      "Aya",
+      "Natsume"
+    ]
+  },
+  {
+    "title": "BEAT＆MOTION",
+    "type": "漫画",
+    "start_year": 2023,
+    "mal_id": 156308,
+    "endpoint": "manga",
+    "characters": [
+      "Hirayama",
+      "Tatsuhiko",
+      "Kashiwagi",
+      "Nico"
+    ]
+  },
+  {
+    "title": "テニスの王子様",
+    "type": "アニメ",
+    "start_year": 2001,
+    "mal_id": 22,
+    "endpoint": "anime",
+    "characters": [
+      "Echizen",
+      "Ryouma",
+      "Fuji",
+      "Shuusuke",
+      "Inui",
+      "Sadaharu",
+      "Kaidou"
+    ]
+  },
+  {
+    "title": "アイシールド21",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 15,
+    "endpoint": "anime",
+    "characters": [
+      "Anezaki",
+      "Mamori",
+      "Hiruma",
+      "Youichi",
+      "Kobayakawa",
+      "Sena",
+      "Kurita"
+    ]
+  },
+  {
+    "title": "サムライ8 八丸伝",
+    "type": "漫画",
+    "start_year": 2019,
+    "mal_id": 117133,
+    "endpoint": "manga",
+    "characters": [
+      "Ann",
+      "Hachimaru",
+      "Ryu",
+      "Shana",
+      "Sanda",
+      "Yasha"
+    ]
+  },
+  {
+    "title": "BASTARD!! －暗黒の破壊神－",
+    "type": "漫画",
+    "start_year": 1987,
+    "mal_id": 611,
+    "endpoint": "manga",
+    "characters": [
+      "Dark Schneider",
+      "Tia Noto",
+      "Yoko",
+      "Abigail",
+      "Anthrasax",
+      "Arshes",
+      "Nei"
+    ]
+  },
+  {
+    "title": "ダークギャザリング",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 52505,
+    "endpoint": "anime",
+    "characters": [
+      "Gentouga",
+      "Keitarou",
+      "Houzuki",
+      "Eiko",
+      "Houzuki",
+      "Yayoi",
+      "Ai's Aunt"
+    ]
+  },
+  {
+    "title": "仄見える少年",
+    "type": "漫画",
+    "start_year": 2020,
+    "mal_id": 129547,
+    "endpoint": "manga",
+    "characters": [
+      "Aibetsu",
+      "Riku",
+      "Katanagi",
+      "Iori",
+      "Akama",
+      "Moritsugu",
+      "Kanzaki"
+    ]
+  },
+  {
+    "title": "半人前の恋人",
+    "type": "漫画",
+    "start_year": 2023,
+    "mal_id": 158779,
+    "endpoint": "manga",
+    "characters": [
+      "Ibuki",
+      "Shintarou",
+      "Sugisaki",
+      "Kyouko",
+      "Gramps",
+      "Himari",
+      "Taki"
+    ]
+  },
+  {
+    "title": "ひまてん!",
+    "type": "漫画",
+    "start_year": 2024,
+    "mal_id": 171196,
+    "endpoint": "manga",
+    "characters": [
+      "Aizawa",
+      "Kanna",
+      "Iemori",
+      "Tenichi",
+      "Kanai",
+      "Honoka",
+      "Yoshino"
+    ]
+  },
+  {
+    "title": "武装錬金",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 1536,
+    "endpoint": "anime",
+    "characters": [
+      "Chouno",
+      "Koushaku",
+      "Muto",
+      "Kazuki",
+      "Powered",
+      "Victor",
+      "Sakimori"
+    ]
+  },
+  {
+    "title": "クロガネ",
+    "type": "漫画",
+    "start_year": 2011,
+    "mal_id": 29447,
+    "endpoint": "manga",
+    "characters": [
+      "Ebana",
+      "Aoharu",
+      "Hazakura",
+      "Shidou",
+      "Kurogane",
+      "Hiroto",
+      "Shiratori"
+    ]
+  },
+  {
+    "title": "りりむキッス",
+    "type": "漫画",
+    "start_year": 2000,
+    "mal_id": 763,
+    "endpoint": "manga",
+    "characters": [
+      "Lilim",
+      "Takaya Saiki",
+      "Kojima",
+      "Miyu Shirai"
+    ]
+  },
+  {
+    "title": "勇者ご一行の帰り道",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 114754,
+    "endpoint": "manga",
+    "characters": [
+      "Nina",
+      "Hero",
+      "Knight",
+      "Priestess"
+    ]
+  },
+  {
+    "title": "群青のマグメル",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 37806,
+    "endpoint": "anime",
+    "characters": [
+      "Inyou",
+      "Zero",
+      "Baby Fat",
+      "Emilia",
+      "Kerekes"
+    ]
+  },
+  {
+    "title": "魔砲使い 黒姫",
+    "type": "漫画",
+    "start_year": 2000,
+    "mal_id": 893,
+    "endpoint": "manga",
+    "characters": [
+      "Kurohime",
+      "Zero",
+      "Aika",
+      "Asura",
+      "Oka"
+    ]
+  },
+  {
+    "title": "戦国BASARA",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 5355,
+    "endpoint": "anime",
+    "characters": [
+      "Date",
+      "Masamune",
+      "Sanada",
+      "Yukimura",
+      "Akechi",
+      "Mitsuhide",
+      "Azai"
+    ]
+  },
+  {
+    "title": "鴨乃橋ロンの禁断推理",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 53879,
+    "endpoint": "anime",
+    "characters": [
+      "Isshiki",
+      "Totomaru",
+      "Kamonohashi",
+      "Ron",
+      "Amamiya",
+      "Donzawa",
+      "Eisaku"
+    ]
+  },
+  {
+    "title": "岸辺露伴は動かない",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 33191,
+    "endpoint": "anime",
+    "characters": [
+      "Kishibe",
+      "Rohan",
+      "Asian Man",
+      "Confessional Daughter",
+      "Confessor",
+      "Fitness Trainer"
+    ]
+  },
+  {
+    "title": "ド級編隊エグゼロス",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40623,
+    "endpoint": "anime",
+    "characters": [
+      "Enjou",
+      "Retto",
+      "Hoshino",
+      "Kirara",
+      "Momozono",
+      "Momoka",
+      "Shirayuki"
+    ]
+  },
+  {
+    "title": "岸辺露伴 ルーヴルへ行く",
+    "type": "漫画",
+    "start_year": 2010,
+    "mal_id": 19423,
+    "endpoint": "manga",
+    "characters": [
+      "Kishibe",
+      "Rohan",
+      "Higashikata",
+      "Jousuke",
+      "Hirose",
+      "Kouichi",
+      "Nijimura"
+    ]
+  },
+  {
+    "title": "SAND LAND",
+    "type": "漫画",
+    "start_year": 2000,
+    "mal_id": 724,
+    "endpoint": "manga",
+    "characters": [
+      "Beelzebub",
+      "Sheriff Rao",
+      "Thief",
+      "Centaurus",
+      "Dr. Pose"
+    ]
+  },
+  {
+    "title": "タイムパラドクスゴーストライター",
+    "type": "漫画",
+    "start_year": 2020,
+    "mal_id": 126782,
+    "endpoint": "manga",
+    "characters": [
+      "Sasaki",
+      "Teppei",
+      "Aino",
+      "Itsuki",
+      "Akaishi",
+      "Gen",
+      "Editor-in-Chief"
+    ]
+  },
+  {
+    "title": "るろうに剣心 -明治剣客浪漫譚-",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 50613,
+    "endpoint": "anime",
+    "characters": [
+      "Himura",
+      "Kenshin",
+      "Kamiya",
+      "Kaoru",
+      "Myoujin",
+      "Yahiko",
+      "Sagara"
+    ]
+  },
+  {
+    "title": "はだしのゲン",
+    "type": "漫画",
+    "start_year": 1973,
+    "mal_id": 3281,
+    "endpoint": "manga",
+    "characters": [
+      "元",
+      "隆太",
+      "大吉",
+      "進次",
+      "君江",
+      "英子"
+    ]
+  },
+  {
+    "title": "ゼルダの伝説 トワイライトプリンセス",
+    "type": "漫画",
+    "start_year": 2016,
+    "mal_id": 96581,
+    "endpoint": "manga",
+    "characters": [
+      "Link",
+      "Midna",
+      "Agitha",
+      "Ashei",
+      "Beth"
+    ]
+  },
+  {
+    "title": "ヒカルの碁",
+    "type": "アニメ",
+    "start_year": 2001,
+    "mal_id": 135,
+    "endpoint": "anime",
+    "characters": [
+      "Fujiwara no",
+      "Sai",
+      "Shindou",
+      "Hikaru",
+      "Touya",
+      "Akira",
+      "Adachi"
+    ]
+  },
+  {
+    "title": "ニードレス",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 6030,
+    "endpoint": "anime",
+    "characters": [
+      "Blade",
+      "Adam",
+      "Neuschwanstein",
+      "Eve",
+      "Schild",
+      "Cruz",
+      "Agatoru"
+    ]
+  },
+  {
+    "title": "ファントムバスターズ",
+    "type": "漫画",
+    "start_year": 2023,
+    "mal_id": 163455,
+    "endpoint": "manga",
+    "characters": [
+      "Kanzaki",
+      "Kaoru",
+      "Korekishi",
+      "Eugene",
+      "Shishikuno",
+      "Mogari",
+      "Tamon"
+    ]
+  },
+  {
+    "title": "迷い猫オーバーラン!",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 7590,
+    "endpoint": "anime",
+    "characters": [
+      "Kiriya",
+      "Nozomi",
+      "Serizawa",
+      "Fumino",
+      "Tsuzuki",
+      "Takumi",
+      "Umenomori"
+    ]
+  },
+  {
+    "title": "ゼットマン",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 11837,
+    "endpoint": "anime",
+    "characters": [
+      "神崎 人",
+      "Hanako Tanaka",
+      "天城 高雅",
+      "天城 小葉",
+      "灰谷政次",
+      "川上 明美",
+      "神崎 悟郎"
+    ]
+  },
+  {
+    "title": "DRAGON QUEST -ダイの大冒険-",
+    "type": "漫画",
+    "start_year": 1989,
+    "mal_id": 871,
+    "endpoint": "manga",
+    "characters": [
+      "ポップ",
+      "ダイ",
+      "ヒュンケル",
+      "マァム",
+      "アバン",
+      "ハドラー",
+      "クロコダイン"
+    ]
+  },
+  {
+    "title": "北斗の拳",
+    "type": "アニメ",
+    "start_year": 1984,
+    "mal_id": 967,
+    "endpoint": "anime",
+    "characters": [
+      "Kenshirou",
+      "Airi",
+      "Aki",
+      "Amiba",
+      "Aruna"
+    ]
+  },
+  {
+    "title": "悪魔城ドラキュラ 闇の呪印",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 8108,
+    "endpoint": "manga",
+    "characters": [
+      "Hector",
+      "Isaac",
+      "Rosalee"
+    ]
+  },
+  {
+    "title": "恋愛代行",
+    "type": "漫画",
+    "start_year": 2023,
+    "mal_id": 157874,
+    "endpoint": "manga",
+    "characters": [
+      "Aikawa",
+      "Kokon",
+      "Matsuda",
+      "Kengo",
+      "Seki",
+      "Masaya",
+      "Winter-Nanase"
+    ]
+  },
+  {
+    "title": "ドラゴンボール ダイマ",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 56894,
+    "endpoint": "anime",
+    "characters": [
+      "Glorio",
+      "Higashi no Kaioshin",
+      "Panzy",
+      "Son",
+      "Gokuu",
+      "Abura"
+    ]
+  },
+  {
+    "title": "山羊座の友人",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 90197,
+    "endpoint": "manga",
+    "characters": [
+      "Matsuda",
+      "Yuuya",
+      "Wakatsuki",
+      "Naoto"
+    ]
+  },
+  {
+    "title": "ドラマクイン",
+    "type": "漫画",
+    "start_year": 2024,
+    "mal_id": 176798,
+    "endpoint": "manga",
+    "characters": [
+      "Kitami",
+      "Seiran",
+      "Nomamoto",
+      "Backbone",
+      "Iglaskar",
+      "Ishiodori",
+      "Yuka"
+    ]
+  },
+  {
+    "title": "火ノ丸相撲",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 37007,
+    "endpoint": "anime",
+    "characters": [
+      "Gojou",
+      "Yuuma",
+      "Ozeki",
+      "Shinya",
+      "Ushio",
+      "Hinomaru",
+      "Aizawa"
+    ]
+  },
+  {
+    "title": "BLUE DRAGON ラルΩグラド",
+    "type": "漫画",
+    "start_year": 2006,
+    "mal_id": 614,
+    "endpoint": "manga",
+    "characters": [
+      "Grad",
+      "Kafka",
+      "Mio",
+      "Ral",
+      "Aia"
+    ]
+  },
+  {
+    "title": "活撃／刀剣乱舞",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 33018,
+    "endpoint": "anime",
+    "characters": [
+      "Kanesada",
+      "Izuminokami",
+      "Kunihiro",
+      "Horikawa",
+      "Kuninaga",
+      "Tsurumaru",
+      "Tonbokiri"
+    ]
+  },
+  {
+    "title": "バガボンド",
+    "type": "漫画",
+    "start_year": 1998,
+    "mal_id": 656,
+    "endpoint": "manga",
+    "characters": [
+      "Honiden",
+      "Matahachi",
+      "Miyamoto",
+      "Musashi",
+      "Sasaki",
+      "Kojirou",
+      "Akemi"
+    ]
+  },
+  {
+    "title": "-ナルト- 疾風伝",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 1735,
+    "endpoint": "anime",
+    "characters": [
+      "Haruno",
+      "Sakura",
+      "Hatake",
+      "Kakashi",
+      "Uchiha",
+      "Sasuke",
+      "Uzumaki"
+    ]
+  },
+  {
+    "title": "20世紀少年",
+    "type": "漫画",
+    "start_year": 1999,
+    "mal_id": 3,
+    "endpoint": "manga",
+    "characters": [
+      "Endo",
+      "Kanna",
+      "Endou",
+      "Kenji",
+      "Friend",
+      "Akemi",
+      "Akiyama"
+    ]
+  },
+  {
+    "title": "うずまき",
+    "type": "漫画",
+    "start_year": 1998,
+    "mal_id": 436,
+    "endpoint": "manga",
+    "characters": [
+      "Goshima",
+      "Kirie",
+      "Saitou",
+      "Shuuichi",
+      "Endou",
+      "Yoriko",
+      "Goshima"
+    ]
+  },
+  {
+    "title": "東京卍リベンジャーズ",
+    "type": "漫画",
+    "start_year": 2017,
+    "mal_id": 104565,
+    "endpoint": "manga",
+    "characters": [
+      "Hanagaki",
+      "Takemichi",
+      "Ryuuguuji",
+      "Ken",
+      "Sano",
+      "Manjirou",
+      "Ahane"
+    ]
+  },
+  {
+    "title": "カウボーイビバップ",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 1,
+    "endpoint": "anime",
+    "characters": [
+      "Black",
+      "Jet",
+      "Spiegel",
+      "Spike",
+      "Valentine",
+      "Faye",
+      "Wong Hau Pepelu Tivrusky IV"
+    ]
+  },
+  {
+    "title": "新世紀エヴァンゲリオン",
+    "type": "アニメ",
+    "start_year": 1995,
+    "mal_id": 30,
+    "endpoint": "anime",
+    "characters": [
+      "Ayanami",
+      "Rei",
+      "Ikari",
+      "Shinji",
+      "Katsuragi",
+      "Misato",
+      "Souryuu"
+    ]
+  },
+  {
+    "title": "SOUL EATER",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 908,
+    "endpoint": "manga",
+    "characters": [
+      "Albarn",
+      "Maka",
+      "Black☆Star",
+      "Death the Kid",
+      "Evans",
+      "Soul",
+      "Nakatsukasa"
+    ]
+  },
+  {
+    "title": "千と千尋の神隠し",
+    "type": "アニメ",
+    "start_year": 2001,
+    "mal_id": 199,
+    "endpoint": "anime",
+    "characters": [
+      "Haku",
+      "Ogino",
+      "Chihiro",
+      "Ani-yaku",
+      "Aogaeru",
+      "Boh",
+      "Chichiyaku"
+    ]
+  },
+  {
+    "title": "その着せ替え人形〈ビスク・ドール〉は恋をする",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 112268,
+    "endpoint": "manga",
+    "characters": [
+      "Gojou",
+      "Wakana",
+      "Kitagawa",
+      "Marin",
+      "Aizawa",
+      "Riho",
+      "Akira's Mother"
+    ]
+  },
+  {
+    "title": "PandoraHearts",
+    "type": "漫画",
+    "start_year": 2006,
+    "mal_id": 3031,
+    "endpoint": "manga",
+    "characters": [
+      "Alice",
+      "Break",
+      "Xerxes",
+      "Nightray",
+      "Gilbert",
+      "Rainsworth",
+      "Sharon"
+    ]
+  },
+  {
+    "title": "BLAME!",
+    "type": "漫画",
+    "start_year": 1997,
+    "mal_id": 149,
+    "endpoint": "manga",
+    "characters": [
+      "Cibo",
+      "Killy",
+      "Blon",
+      "Dhomochevsky",
+      "Genitalias",
+      "Iko",
+      "Ivy"
+    ]
+  },
+  {
+    "title": "よつばと!",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 104,
+    "endpoint": "manga",
+    "characters": [
+      "Ayase",
+      "Asagi",
+      "Ayase",
+      "Ena",
+      "Ayase",
+      "Fuuka",
+      "Koiwai"
+    ]
+  },
+  {
+    "title": "ホムンクルス",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 936,
+    "endpoint": "manga",
+    "characters": [
+      "Ito",
+      "Manabu",
+      "Nakoshi",
+      "Susumu",
+      "Ita",
+      "Ken",
+      "Nanase"
+    ]
+  },
+  {
+    "title": "ハウルの動く城",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 431,
+    "endpoint": "anime",
+    "characters": [
+      "Hatter",
+      "Sophie",
+      "Howl",
+      "Calcifer",
+      "Hatter",
+      "Honey",
+      "Hatter"
+    ]
+  },
+  {
+    "title": "ソラニン",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 3731,
+    "endpoint": "manga",
+    "characters": [
+      "Inoue",
+      "Meiko",
+      "Taneda",
+      "Naruo",
+      "Ayukawa",
+      "Ritsuko",
+      "Katou"
+    ]
+  },
+  {
+    "title": "もののけ姫",
+    "type": "アニメ",
+    "start_year": 1997,
+    "mal_id": 164,
+    "endpoint": "anime",
+    "characters": [
+      "Ashitaka",
+      "San",
+      "Gonza",
+      "Gozen",
+      "Eboshi",
+      "Hii",
+      "Jiko"
+    ]
+  },
+  {
+    "title": "サムライチャンプルー",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 205,
+    "endpoint": "anime",
+    "characters": [
+      "Jin",
+      "Kasumi",
+      "Fuu",
+      "Mugen",
+      "Akame",
+      "Aohabu",
+      "Bantou"
+    ]
+  },
+  {
+    "title": "寄生獣",
+    "type": "漫画",
+    "start_year": 1989,
+    "mal_id": 401,
+    "endpoint": "manga",
+    "characters": [
+      "Izumi",
+      "Shinichi",
+      "Migi",
+      "A",
+      "B",
+      "Daisuke",
+      "Furudani"
+    ]
+  },
+  {
+    "title": "となりのトトロ",
+    "type": "アニメ",
+    "start_year": 1988,
+    "mal_id": 523,
+    "endpoint": "anime",
+    "characters": [
+      "Kusakabe",
+      "Mei",
+      "Kusakabe",
+      "Satsuki",
+      "Totoro",
+      "Bus Conductor",
+      "Farm vehicle driving man"
+    ]
+  },
+  {
+    "title": "富江",
+    "type": "漫画",
+    "start_year": 1987,
+    "mal_id": 912,
+    "endpoint": "manga",
+    "characters": [
+      "富江",
+      "辻井双一",
+      "四つ辻の美少年",
+      "淵",
+      "押切トオル"
+    ]
+  },
+  {
+    "title": "ホーリーランド",
+    "type": "漫画",
+    "start_year": 2000,
+    "mal_id": 3285,
+    "endpoint": "manga",
+    "characters": [
+      "Izawa",
+      "Masaki",
+      "Kamishiro",
+      "Yuu",
+      "Kaneda",
+      "Shinichi",
+      "Midorikawa"
+    ]
+  },
+  {
+    "title": "citrus",
+    "type": "漫画",
+    "start_year": 2012,
+    "mal_id": 50145,
+    "endpoint": "manga",
+    "characters": [
+      "Aihara",
+      "Mei",
+      "Aihara",
+      "Yuzu",
+      "Aihara",
+      "Shou",
+      "Aihara"
+    ]
+  },
+  {
+    "title": "銃夢 GUNNM",
+    "type": "漫画",
+    "start_year": 1990,
+    "mal_id": 768,
+    "endpoint": "manga",
+    "characters": [
+      "Gally",
+      "AR-10",
+      "AR-2",
+      "Ajakutty",
+      "Armblessed",
+      "Armor Tougou",
+      "Bargerald"
+    ]
+  },
+  {
+    "title": "無限の住人",
+    "type": "漫画",
+    "start_year": 1993,
+    "mal_id": 658,
+    "endpoint": "manga",
+    "characters": [
+      "Anotsu",
+      "Kagehisa",
+      "Asano",
+      "Rin",
+      "Manji",
+      "Abayama",
+      "Sousuke"
+    ]
+  },
+  {
+    "title": "デッドデッドデーモンズデデデデデストラクション",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 70801,
+    "endpoint": "manga",
+    "characters": [
+      "Koyama",
+      "Kadode",
+      "Nakagawa",
+      "Ouran",
+      "Ooba",
+      "Keita",
+      "Andou"
+    ]
+  },
+  {
+    "title": "AKIRA（アキラ）",
+    "type": "アニメ",
+    "start_year": 1988,
+    "mal_id": 47,
+    "endpoint": "anime",
+    "characters": [
+      "Kaneda",
+      "Shoutarou",
+      "Kei",
+      "Shikishima",
+      "Shima",
+      "Tetsuo",
+      "Akira"
+    ]
+  },
+  {
+    "title": "ヨコハマ買い出し紀行",
+    "type": "漫画",
+    "start_year": 1994,
+    "mal_id": 4,
+    "endpoint": "manga",
+    "characters": [
+      "初瀬野アルファ",
+      "鷹津ココネ",
+      "ミサゴ",
+      "おじさん",
+      "真月",
+      "タカヒロ",
+      "子海石せんせい"
+    ]
+  },
+  {
+    "title": "ギョ うごめく不気味",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 909,
+    "endpoint": "manga",
+    "characters": [
+      "Owaki",
+      "Tadashi",
+      "Koyanagi",
+      "Sazuku",
+      "Ms. Yoshiyama",
+      "Sawahara",
+      "Kaori"
+    ]
+  },
+  {
+    "title": "グレート・ティーチャー・オニヅカ",
+    "type": "アニメ",
+    "start_year": 1999,
+    "mal_id": 245,
+    "endpoint": "anime",
+    "characters": [
+      "Aizawa",
+      "Miyabi",
+      "Fuyutsuki",
+      "Azusa",
+      "Kanzaki",
+      "Urumi",
+      "Kikuchi"
+    ]
+  },
+  {
+    "title": "蟲師",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 457,
+    "endpoint": "anime",
+    "characters": [
+      "Ginko",
+      "Adashino",
+      "Aki",
+      "Akoya",
+      "Amane",
+      "Biki",
+      "Fuki"
+    ]
+  },
+  {
+    "title": "シリアルエクスペリメンツレイン",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 339,
+    "endpoint": "anime",
+    "characters": [
+      "Iwakura",
+      "Lain",
+      "Boss",
+      "Delivery Man",
+      "Detective",
+      "Eiri",
+      "Masami"
+    ]
+  },
+  {
+    "title": "バトル・ロワイアル",
+    "type": "漫画",
+    "start_year": 2000,
+    "mal_id": 142,
+    "endpoint": "manga",
+    "characters": [
+      "三村信史",
+      "桐山和雄",
+      "川田章吾",
+      "七原秋也",
+      "相馬光子",
+      "中川典子",
+      "赤松義生"
+    ]
+  },
+  {
+    "title": "フリクリ",
+    "type": "アニメ",
+    "start_year": 2000,
+    "mal_id": 227,
+    "endpoint": "anime",
+    "characters": [
+      "Haruhara",
+      "Haruko",
+      "Nandaba",
+      "Naota",
+      "Samejima",
+      "Mamimi",
+      "Amarao"
+    ]
+  },
+  {
+    "title": "アクメツ",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 1101,
+    "endpoint": "manga",
+    "characters": [
+      "Hazama",
+      "Shou",
+      "Horikiri",
+      "Hideki",
+      "Iwata",
+      "Masami",
+      "Katsuragi"
+    ]
+  },
+  {
+    "title": "犬夜叉",
+    "type": "アニメ",
+    "start_year": 2000,
+    "mal_id": 249,
+    "endpoint": "anime",
+    "characters": [
+      "Higurashi",
+      "Kagome",
+      "Inuyasha",
+      "Miroku",
+      "Sango",
+      "Shippou",
+      "Abi"
+    ]
+  },
+  {
+    "title": "EDEN ～It's an Endless World!～",
+    "type": "漫画",
+    "start_year": 1997,
+    "mal_id": 731,
+    "endpoint": "manga",
+    "characters": [
+      "Aleetheia",
+      "Lethia",
+      "Arona",
+      "Miriam",
+      "Asai",
+      "Kenji",
+      "Ballard"
+    ]
+  },
+  {
+    "title": "トライガン",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 6,
+    "endpoint": "anime",
+    "characters": [
+      "Stryfe",
+      "Meryl",
+      "Thompson",
+      "Milly",
+      "Vash the Stampede",
+      "Wolfwood",
+      "Nicholas D."
+    ]
+  },
+  {
+    "title": "高校デビュー",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 591,
+    "endpoint": "manga",
+    "characters": [
+      "Komiyama",
+      "You",
+      "Nagashima",
+      "Haruna",
+      "Asaoka",
+      "Yui",
+      "Jouhou"
+    ]
+  },
+  {
+    "title": "パーフェクトブルー",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 437,
+    "endpoint": "anime",
+    "characters": [
+      "Kirigoe",
+      "Mima",
+      "Actor",
+      "Blue",
+      "Cham Manager",
+      "Co-Director",
+      "Director"
+    ]
+  },
+  {
+    "title": "君は淫らな僕の女王",
+    "type": "漫画",
+    "start_year": 2012,
+    "mal_id": 44155,
+    "endpoint": "manga",
+    "characters": [
+      "Kawana",
+      "Subaru",
+      "Saitou",
+      "Akira",
+      "Kawana",
+      "Mana",
+      "Ura no Kamisama"
+    ]
+  },
+  {
+    "title": "あしたのジョー",
+    "type": "漫画",
+    "start_year": 1968,
+    "mal_id": 1303,
+    "endpoint": "manga",
+    "characters": [
+      "Rikiishi",
+      "Tooru",
+      "Shiraki",
+      "Yoko",
+      "Tange",
+      "Danpei",
+      "Yabuki"
+    ]
+  },
+  {
+    "title": "エンジェル伝説",
+    "type": "漫画",
+    "start_year": 1992,
+    "mal_id": 838,
+    "endpoint": "manga",
+    "characters": [
+      "Kitano",
+      "Seiichirou",
+      "Koiso",
+      "Ryouko",
+      "Kuroda",
+      "Seikichi",
+      "Shirataki"
+    ]
+  },
+  {
+    "title": "Übel Blatt ～ユーベルブラット～",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 70,
+    "endpoint": "manga",
+    "characters": [
+      "Kscharlundo",
+      "Aht",
+      "Köinzell",
+      "Peepi",
+      "Rahnclave",
+      "Elsaria",
+      "Algro"
+    ]
+  },
+  {
+    "title": "火垂るの墓",
+    "type": "アニメ",
+    "start_year": 1988,
+    "mal_id": 578,
+    "endpoint": "anime",
+    "characters": [
+      "Seita",
+      "Setsuko",
+      "Aunt",
+      "Farmer",
+      "Gosaku",
+      "Mrs. Yokokawa",
+      "Oobayashi Chairman"
+    ]
+  },
+  {
+    "title": "剣風伝奇ベルセルク",
+    "type": "アニメ",
+    "start_year": 1997,
+    "mal_id": 33,
+    "endpoint": "anime",
+    "characters": [
+      "Casca",
+      "Griffith",
+      "Guts",
+      "Adolf",
+      "Bazuso",
+      "Coborlwitz",
+      "Adon"
+    ]
+  },
+  {
+    "title": "惑星のさみだれ",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 10552,
+    "endpoint": "manga",
+    "characters": [
+      "朝日奈さみだれ",
+      "雨宮夕日",
+      "東雲半月",
+      "東雲三日月",
+      "朝日奈氷雨"
+    ]
+  },
+  {
+    "title": "ベルベット・キス",
+    "type": "漫画",
+    "start_year": 2009,
+    "mal_id": 22638,
+    "endpoint": "manga",
+    "characters": [
+      "Kikuchiya",
+      "Kanoko",
+      "Nitta",
+      "Shin",
+      "Kikuchiya"
+    ]
+  },
+  {
+    "title": "GHOST IN THE SHELL（攻殻機動隊）",
+    "type": "アニメ",
+    "start_year": 1995,
+    "mal_id": 43,
+    "endpoint": "anime",
+    "characters": [
+      "Batou",
+      "Kusanagi",
+      "Motoko",
+      "Project 2501",
+      "Togusa"
+    ]
+  },
+  {
+    "title": "はじめの一歩 THE FIGHTING!",
+    "type": "アニメ",
+    "start_year": 2000,
+    "mal_id": 263,
+    "endpoint": "anime",
+    "characters": [
+      "Aoki",
+      "Masaru",
+      "Kamogawa",
+      "Genji",
+      "Kimura"
+    ]
+  },
+  {
+    "title": "子連れ狼",
+    "type": "漫画",
+    "start_year": 1970,
+    "mal_id": 904,
+    "endpoint": "manga",
+    "characters": [
+      "Ogami",
+      "Daigorou",
+      "Ogami",
+      "Ittou",
+      "Yagyuu"
+    ]
+  },
+  {
+    "title": "虹ヶ原ホログラフ",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 1373,
+    "endpoint": "manga",
+    "characters": [
+      "Arakawa",
+      "Maki",
+      "Komatsuzaki",
+      "Kouta",
+      "Suzuki"
+    ]
+  },
+  {
+    "title": "RAVE",
+    "type": "漫画",
+    "start_year": 1999,
+    "mal_id": 14,
+    "endpoint": "manga",
+    "characters": [
+      "Belnika",
+      "Glory",
+      "Haru",
+      "Kato",
+      "Griffon"
+    ]
+  },
+  {
+    "title": "痴漢男",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 46282,
+    "endpoint": "manga",
+    "characters": [
+      "Kansai",
+      "Loli Jugs",
+      "Miss Understanding",
+      "Molester Man",
+      "Aoki"
+    ]
+  },
+  {
+    "title": "涼風",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 430,
+    "endpoint": "manga",
+    "characters": [
+      "Akitsuki",
+      "Yamato",
+      "Asahina",
+      "Suzuka",
+      "Akitsuki"
+    ]
+  },
+  {
+    "title": "あせとせっけん",
+    "type": "漫画",
+    "start_year": 2018,
+    "mal_id": 117840,
+    "endpoint": "manga",
+    "characters": [
+      "Natori",
+      "Koutarou",
+      "Yaeshima",
+      "Asako",
+      "Akari"
+    ]
+  },
+  {
+    "title": "ボクガール",
+    "type": "漫画",
+    "start_year": 2013,
+    "mal_id": 63781,
+    "endpoint": "manga",
+    "characters": [
+      "Fujiwara",
+      "Yumeko",
+      "Ichimonji",
+      "Takeru",
+      "Loki"
+    ]
+  },
+  {
+    "title": "パンプキンナイト",
+    "type": "漫画",
+    "start_year": 2016,
+    "mal_id": 111403,
+    "endpoint": "manga",
+    "characters": [
+      "Kirino",
+      "Naoko",
+      "Makino",
+      "Kazuya",
+      "Ayumi"
+    ]
+  },
+  {
+    "title": "ビターバージン",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 1162,
+    "endpoint": "manga",
+    "characters": [
+      "Aikawa",
+      "Hinako",
+      "Suwa",
+      "Daisuke",
+      "Aikawa"
+    ]
+  },
+  {
+    "title": "ヱヴァンゲリヲン新劇場版:破",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 3784,
+    "endpoint": "anime",
+    "characters": [
+      "Ayanami",
+      "Rei",
+      "Ikari",
+      "Shinji",
+      "Katsuragi"
+    ]
+  },
+  {
+    "title": "猫物語（黒）",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 15689,
+    "endpoint": "anime",
+    "characters": [
+      "Araragi",
+      "Koyomi",
+      "Hanekawa",
+      "Tsubasa",
+      "Araragi"
+    ]
+  },
+  {
+    "title": "学園アリス",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 320,
+    "endpoint": "manga",
+    "characters": [
+      "Hyuuga",
+      "Natsume",
+      "Imai",
+      "Hotaru",
+      "Nogi"
+    ]
+  },
+  {
+    "title": "ARIA",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 81,
+    "endpoint": "manga",
+    "characters": [
+      "Carroll",
+      "Alice",
+      "Ferrari",
+      "Akira E.",
+      "Florence"
+    ]
+  },
+  {
+    "title": "灼眼のシャナ",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 355,
+    "endpoint": "anime",
+    "characters": [
+      "Sakai",
+      "Yuuji",
+      "Shana",
+      "Yoshida",
+      "Kazumi"
+    ]
+  },
+  {
+    "title": "三日間の幸福",
+    "type": "漫画",
+    "start_year": 2013,
+    "mal_id": 126479,
+    "endpoint": "manga",
+    "characters": [
+      "Kusunoki",
+      "Miyagi",
+      "Asakura",
+      "Enishi",
+      "Gramps"
+    ]
+  },
+  {
+    "title": "Re:CREATORS 〈レクリエイターズ〉",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34561,
+    "endpoint": "anime",
+    "characters": [
+      "Altair",
+      "Kanoya",
+      "Rui",
+      "Mirokuji",
+      "Yuuya"
+    ]
+  },
+  {
+    "title": "天空の城ラピュタ",
+    "type": "アニメ",
+    "start_year": 1986,
+    "mal_id": 513,
+    "endpoint": "anime",
+    "characters": [
+      "Pazu",
+      "Sheeta",
+      "Anli",
+      "Black Glasses Man A",
+      "Black Glasses Man B"
+    ]
+  },
+  {
+    "title": "JUDGE",
+    "type": "漫画",
+    "start_year": 2010,
+    "mal_id": 17915,
+    "endpoint": "manga",
+    "characters": [
+      "Asai",
+      "Kazuyuki",
+      "Kimura",
+      "Asami",
+      "Okamoto"
+    ]
+  },
+  {
+    "title": "フルメタル・パニック！",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 71,
+    "endpoint": "anime",
+    "characters": [
+      "Chidori",
+      "Kaname",
+      "Sagara",
+      "Sousuke",
+      "Testarossa"
+    ]
+  },
+  {
+    "title": "カゲロウデイズ",
+    "type": "漫画",
+    "start_year": 2012,
+    "mal_id": 39625,
+    "endpoint": "manga",
+    "characters": [
+      "Amamiya",
+      "Hibiya",
+      "Enomoto",
+      "Takane",
+      "Kano"
+    ]
+  },
+  {
+    "title": "地獄星レミナ",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 3992,
+    "endpoint": "manga",
+    "characters": [
+      "Hellstar Remina",
+      "Michio",
+      "Mineishi",
+      "Daisuke",
+      "Ooguro"
+    ]
+  },
+  {
+    "title": "ちょびっツ",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 59,
+    "endpoint": "anime",
+    "characters": [
+      "Chii",
+      "Motosuwa",
+      "Hideki",
+      "Anata",
+      "Atashi dake no Hito"
+    ]
+  },
+  {
+    "title": "軍鶏",
+    "type": "漫画",
+    "start_year": 1998,
+    "mal_id": 727,
+    "endpoint": "manga",
+    "characters": [
+      "成嶋亮",
+      "高原東馬",
+      "菅原直人",
+      "黒川健児",
+      "山崎"
+    ]
+  },
+  {
+    "title": "満月〈フルムーン〉をさがして",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 8,
+    "endpoint": "manga",
+    "characters": [
+      "Kira",
+      "Takuto",
+      "Kouyama",
+      "Mitsuki",
+      "Rio"
+    ]
+  },
+  {
+    "title": "涼宮ハルヒシリーズ",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 3083,
+    "endpoint": "manga",
+    "characters": [
+      "Asahina",
+      "Mikuru",
+      "Koizumi",
+      "Itsuki",
+      "Kyon"
+    ]
+  },
+  {
+    "title": "MARS",
+    "type": "漫画",
+    "start_year": 1996,
+    "mal_id": 443,
+    "endpoint": "manga",
+    "characters": [
+      "Asou",
+      "Kira",
+      "Kashino",
+      "Rei",
+      "Kashino"
+    ]
+  },
+  {
+    "title": "絶対彼氏。",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 71,
+    "endpoint": "manga",
+    "characters": [
+      "Asamoto",
+      "Soushi",
+      "Izawa",
+      "Riiko",
+      "Tenjou"
+    ]
+  },
+  {
+    "title": "サンクチュアリ",
+    "type": "漫画",
+    "start_year": 1990,
+    "mal_id": 1461,
+    "endpoint": "manga",
+    "characters": [
+      "北条彰",
+      "浅見千秋",
+      "渡海",
+      "宮村政信",
+      "伊佐岡紀元"
+    ]
+  },
+  {
+    "title": "ヱヴァンゲリヲン新劇場版:Q",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 3785,
+    "endpoint": "anime",
+    "characters": [
+      "Ayanami (tentative)",
+      "Rei",
+      "Ikari",
+      "Shinji",
+      "Nagisa"
+    ]
+  },
+  {
+    "title": "カードキャプターさくら",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 232,
+    "endpoint": "anime",
+    "characters": [
+      "Daidouji",
+      "Tomoyo",
+      "Keroberos",
+      "Kinomoto",
+      "Sakura"
+    ]
+  },
+  {
+    "title": "Petshop of Horrors (ペットショップ オブ ホラーズ)",
+    "type": "漫画",
+    "start_year": 1995,
+    "mal_id": 128,
+    "endpoint": "manga",
+    "characters": [
+      "Count D",
+      "Orcot",
+      "Leon",
+      "Alice",
+      "Hendrix"
+    ]
+  },
+  {
+    "title": "新暗行御史",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 736,
+    "endpoint": "manga",
+    "characters": [
+      "Hyang",
+      "Chun",
+      "Ja",
+      "Bang",
+      "Munsu"
+    ]
+  },
+  {
+    "title": "はぴまり〜Happy Marriage!?〜",
+    "type": "漫画",
+    "start_year": 2009,
+    "mal_id": 12888,
+    "endpoint": "manga",
+    "characters": [
+      "Mamiya",
+      "Hokuto",
+      "Takanashi",
+      "Chiwa",
+      "Souma"
+    ]
+  },
+  {
+    "title": "妄想代理人",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 323,
+    "endpoint": "anime",
+    "characters": [
+      "Ikari",
+      "Keiichi",
+      "Maniwa",
+      "Mitsuhiro",
+      "Sagi"
+    ]
+  },
+  {
+    "title": "ド直球彼氏×彼女",
+    "type": "漫画",
+    "start_year": 2017,
+    "mal_id": 111767,
+    "endpoint": "manga",
+    "characters": [
+      "Honda",
+      "Shinichi",
+      "Wakamiya",
+      "Mako",
+      "Aonagahara"
+    ]
+  },
+  {
+    "title": "666〜サタン〜",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 32,
+    "endpoint": "manga",
+    "characters": [
+      "Ball",
+      "Bianchina",
+      "Cross",
+      "Crescent",
+      "Ruby"
+    ]
+  },
+  {
+    "title": "ゴールデンボーイ",
+    "type": "アニメ",
+    "start_year": 1995,
+    "mal_id": 268,
+    "endpoint": "anime",
+    "characters": [
+      "Ooe",
+      "Kintarou",
+      "Animation Checker",
+      "Animator A",
+      "Animator B"
+    ]
+  },
+  {
+    "title": "交響詩篇エウレカセブン",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 237,
+    "endpoint": "anime",
+    "characters": [
+      "Eureka",
+      "Novak",
+      "Holland",
+      "Thurston",
+      "Renton"
+    ]
+  },
+  {
+    "title": "キャットストリート",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 1802,
+    "endpoint": "manga",
+    "characters": [
+      "Aoyama",
+      "Keito",
+      "Mine",
+      "Kouichi",
+      "Noda"
+    ]
+  },
+  {
+    "title": "フリージア",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 1131,
+    "endpoint": "manga",
+    "characters": [
+      "Higuchi",
+      "Mariko",
+      "Kano",
+      "Hiroshi",
+      "Mizoguchi"
+    ]
+  },
+  {
+    "title": "殺し屋1〈イチ〉",
+    "type": "漫画",
+    "start_year": 1998,
+    "mal_id": 932,
+    "endpoint": "manga",
+    "characters": [
+      "垣原雅雄",
+      "城石一",
+      "じじい",
+      "金子修二",
+      "二郎"
+    ]
+  },
+  {
+    "title": "전지적 독자 시점",
+    "type": "漫画",
+    "start_year": 2022,
+    "mal_id": 143441,
+    "endpoint": "manga",
+    "characters": [
+      "Han",
+      "Sooyoung",
+      "Kim",
+      "Dokja",
+      "Yoo"
+    ]
+  },
+  {
+    "title": "愛してるゲームを終わらせたい",
+    "type": "漫画",
+    "start_year": 2021,
+    "mal_id": 143031,
+    "endpoint": "manga",
+    "characters": [
+      "Asagi",
+      "Yukiya",
+      "Sakura",
+      "Miku",
+      "Asagi"
+    ]
+  },
+  {
+    "title": "パンティ＆ストッキングwithガーターベルト",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 8795,
+    "endpoint": "anime",
+    "characters": [
+      "Anarchy",
+      "Panty",
+      "Anarchy",
+      "Stocking",
+      "Garterbelt"
+    ]
+  },
+  {
+    "title": "黒執事 Book of Circus",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 22145,
+    "endpoint": "anime",
+    "characters": [
+      "Michaelis",
+      "Sebastian",
+      "Phantomhive",
+      "Ciel",
+      "Abberline"
+    ]
+  },
+  {
+    "title": "頭文字〈イニシャル〉D",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 185,
+    "endpoint": "anime",
+    "characters": [
+      "Fujiwara",
+      "Takumi",
+      "Akio",
+      "Fujiwara",
+      "Bunta"
+    ]
+  },
+  {
+    "title": "バイオメガ",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 1409,
+    "endpoint": "manga",
+    "characters": [
+      "Green",
+      "Eon",
+      "Kanoe",
+      "Fuyu",
+      "Kanoe"
+    ]
+  },
+  {
+    "title": "おかえりアリス",
+    "type": "漫画",
+    "start_year": 2020,
+    "mal_id": 125717,
+    "endpoint": "manga",
+    "characters": [
+      "Kamekawa",
+      "Youhei",
+      "Mitani",
+      "Yui",
+      "Muroda"
+    ]
+  },
+  {
+    "title": "グリザイアの楽園",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 29095,
+    "endpoint": "anime",
+    "characters": [
+      "Irisu",
+      "Makina",
+      "Kazami",
+      "Yuuji",
+      "Komine"
+    ]
+  },
+  {
+    "title": "GOTH",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 958,
+    "endpoint": "manga",
+    "characters": [
+      "Itsuki Kamiyama",
+      "森野夜",
+      "神山樹",
+      "佐伯"
+    ]
+  },
+  {
+    "title": "遊☆戯☆王　デュエルモンスターズ",
+    "type": "アニメ",
+    "start_year": 2000,
+    "mal_id": 481,
+    "endpoint": "anime",
+    "characters": [
+      "Honda",
+      "Hiroto",
+      "Jounouchi",
+      "Katsuya",
+      "Kaiba"
+    ]
+  },
+  {
+    "title": "湯神くんには友達がいない",
+    "type": "漫画",
+    "start_year": 2012,
+    "mal_id": 62547,
+    "endpoint": "manga",
+    "characters": [
+      "Watanuki",
+      "Chihiro",
+      "Yugami",
+      "Yuuji",
+      "Fujisawa"
+    ]
+  },
+  {
+    "title": "あずまんが大王 THE ANIMATION",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 66,
+    "endpoint": "anime",
+    "characters": [
+      "Kagura",
+      "Kasuga",
+      "Ayumu",
+      "Kurosawa",
+      "Minamo"
+    ]
+  },
+  {
+    "title": "アバラ",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 1400,
+    "endpoint": "manga",
+    "characters": [
+      "Digimortal",
+      "Kudou",
+      "Denji",
+      "Übler",
+      "Halogen"
+    ]
+  },
+  {
+    "title": "結界師",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 105,
+    "endpoint": "manga",
+    "characters": [
+      "Sumimura",
+      "Masamori",
+      "Sumimura",
+      "Yoshimori",
+      "Yukimura"
+    ]
+  },
+  {
+    "title": "武装少女マキャヴェリズム",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 33475,
+    "endpoint": "anime",
+    "characters": [
+      "Amou",
+      "Kirukiru",
+      "Hanasaka",
+      "Warabi",
+      "Inaba"
+    ]
+  },
+  {
+    "title": "未確認で進行形",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 20541,
+    "endpoint": "anime",
+    "characters": [
+      "Mitsumine",
+      "Hakuya",
+      "Mitsumine",
+      "Mashiro",
+      "Yonomori"
+    ]
+  },
+  {
+    "title": "異世界かるてっと",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38472,
+    "endpoint": "anime",
+    "characters": [
+      "Albedo",
+      "Aqua",
+      "Emilia",
+      "Momonga",
+      "Natsuki"
+    ]
+  },
+  {
+    "title": "坂道のアポロン",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 12531,
+    "endpoint": "anime",
+    "characters": [
+      "Kawabuchi",
+      "Sentarou",
+      "Mukae",
+      "Ritsuko",
+      "Nishimi"
+    ]
+  },
+  {
+    "title": "美少女戦士セーラームーン",
+    "type": "アニメ",
+    "start_year": 1992,
+    "mal_id": 530,
+    "endpoint": "anime",
+    "characters": [
+      "Aino",
+      "Minako",
+      "Artemis",
+      "Chiba",
+      "Mamoru"
+    ]
+  },
+  {
+    "title": "多重人格探偵サイコ",
+    "type": "漫画",
+    "start_year": 1996,
+    "mal_id": 740,
+    "endpoint": "manga",
+    "characters": [
+      "Amamiya",
+      "Kazuhiko",
+      "Isono",
+      "Machi",
+      "Isono"
+    ]
+  },
+  {
+    "title": "風の谷のナウシカ",
+    "type": "アニメ",
+    "start_year": 1984,
+    "mal_id": 572,
+    "endpoint": "anime",
+    "characters": [
+      "Asbel",
+      "Kushana",
+      "Lord Yupa",
+      "Nausicaä",
+      "Boy A"
+    ]
+  },
+  {
+    "title": "カンピオーネ！ ～まつろわぬ神々と神殺しの魔王～",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 12293,
+    "endpoint": "anime",
+    "characters": [
+      "Blandelli",
+      "Erica",
+      "Kranjčar",
+      "Liliana",
+      "Kusanagi"
+    ]
+  },
+  {
+    "title": "アフロサムライ",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 1292,
+    "endpoint": "anime",
+    "characters": [
+      "Afro Samurai",
+      "Brother One",
+      "Dharman",
+      "Jinno",
+      "Justice"
+    ]
+  },
+  {
+    "title": "エマ",
+    "type": "漫画",
+    "start_year": 2001,
+    "mal_id": 729,
+    "endpoint": "manga",
+    "characters": [
+      "Emma",
+      "Jones",
+      "William",
+      "Adèle",
+      "Atawari"
+    ]
+  },
+  {
+    "title": "あの夏で待ってる",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 11433,
+    "endpoint": "anime",
+    "characters": [
+      "Ishigaki",
+      "Tetsurou",
+      "Kirishima",
+      "Kaito",
+      "Kitahara"
+    ]
+  },
+  {
+    "title": "アマガミSS",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 8676,
+    "endpoint": "anime",
+    "characters": [
+      "Ayatsuji",
+      "Tsukasa",
+      "Morishima",
+      "Haruka",
+      "Nakata"
+    ]
+  },
+  {
+    "title": "僕の彼女は最高です！",
+    "type": "漫画",
+    "start_year": 2017,
+    "mal_id": 110050,
+    "endpoint": "manga",
+    "characters": [
+      "彼女",
+      "僕",
+      "彼女の友人"
+    ]
+  },
+  {
+    "title": "ブラッドシー",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10490,
+    "endpoint": "anime",
+    "characters": [
+      "Kisaragi",
+      "Saya",
+      "Amino",
+      "Yuuka",
+      "Dog"
+    ]
+  },
+  {
+    "title": "コープスパーティー Tortured Souls -暴虐された魂の呪叫-",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 15037,
+    "endpoint": "anime",
+    "characters": [
+      "Kishinuma",
+      "Yoshiki",
+      "Mochida",
+      "Satoshi",
+      "Mochida"
+    ]
+  },
+  {
+    "title": "耳をすませば",
+    "type": "アニメ",
+    "start_year": 1995,
+    "mal_id": 585,
+    "endpoint": "anime",
+    "characters": [
+      "Amasawa",
+      "Seiji",
+      "Tsukishima",
+      "Shizuku",
+      "Baron Humbert von Gikkingen"
+    ]
+  },
+  {
+    "title": "死がふたりを分かつまで",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 1456,
+    "endpoint": "manga",
+    "characters": [
+      "Hijikata",
+      "Mamoru",
+      "Igawa",
+      "Ryoutarou",
+      "Tooyama"
+    ]
+  },
+  {
+    "title": "棺姫のチャイカ",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 20853,
+    "endpoint": "anime",
+    "characters": [
+      "Acura",
+      "Akari",
+      "Acura",
+      "Tooru",
+      "Trabant"
+    ]
+  },
+  {
+    "title": "高嶺と花",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 87813,
+    "endpoint": "manga",
+    "characters": [
+      "Nonomura",
+      "Hana",
+      "Saibara",
+      "Takane",
+      "Fujiwara"
+    ]
+  },
+  {
+    "title": "BNA ビー・エヌ・エー",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40060,
+    "endpoint": "anime",
+    "characters": [
+      "影森みちる",
+      "大神士郎",
+      "日渡なずな",
+      "マリー伊丹",
+      "ジャッキー"
+    ]
+  },
+  {
+    "title": "ハンドレッド",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31338,
+    "endpoint": "anime",
+    "characters": [
+      "Crossfode",
+      "Emile",
+      "Harvey",
+      "Claire",
+      "Kirishima"
+    ]
+  },
+  {
+    "title": "ヨルムンガンド",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 12413,
+    "endpoint": "anime",
+    "characters": [
+      "Brick",
+      "Lehm",
+      "Hekmatyar",
+      "Koko",
+      "Mar"
+    ]
+  },
+  {
+    "title": "恋愛暴君",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 32262,
+    "endpoint": "anime",
+    "characters": [
+      "Aino",
+      "Seiji",
+      "Guri",
+      "Hiyama",
+      "Akane"
+    ]
+  },
+  {
+    "title": "理系が恋に落ちたので証明してみた。",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 38992,
+    "endpoint": "anime",
+    "characters": [
+      "Himuro",
+      "Ayame",
+      "Yukimura",
+      "Shinya",
+      "Aika"
+    ]
+  },
+  {
+    "title": "借りぐらしのアリエッティ",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 7711,
+    "endpoint": "anime",
+    "characters": [
+      "Arrietty",
+      "Shou",
+      "Haru",
+      "Homily",
+      "Pod"
+    ]
+  },
+  {
+    "title": "終末のワルキューレ",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 44942,
+    "endpoint": "anime",
+    "characters": [
+      "Brunhilde",
+      "Göll",
+      "Abel",
+      "Adam",
+      "Adamas"
+    ]
+  },
+  {
+    "title": "かくかくしかじか",
+    "type": "漫画",
+    "start_year": 2011,
+    "mal_id": 44307,
+    "endpoint": "manga",
+    "characters": [
+      "Hayashi",
+      "Akiko",
+      "Hidaka",
+      "Kenzou",
+      "Futami"
+    ]
+  },
+  {
+    "title": "緋弾のアリア",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 8630,
+    "endpoint": "anime",
+    "characters": [
+      "Hotogi",
+      "Shirayuki",
+      "Kanzaki",
+      "Aria Holmes",
+      "Mine"
+    ]
+  },
+  {
+    "title": "全职高手",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 33926,
+    "endpoint": "anime",
+    "characters": [
+      "Ye",
+      "Xiu",
+      "Bao",
+      "Rongxing",
+      "Chen"
+    ]
+  },
+  {
+    "title": "魔弾の王と戦姫 (ヴァナディース)",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 24455,
+    "endpoint": "anime",
+    "characters": [
+      "Viltaria",
+      "Eleonora",
+      "Vorn",
+      "Tigrevurmud",
+      "Alshavin"
+    ]
+  },
+  {
+    "title": "この素晴らしい世界に爆焔を！",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 51958,
+    "endpoint": "anime",
+    "characters": [
+      "Megumin",
+      "Yunyun",
+      "Aqua",
+      "Arakuremono",
+      "Arnes"
+    ]
+  },
+  {
+    "title": "スペース☆ダンディ",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 20057,
+    "endpoint": "anime",
+    "characters": [
+      "Dandy",
+      "Meow",
+      "QT",
+      "033H",
+      "Admiral Perry"
+    ]
+  },
+  {
+    "title": "Dr.STONE 龍水",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 50612,
+    "endpoint": "anime",
+    "characters": [
+      "Asagiri",
+      "Gen",
+      "Chrome",
+      "Ishigami",
+      "Senkuu"
+    ]
+  },
+  {
+    "title": "なんでここに先生が!?",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38397,
+    "endpoint": "anime",
+    "characters": [
+      "Hazakura",
+      "Hikari",
+      "Kojima",
+      "Kana",
+      "Matsukaze"
+    ]
+  },
+  {
+    "title": "風立ちぬ",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 16662,
+    "endpoint": "anime",
+    "characters": [
+      "Horikoshi",
+      "Jirou",
+      "Satomi",
+      "Naoko",
+      "Caproni"
+    ]
+  },
+  {
+    "title": "乙女ゲー世界はモブに厳しい世界です",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 50461,
+    "endpoint": "anime",
+    "characters": [
+      "Fou Bartfort",
+      "Leon",
+      "Fou Lafan",
+      "Marie",
+      "Olivia"
+    ]
+  },
+  {
+    "title": "ブラックパラドクス",
+    "type": "漫画",
+    "start_year": 2007,
+    "mal_id": 20375,
+    "endpoint": "manga",
+    "characters": [
+      "ピイタン",
+      "マルソー",
+      "タブロウ"
+    ]
+  },
+  {
+    "title": "クローズ",
+    "type": "漫画",
+    "start_year": 1990,
+    "mal_id": 5651,
+    "endpoint": "manga",
+    "characters": [
+      "坊屋春道",
+      "Yasuo Yasuda",
+      "花澤三郎",
+      "林田恵",
+      "Osamu Furukawa"
+    ]
+  },
+  {
+    "title": "地獄少女",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 228,
+    "endpoint": "anime",
+    "characters": [
+      "Enma",
+      "Ai",
+      "Hone Onna",
+      "Ichimoku",
+      "Ren"
+    ]
+  },
+  {
+    "title": "精霊使いの剣舞〈ブレイドダンス〉",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 22877,
+    "endpoint": "anime",
+    "characters": [
+      "Est",
+      "Terminus",
+      "Fahrengart",
+      "Ellis",
+      "Kazehaya"
+    ]
+  },
+  {
+    "title": "ビューティーポップ",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 633,
+    "endpoint": "manga",
+    "characters": [
+      "Koshiba",
+      "Kiri",
+      "Minami",
+      "Kei",
+      "Narumi"
+    ]
+  },
+  {
+    "title": "やがて君になる",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 37786,
+    "endpoint": "anime",
+    "characters": [
+      "Koito",
+      "Yuu",
+      "Nanami",
+      "Touko",
+      "Doujima"
+    ]
+  },
+  {
+    "title": "アウトブレイク・カンパニー",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 19369,
+    "endpoint": "anime",
+    "characters": [
+      "Anne Eldante III",
+      "Petralka",
+      "Foaran",
+      "Myucel",
+      "Kanou"
+    ]
+  },
+  {
+    "title": "最強伝説黒沢",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 3575,
+    "endpoint": "manga",
+    "characters": [
+      "黒沢",
+      "仲根秀平",
+      "浅井純一",
+      "御木涼一",
+      "坂口義明"
+    ]
+  },
+  {
+    "title": "亜人〈デミ〉ちゃんは語りたい",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 82745,
+    "endpoint": "manga",
+    "characters": [
+      "Kusakabe",
+      "Yuki",
+      "Machi",
+      "Kyouko",
+      "Satou"
+    ]
+  },
+  {
+    "title": "ぼくたちのリメイク",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 40904,
+    "endpoint": "anime",
+    "characters": [
+      "Hashiba",
+      "Kyouya",
+      "Kawasegawa",
+      "Eiko",
+      "Kogure"
+    ]
+  },
+  {
+    "title": "Boichi作品集 HOTEL",
+    "type": "漫画",
+    "start_year": 2006,
+    "mal_id": 2436,
+    "endpoint": "manga",
+    "characters": [
+      "Armstrong",
+      "Louis",
+      "Hirosue",
+      "Noriko",
+      "Lilith"
+    ]
+  },
+  {
+    "title": "Sonny Boy (サニーボーイ)",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 48849,
+    "endpoint": "anime",
+    "characters": [
+      "Asakaze",
+      "Mizuho",
+      "Nagara",
+      "Nozomi",
+      "Aki-sensei"
+    ]
+  },
+  {
+    "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来",
+    "type": "アニメ",
+    "start_year": 2025,
+    "mal_id": 59192,
+    "endpoint": "anime",
+    "characters": [
+      "Akaza",
+      "Kamado",
+      "Tanjirou",
+      "Agatsuma",
+      "Zenitsu"
+    ]
+  },
+  {
+    "title": "ウルフガイ -狼の紋章-",
+    "type": "漫画",
+    "start_year": 2007,
+    "mal_id": 12451,
+    "endpoint": "manga",
+    "characters": [
+      "Aoshika",
+      "Akiko",
+      "Haguro",
+      "Dou",
+      "Inugami"
+    ]
+  },
+  {
+    "title": "ダンガンロンパ3 -The End of 希望ヶ峰学園- 未来編",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 32189,
+    "endpoint": "anime",
+    "characters": [
+      "Asahina",
+      "Aoi",
+      "Kirigiri",
+      "Kyouko",
+      "Mitarai"
+    ]
+  },
+  {
+    "title": "X",
+    "type": "漫画",
+    "start_year": 1992,
+    "mal_id": 27,
+    "endpoint": "manga",
+    "characters": [
+      "Monou",
+      "Fuuma",
+      "Shirou",
+      "Kamui",
+      "Aoki"
+    ]
+  },
+  {
+    "title": "ベック",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 57,
+    "endpoint": "anime",
+    "characters": [
+      "Chiba",
+      "Tsunemi",
+      "Minami",
+      "Maho",
+      "Minami"
+    ]
+  },
+  {
+    "title": "ドラゴンヘッド",
+    "type": "漫画",
+    "start_year": 1994,
+    "mal_id": 229,
+    "endpoint": "manga",
+    "characters": [
+      "Aoki",
+      "Teru",
+      "Captain Nimura",
+      "Iwada",
+      "Seto"
+    ]
+  },
+  {
+    "title": "荒ぶる季節の乙女どもよ。",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38753,
+    "endpoint": "anime",
+    "characters": [
+      "Hongou",
+      "Hitoha",
+      "Onodera",
+      "Kazusa",
+      "Sonezaki"
+    ]
+  },
+  {
+    "title": "フツーに聞いてくれ",
+    "type": "漫画",
+    "start_year": 2022,
+    "mal_id": 148353,
+    "endpoint": "manga",
+    "characters": [
+      "歌を投稿した少女",
+      "少年",
+      "動画を見た人々"
+    ]
+  },
+  {
+    "title": "這いよれ！ニャル子さん",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 11785,
+    "endpoint": "anime",
+    "characters": [
+      "Cthuko",
+      "Hasuta",
+      "Nyaruko",
+      "Yasaka",
+      "Mahiro"
+    ]
+  },
+  {
+    "title": "本好きの下剋上 ～司書になるためには手段を選んでいられません～",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 39468,
+    "endpoint": "anime",
+    "characters": [
+      "Lutz",
+      "Myne",
+      "Benno",
+      "Bezewanst",
+      "Carla"
+    ]
+  },
+  {
+    "title": "3D彼女 リアルガール",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 36793,
+    "endpoint": "anime",
+    "characters": [
+      "Igarashi",
+      "Iroha",
+      "Tsutsui",
+      "Hikari",
+      "Ayado"
+    ]
+  },
+  {
+    "title": "DIABOLIK LOVERS",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 17513,
+    "endpoint": "anime",
+    "characters": [
+      "Komori",
+      "Yui",
+      "Sakamaki",
+      "Ayato",
+      "Sakamaki"
+    ]
+  },
+  {
+    "title": "荒川アンダー ザ ブリッジ",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 7647,
+    "endpoint": "anime",
+    "characters": [
+      "Ichinomiya",
+      "Kou",
+      "Nino",
+      "Amazoness",
+      "Billy"
+    ]
+  },
+  {
+    "title": "未来日記リダイヤル",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 16762,
+    "endpoint": "anime",
+    "characters": [
+      "Gasai",
+      "Yuno",
+      "Akise",
+      "Aru",
+      "Amano"
+    ]
+  },
+  {
+    "title": "ヒストリエ",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 2924,
+    "endpoint": "manga",
+    "characters": [
+      "Eumenes",
+      "the Great",
+      "Alexander",
+      "Alexander of Epirus",
+      "Alkenol"
+    ]
+  },
+  {
+    "title": "旦那が何を言っているかわからない件",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 26349,
+    "endpoint": "anime",
+    "characters": [
+      "Tsunashi",
+      "Hajime",
+      "Tsunashi",
+      "Kaoru",
+      "Ai"
+    ]
+  },
+  {
+    "title": "エア・ギア",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 857,
+    "endpoint": "anime",
+    "characters": [
+      "Mikura",
+      "Kazuma",
+      "Minami",
+      "Itsuki",
+      "Noyamano"
+    ]
+  },
+  {
+    "title": "金色の文字使い ―勇者四人に巻き込まれたユニークチート―",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 82399,
+    "endpoint": "manga",
+    "characters": [
+      "Castreia",
+      "Muir",
+      "Okamura",
+      "Hiiro",
+      "Akamori"
+    ]
+  },
+  {
+    "title": "アサシンズプライド",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38572,
+    "endpoint": "anime",
+    "characters": [
+      "Angel",
+      "Elise",
+      "Angel",
+      "Melida",
+      "Pricket"
+    ]
+  },
+  {
+    "title": "B: The Beginning",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 32827,
+    "endpoint": "anime",
+    "characters": [
+      "Hoshina",
+      "Lily",
+      "Kazama Flick",
+      "Keith",
+      "Kokuu"
+    ]
+  },
+  {
+    "title": "映像研には手を出すな!",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 39792,
+    "endpoint": "anime",
+    "characters": [
+      "Asakusa",
+      "Midori",
+      "Kanamori",
+      "Sayaka",
+      "Mizusaki"
+    ]
+  },
+  {
+    "title": "妹さえいればいい。",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 35413,
+    "endpoint": "anime",
+    "characters": [
+      "Fuwa",
+      "Haruto",
+      "Hashima",
+      "Chihiro",
+      "Hashima"
+    ]
+  },
+  {
+    "title": "ブラック★ロックシューター",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 11285,
+    "endpoint": "anime",
+    "characters": [
+      "Black★Gold Saw",
+      "Black★Rock Shooter",
+      "Dead Master",
+      "Kuroi",
+      "Mato"
+    ]
+  },
+  {
+    "title": "異世界チート魔術師〈マジシャン〉",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 37744,
+    "endpoint": "anime",
+    "characters": [
+      "Azuma",
+      "Rin",
+      "Nishimura",
+      "Taichi",
+      "Aerial"
+    ]
+  },
+  {
+    "title": "さよなら絶望先生",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 2605,
+    "endpoint": "anime",
+    "characters": [
+      "Fuura",
+      "Kafuka",
+      "Itoshiki",
+      "Nozomu",
+      "Arai"
+    ]
+  },
+  {
+    "title": "琴浦さん",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 15379,
+    "endpoint": "anime",
+    "characters": [
+      "Kotoura",
+      "Haruka",
+      "Manabe",
+      "Yoshihisa",
+      "Mifune"
+    ]
+  },
+  {
+    "title": "色づく世界の明日から",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 37497,
+    "endpoint": "anime",
+    "characters": [
+      "Aoi",
+      "Yuito",
+      "Tsukishiro",
+      "Hitomi",
+      "Tsukishiro"
+    ]
+  },
+  {
+    "title": "バキ―NEW GRAPPLER BAKI",
+    "type": "漫画",
+    "start_year": 1999,
+    "mal_id": 5157,
+    "endpoint": "manga",
+    "characters": [
+      "Hanma",
+      "Baki",
+      "Motobe",
+      "Izou",
+      "Orochi"
+    ]
+  },
+  {
+    "title": "ボールルームへようこそ",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34636,
+    "endpoint": "anime",
+    "characters": [
+      "Fujita",
+      "Tatara",
+      "Hanaoka",
+      "Shizuku",
+      "Hiyama"
+    ]
+  },
+  {
+    "title": "翠星のガルガンティア",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 16524,
+    "endpoint": "anime",
+    "characters": [
+      "Amy",
+      "Chamber",
+      "Ledo",
+      "Bebel",
+      "Bellows"
+    ]
+  },
+  {
+    "title": "ナンバカ",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 30016,
+    "endpoint": "anime",
+    "characters": [
+      "Juugo",
+      "Nico",
+      "Rock",
+      "Sugoroku",
+      "Hajime"
+    ]
+  },
+  {
+    "title": "戯言シリーズ",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 9726,
+    "endpoint": "manga",
+    "characters": [
+      "Aikawa",
+      "Jun",
+      "Boku",
+      "Kunagisa",
+      "Tomo"
+    ]
+  },
+  {
+    "title": "可愛ければ変態でも好きになってくれますか？",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 39326,
+    "endpoint": "anime",
+    "characters": [
+      "Kiryuu",
+      "Keiki",
+      "Kiryuu",
+      "Mizuha",
+      "Koga"
+    ]
+  },
+  {
+    "title": "Buddy Daddies",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 53411,
+    "endpoint": "anime",
+    "characters": [
+      "Kurusu",
+      "Kazuki",
+      "Suwa",
+      "Rei",
+      "Unasaka"
+    ]
+  },
+  {
+    "title": "勇者、辞めます",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 50175,
+    "endpoint": "anime",
+    "characters": [
+      "Demonheart",
+      "Leo",
+      "Echidna",
+      "Cychreus",
+      "Dianette"
+    ]
+  },
+  {
+    "title": "謎の彼女X",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 12467,
+    "endpoint": "anime",
+    "characters": [
+      "卜部美琴",
+      "椿明",
+      "丘歩子",
+      "椿陽子",
+      "早川愛香"
+    ]
+  },
+  {
+    "title": "Phantom 〜Requiem for the Phantom〜",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 5682,
+    "endpoint": "anime",
+    "characters": [
+      "Devens",
+      "Cal",
+      "Ein",
+      "Zwei",
+      "Abel"
+    ]
+  },
+  {
+    "title": "キノの旅 -the Beautiful World-",
+    "type": "アニメ",
+    "start_year": 2003,
+    "mal_id": 486,
+    "endpoint": "anime",
+    "characters": [
+      "Hermes",
+      "Kino",
+      "Guard",
+      "Inspector",
+      "M's Rose"
+    ]
+  },
+  {
+    "title": "心が叫びたがってるんだ。",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 28725,
+    "endpoint": "anime",
+    "characters": [
+      "Naruse",
+      "Jun",
+      "Nitou",
+      "Natsuki",
+      "Sakagami"
+    ]
+  },
+  {
+    "title": "ストレンヂア -無皇刃譚-",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 2418,
+    "endpoint": "anime",
+    "characters": [
+      "Kotarou",
+      "Luo Lang",
+      "Nanashi",
+      "Tobimaru",
+      "Bai Luan"
+    ]
+  },
+  {
+    "title": "かくしごと",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40716,
+    "endpoint": "anime",
+    "characters": [
+      "Gotou",
+      "Hime",
+      "Gotou",
+      "Kakushi",
+      "Aiga"
+    ]
+  },
+  {
+    "title": "ゆるゆり",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10495,
+    "endpoint": "anime",
+    "characters": [
+      "Akaza",
+      "Akari",
+      "Funami",
+      "Yui",
+      "Toshinou"
+    ]
+  },
+  {
+    "title": "キミと僕の最後の戦場、あるいは世界が始まる聖戦",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40595,
+    "endpoint": "anime",
+    "characters": [
+      "Iska",
+      "Lou Nebulis IX",
+      "Aliceliese",
+      "Alkastone",
+      "Nene"
+    ]
+  },
+  {
+    "title": "ウルフズレイン",
+    "type": "アニメ",
+    "start_year": 2003,
+    "mal_id": 202,
+    "endpoint": "anime",
+    "characters": [
+      "Cheza",
+      "Hige",
+      "Kiba"
+    ]
+  },
+  {
+    "title": "キャロル&チューズデイ",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 37435,
+    "endpoint": "anime",
+    "characters": [
+      "Simmons",
+      "Tuesday",
+      "Stanley"
+    ]
+  },
+  {
+    "title": "聖痕のクェイサー",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 6500,
+    "endpoint": "anime",
+    "characters": [
+      "Beria",
+      "Teresa",
+      "Hell"
+    ]
+  },
+  {
+    "title": "キス×シス",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 5042,
+    "endpoint": "anime",
+    "characters": [
+      "Suminoe",
+      "Ako",
+      "Suminoe"
+    ]
+  },
+  {
+    "title": "紳士同盟†",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 37,
+    "endpoint": "manga",
+    "characters": [
+      "Amamiya",
+      "Ushio",
+      "Ichinomiya"
+    ]
+  },
+  {
+    "title": "花より男子",
+    "type": "漫画",
+    "start_year": 1992,
+    "mal_id": 877,
+    "endpoint": "manga",
+    "characters": [
+      "Doumyouji",
+      "Tsukasa",
+      "Makino"
+    ]
+  },
+  {
+    "title": "ねじ巻き精霊戦記 天鏡のアルデラミン",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31764,
+    "endpoint": "anime",
+    "characters": [
+      "Becker",
+      "Haroma",
+      "Igsem"
+    ]
+  },
+  {
+    "title": "×××HOLiC（ホリック）",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 861,
+    "endpoint": "anime",
+    "characters": [
+      "Doumeki",
+      "Shizuka",
+      "Ichihara"
+    ]
+  },
+  {
+    "title": "グランクレスト戦記",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 34279,
+    "endpoint": "anime",
+    "characters": [
+      "Cornaro",
+      "Theo",
+      "Meletes"
+    ]
+  },
+  {
+    "title": "劇場版 鋼の錬金術師 シャンバラを征く者",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 430,
+    "endpoint": "anime",
+    "characters": [
+      "エドワード・エルリック",
+      "アルフォンス・エルリック",
+      "Alfons Heiderich"
+    ]
+  },
+  {
+    "title": "デビル メイ クライ",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 1726,
+    "endpoint": "anime",
+    "characters": [
+      "Dante",
+      "Lowell",
+      "Patty"
+    ]
+  },
+  {
+    "title": "花咲くいろは",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 9289,
+    "endpoint": "anime",
+    "characters": [
+      "Matsumae",
+      "Ohana",
+      "Oshimizu"
+    ]
+  },
+  {
+    "title": "瀬戸の花嫁",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 2104,
+    "endpoint": "anime",
+    "characters": [
+      "Edomae",
+      "Lunar",
+      "Michishio"
+    ]
+  },
+  {
+    "title": "囀る鳥は羽ばたかない",
+    "type": "漫画",
+    "start_year": 2011,
+    "mal_id": 28449,
+    "endpoint": "manga",
+    "characters": [
+      "Doumeki",
+      "Chikara",
+      "Yashiro"
+    ]
+  },
+  {
+    "title": "ベン・トー",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10396,
+    "endpoint": "anime",
+    "characters": [
+      "Oshiroi",
+      "Hana",
+      "Satou"
+    ]
+  },
+  {
+    "title": "アドルフに告ぐ",
+    "type": "漫画",
+    "start_year": 1982,
+    "mal_id": 1695,
+    "endpoint": "manga",
+    "characters": [
+      "Kamil",
+      "Adolf",
+      "Kaufmann"
+    ]
+  },
+  {
+    "title": "コードギアス 復活のルルーシュ",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 34437,
+    "endpoint": "anime",
+    "characters": [
+      "C.C.",
+      "Kururugi",
+      "Suzaku"
+    ]
+  },
+  {
+    "title": "スクールランブル",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 24,
+    "endpoint": "anime",
+    "characters": [
+      "Harima",
+      "Kenji",
+      "Karasuma"
+    ]
+  },
+  {
+    "title": "漂流教室",
+    "type": "漫画",
+    "start_year": 1972,
+    "mal_id": 970,
+    "endpoint": "manga",
+    "characters": [
+      "Kawada",
+      "Sakiko",
+      "Nishi"
+    ]
+  },
+  {
+    "title": "薔薇嬢のキス",
+    "type": "漫画",
+    "start_year": 2008,
+    "mal_id": 10960,
+    "endpoint": "manga",
+    "characters": [
+      "Asagi",
+      "Seiran",
+      "Higa"
+    ]
+  },
+  {
+    "title": "テイルズ オブ ゼスティリア ザ クロス",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 30911,
+    "endpoint": "anime",
+    "characters": [
+      "Diphda",
+      "Alisha",
+      "Edna"
+    ]
+  },
+  {
+    "title": "SAMURAI DEEPER KYO",
+    "type": "漫画",
+    "start_year": 1999,
+    "mal_id": 513,
+    "endpoint": "manga",
+    "characters": [
+      "Akira",
+      "Date",
+      "Masamune"
+    ]
+  },
+  {
+    "title": "機巧少女〈マシンドール〉は傷つかない",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 17247,
+    "endpoint": "anime",
+    "characters": [
+      "Akabane",
+      "Raishin",
+      "Yaya"
+    ]
+  },
+  {
+    "title": "史上最強の大魔王、村人Aに転生する",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 48415,
+    "endpoint": "anime",
+    "characters": [
+      "Fin de Salvan",
+      "Ginny",
+      "Litz de Olhyde"
+    ]
+  },
+  {
+    "title": "フリージング",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 9367,
+    "endpoint": "anime",
+    "characters": [
+      "Aoi",
+      "Kazuya",
+      "Linchen"
+    ]
+  },
+  {
+    "title": "継母の連れ子が元カノだった",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 49470,
+    "endpoint": "anime",
+    "characters": [
+      "Irido",
+      "Mizuto",
+      "Irido"
+    ]
+  },
+  {
+    "title": "「C」 THE MONEY OF SOUL AND POSSIBILITY CONTROL",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10163,
+    "endpoint": "anime",
+    "characters": [
+      "Mikuni",
+      "Souichirou",
+      "Msyu"
+    ]
+  },
+  {
+    "title": "Just Because!",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 35639,
+    "endpoint": "anime",
+    "characters": [
+      "Izumi",
+      "Eita",
+      "Komiya"
+    ]
+  },
+  {
+    "title": "金装のヴェルメイユ ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 51213,
+    "endpoint": "anime",
+    "characters": [
+      "Goldfilled",
+      "Alto",
+      "Kudelfate"
+    ]
+  },
+  {
+    "title": "あっちこっち",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 12291,
+    "endpoint": "anime",
+    "characters": [
+      "Haruno",
+      "Hime",
+      "Inui"
+    ]
+  },
+  {
+    "title": "NieR:Automata Ver1.1a",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 51105,
+    "endpoint": "anime",
+    "characters": [
+      "YoRHa 2-gou B-gata",
+      "YoRHa 9-gou S-gata",
+      "Adam"
+    ]
+  },
+  {
+    "title": "灰羽連盟",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 387,
+    "endpoint": "anime",
+    "characters": [
+      "Rakka",
+      "Reki",
+      "Dai"
+    ]
+  },
+  {
+    "title": "負けヒロインが多すぎる！",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 57524,
+    "endpoint": "anime",
+    "characters": [
+      "Komari",
+      "Chika",
+      "Nukumizu"
+    ]
+  },
+  {
+    "title": "キッチンのお姫さま",
+    "type": "漫画",
+    "start_year": 2004,
+    "mal_id": 411,
+    "endpoint": "manga",
+    "characters": [
+      "Kazami",
+      "Najika",
+      "Kishida"
+    ]
+  },
+  {
+    "title": "風が強く吹いている",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 37965,
+    "endpoint": "anime",
+    "characters": [
+      "Kiyose",
+      "Haiji",
+      "Kurahara"
+    ]
+  },
+  {
+    "title": "富士山さんは思春期",
+    "type": "漫画",
+    "start_year": 2012,
+    "mal_id": 60095,
+    "endpoint": "manga",
+    "characters": [
+      "Fujiyama",
+      "Makio",
+      "Kanba"
+    ]
+  },
+  {
+    "title": "天才王子の赤字国家再生術",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 47159,
+    "endpoint": "anime",
+    "characters": [
+      "Arbalest",
+      "Wein Salema",
+      "Ralei"
+    ]
+  },
+  {
+    "title": "イキガミ",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 8446,
+    "endpoint": "manga",
+    "characters": [
+      "Fujimoto",
+      "Kengo",
+      "Kubo"
+    ]
+  },
+  {
+    "title": "聖剣使いの禁呪詠唱〈ワールドブレイク〉",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 22663,
+    "endpoint": "anime",
+    "characters": [
+      "Haimura",
+      "Moroha",
+      "Ranjou"
+    ]
+  },
+  {
+    "title": "ガールズ&パンツァー",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 14131,
+    "endpoint": "anime",
+    "characters": [
+      "Akiyama",
+      "Yukari",
+      "Isuzu"
+    ]
+  },
+  {
+    "title": "思い出のマーニー",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 21557,
+    "endpoint": "anime",
+    "characters": [
+      "Marnie",
+      "Sasaki",
+      "Anna"
+    ]
+  },
+  {
+    "title": "俺と悪魔のブルーズ",
+    "type": "漫画",
+    "start_year": 2003,
+    "mal_id": 1211,
+    "endpoint": "manga",
+    "characters": [
+      "Barrow",
+      "Clyde",
+      "Johnson"
+    ]
+  },
+  {
+    "title": "イエスタデイをうたって",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 39710,
+    "endpoint": "anime",
+    "characters": [
+      "Hayakawa",
+      "Rou",
+      "Morinome"
+    ]
+  },
+  {
+    "title": "一週間フレンズ。",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 21327,
+    "endpoint": "anime",
+    "characters": [
+      "Fujimiya",
+      "Kaori",
+      "Hase"
+    ]
+  },
+  {
+    "title": "はんだくん",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 32648,
+    "endpoint": "anime",
+    "characters": [
+      "Aizawa",
+      "Junichi",
+      "Handa"
+    ]
+  },
+  {
+    "title": "のだめカンタービレ",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 1698,
+    "endpoint": "anime",
+    "characters": [
+      "Chiaki",
+      "Shinichi",
+      "Noda"
+    ]
+  },
+  {
+    "title": "ブラック・ジャック",
+    "type": "漫画",
+    "start_year": 1973,
+    "mal_id": 1600,
+    "endpoint": "manga",
+    "characters": [
+      "Hazama",
+      "Kuroo",
+      "Pinoko"
+    ]
+  },
+  {
+    "title": "東京ゴッドファーザーズ",
+    "type": "アニメ",
+    "start_year": 2003,
+    "mal_id": 759,
+    "endpoint": "anime",
+    "characters": [
+      "Gin",
+      "Hana",
+      "Miyuki"
+    ]
+  },
+  {
+    "title": "ライチ☆光クラブ",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 5709,
+    "endpoint": "manga",
+    "characters": [
+      "Ameya",
+      "Norimizu",
+      "Kanon"
+    ]
+  },
+  {
+    "title": "パリピ孔明",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 50380,
+    "endpoint": "anime",
+    "characters": [
+      "Tsukimi",
+      "Eiko",
+      "Zhuge"
+    ]
+  },
+  {
+    "title": "治癒魔法の間違った使い方",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 49613,
+    "endpoint": "anime",
+    "characters": [
+      "Inukami",
+      "Suzune",
+      "Ryuusen"
+    ]
+  },
+  {
+    "title": "シェルター",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 34240,
+    "endpoint": "anime",
+    "characters": [
+      "Rin",
+      "Shigeru",
+      "凛"
+    ]
+  },
+  {
+    "title": "デカダンス",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40056,
+    "endpoint": "anime",
+    "characters": [
+      "Kaburagi",
+      "Natsume",
+      "Demolition Worker"
+    ]
+  },
+  {
+    "title": "お兄ちゃんだけど愛さえあれば関係ないよねっ",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 14199,
+    "endpoint": "anime",
+    "characters": [
+      "Himenokouji",
+      "Akiko",
+      "Himenokouji"
+    ]
+  },
+  {
+    "title": "萌えカレ!!",
+    "type": "漫画",
+    "start_year": 2005,
+    "mal_id": 1978,
+    "endpoint": "manga",
+    "characters": [
+      "Honda",
+      "Takara",
+      "Ichikawa"
+    ]
+  },
+  {
+    "title": "多田くんは恋をしない",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 36470,
+    "endpoint": "anime",
+    "characters": [
+      "Tada",
+      "Mitsuyoshi",
+      "Wagner"
+    ]
+  },
+  {
+    "title": "湘南純愛組！",
+    "type": "漫画",
+    "start_year": 1990,
+    "mal_id": 445,
+    "endpoint": "manga",
+    "characters": [
+      "Danma",
+      "Ryuuji",
+      "Onizuka"
+    ]
+  },
+  {
+    "title": "勇者になれなかった俺はしぶしぶ就職を決意しました。",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 18677,
+    "endpoint": "anime",
+    "characters": [
+      "Bloodstone",
+      "Fino",
+      "Chaser"
+    ]
+  },
+  {
+    "title": "春風のエトランゼ",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 77609,
+    "endpoint": "manga",
+    "characters": [
+      "Chibana",
+      "Mio",
+      "Hashimoto"
+    ]
+  },
+  {
+    "title": "史上最強の弟子 ケンイチ",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 1559,
+    "endpoint": "anime",
+    "characters": [
+      "Fuurinji",
+      "Miu",
+      "Shirahama"
+    ]
+  },
+  {
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録",
+    "type": "アニメ",
+    "start_year": 2026,
+    "mal_id": 56009,
+    "endpoint": "anime",
+    "characters": [
+      "Forbartz",
+      "Xylo",
+      "Kivia"
+    ]
+  },
+  {
+    "title": "ふしぎ遊戯",
+    "type": "漫画",
+    "start_year": 1992,
+    "mal_id": 84,
+    "endpoint": "manga",
+    "characters": [
+      "Chichiri",
+      "Chiriko",
+      "Hongo"
+    ]
+  },
+  {
+    "title": "伝説の勇者の伝説",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 8086,
+    "endpoint": "anime",
+    "characters": [
+      "Astal",
+      "Sion",
+      "Eris"
+    ]
+  },
+  {
+    "title": "電波女と青春男",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 9379,
+    "endpoint": "anime",
+    "characters": [
+      "Maekawa",
+      "Mifune",
+      "Ryuuko"
+    ]
+  },
+  {
+    "title": "サカサマのパテマ",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 12477,
+    "endpoint": "anime",
+    "characters": [
+      "Age",
+      "Patema",
+      "Elder"
+    ]
+  },
+  {
+    "title": "こどものおもちゃ",
+    "type": "漫画",
+    "start_year": 1994,
+    "mal_id": 18,
+    "endpoint": "manga",
+    "characters": [
+      "Hayama",
+      "Akito",
+      "Kurata"
+    ]
+  },
+  {
+    "title": "たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 40594,
+    "endpoint": "anime",
+    "characters": [
+      "Belladonna",
+      "Lloyd",
+      "Alan"
+    ]
+  },
+  {
+    "title": "劇場版　NARUTO　大活劇！雪姫忍法帖だってばよ!!",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 442,
+    "endpoint": "anime",
+    "characters": [
+      "Haruno",
+      "Sakura",
+      "Hatake"
+    ]
+  },
+  {
+    "title": "めるぷり メルヘン☆プリンス",
+    "type": "漫画",
+    "start_year": 2002,
+    "mal_id": 665,
+    "endpoint": "manga",
+    "characters": [
+      "Astale Ei Daemonia Eucalystia",
+      "Aram",
+      "Astella Daimonia Eucalystia"
+    ]
+  },
+  {
+    "title": "輪るピングドラム",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10721,
+    "endpoint": "anime",
+    "characters": [
+      "Oginome",
+      "Ringo",
+      "Takakura"
+    ]
+  },
+  {
+    "title": "マケン姫っ！",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 9936,
+    "endpoint": "anime",
+    "characters": [
+      "Amaya",
+      "Haruko",
+      "Himegami"
+    ]
+  },
+  {
+    "title": "ソマリと森の神様",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 39575,
+    "endpoint": "anime",
+    "characters": [
+      "Golem",
+      "Somali",
+      "Bird Grotesque"
+    ]
+  },
+  {
+    "title": "魔装学園H×H",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31845,
+    "endpoint": "anime",
+    "characters": [
+      "Chidorigafuchi",
+      "Aine",
+      "Farandole"
+    ]
+  },
+  {
+    "title": "東京 BABYLON",
+    "type": "漫画",
+    "start_year": 1990,
+    "mal_id": 133,
+    "endpoint": "manga",
+    "characters": [
+      "Sakurazuka",
+      "Seishirou",
+      "Sumeragi"
+    ]
+  },
+  {
+    "title": "ハマトラ THE ANIMATION",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 20689,
+    "endpoint": "anime",
+    "characters": [
+      "Murasaki",
+      "Nice",
+      "Art"
+    ]
+  },
+  {
+    "title": "ドリィ♥キルキル",
+    "type": "漫画",
+    "start_year": 2014,
+    "mal_id": 78121,
+    "endpoint": "manga",
+    "characters": [
+      "Banira",
+      "Yuu",
+      "Ikaruga"
+    ]
+  },
+  {
+    "title": "昭和元禄落語心中",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 28735,
+    "endpoint": "anime",
+    "characters": [
+      "Yuurakutei",
+      "Sukeroku",
+      "Yuurakutei"
+    ]
+  },
+  {
+    "title": "東京マグニチュード8.0",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 6211,
+    "endpoint": "anime",
+    "characters": [
+      "Kusakabe",
+      "Mari",
+      "Onozawa"
+    ]
+  },
+  {
+    "title": "Fate/Grand Order -絶対魔獣戦線バビロニア-",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38084,
+    "endpoint": "anime",
+    "characters": [
+      "Ana",
+      "Fujimaru",
+      "Ritsuka"
+    ]
+  },
+  {
+    "title": "AIR",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 101,
+    "endpoint": "anime",
+    "characters": [
+      "Kamio",
+      "Misuzu",
+      "Kirishima"
+    ]
+  },
+  {
+    "title": "Dimension W",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31163,
+    "endpoint": "anime",
+    "characters": [
+      "Mabuchi",
+      "Kyouma",
+      "Yurizaki"
+    ]
+  },
+  {
+    "title": "織田信奈の野望",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 11933,
+    "endpoint": "anime",
+    "characters": [
+      "Oda",
+      "Nobuna",
+      "Sagara"
+    ]
+  },
+  {
+    "title": "通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38573,
+    "endpoint": "anime",
+    "characters": [
+      "Oosuki",
+      "Mamako",
+      "Oosuki"
+    ]
+  },
+  {
+    "title": "AMNESIA",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 15085,
+    "endpoint": "anime",
+    "characters": [
+      "Heroine",
+      "Ikki",
+      "Kent"
+    ]
+  },
+  {
+    "title": "SERVAMP（サーヴァンプ）",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31229,
+    "endpoint": "anime",
+    "characters": [
+      "Kuro",
+      "Shirota",
+      "Mahiru"
+    ]
+  },
+  {
+    "title": "タブー・タトゥー",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 29758,
+    "endpoint": "anime",
+    "characters": [
+      "Akatsuka",
+      "Justice",
+      "Fluesy"
+    ]
+  },
+  {
+    "title": "リトルバスターズ!",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 13655,
+    "endpoint": "anime",
+    "characters": [
+      "Inohara",
+      "Masato",
+      "Kamikita"
+    ]
+  },
+  {
+    "title": "猫の恩返し",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 597,
+    "endpoint": "anime",
+    "characters": [
+      "Baron Humbert von Gikkingen",
+      "Yoshioka",
+      "Haru"
+    ]
+  },
+  {
+    "title": "劇場版 BLEACH MEMORIES OF NOBODY",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 1686,
+    "endpoint": "anime",
+    "characters": [
+      "Kuchiki",
+      "Rukia",
+      "Kurosaki"
+    ]
+  },
+  {
+    "title": "僕の彼女がマジメ過ぎるしょびっちな件",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 35712,
+    "endpoint": "anime",
+    "characters": [
+      "Ariyama",
+      "Shizuku",
+      "Kousaka"
+    ]
+  },
+  {
+    "title": "チ。―地球の運動について―",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 52215,
+    "endpoint": "anime",
+    "characters": [
+      "Badeni",
+      "Brudzewski",
+      "Albert"
+    ]
+  },
+  {
+    "title": "手品先輩",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38610,
+    "endpoint": "anime",
+    "characters": [
+      "Assistant",
+      "Senpai",
+      "Madara-san"
+    ]
+  },
+  {
+    "title": "イタズラなKiss",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 3731,
+    "endpoint": "anime",
+    "characters": [
+      "Aihara",
+      "Kotoko",
+      "Irie"
+    ]
+  },
+  {
+    "title": "俺がお嬢様学校に「庶民サンプル」としてゲッツされた件",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 25099,
+    "endpoint": "anime",
+    "characters": [
+      "Arisugawa",
+      "Reiko",
+      "Jinryou"
+    ]
+  },
+  {
+    "title": "カオスヘッド",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 4975,
+    "endpoint": "anime",
+    "characters": [
+      "Aoi",
+      "Sena",
+      "Kishimoto"
+    ]
+  },
+  {
+    "title": "幼なじみが絶対に負けないラブコメ",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 43007,
+    "endpoint": "anime",
+    "characters": [
+      "Kachi",
+      "Shirokusa",
+      "Maru"
+    ]
+  },
+  {
+    "title": "Fate/kaleid liner プリズマ☆イリヤ",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 14829,
+    "endpoint": "anime",
+    "characters": [
+      "Edelfelt",
+      "Luviagelita",
+      "Edelfelt"
+    ]
+  },
+  {
+    "title": "SHUFFLE! (シャッフル!)",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 79,
+    "endpoint": "anime",
+    "characters": [
+      "Eustoma",
+      "Lisianthus",
+      "Fuyou"
+    ]
+  },
+  {
+    "title": "ナイツ&マジック",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34104,
+    "endpoint": "anime",
+    "characters": [
+      "Echevarria",
+      "Ernesti",
+      "Olter"
+    ]
+  },
+  {
+    "title": "マンガ家さんとアシスタントさんと THE ANIMATION",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 21863,
+    "endpoint": "anime",
+    "characters": [
+      "Aito",
+      "Yuuki",
+      "Ashisu"
+    ]
+  },
+  {
+    "title": "カノン (2006)",
+    "type": "アニメ",
+    "start_year": 2006,
+    "mal_id": 1530,
+    "endpoint": "anime",
+    "characters": [
+      "Aizawa",
+      "Yuuichi",
+      "Kawasumi"
+    ]
+  },
+  {
+    "title": "TEXHNOLYZE",
+    "type": "アニメ",
+    "start_year": 2003,
+    "mal_id": 26,
+    "endpoint": "anime",
+    "characters": [
+      "Ichise",
+      "Ran",
+      "Gorou"
+    ]
+  },
+  {
+    "title": "異世界食堂",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34012,
+    "endpoint": "anime",
+    "characters": [
+      "Aletta",
+      "Kuro",
+      "Owner"
+    ]
+  },
+  {
+    "title": "ゼロから始める魔法の書",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34176,
+    "endpoint": "anime",
+    "characters": [
+      "Youhei",
+      "Zero",
+      "13-ban"
+    ]
+  },
+  {
+    "title": "オオカミさんと七人の仲間たち",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 7769,
+    "endpoint": "anime",
+    "characters": [
+      "Akai",
+      "Ringo",
+      "Morino"
+    ]
+  },
+  {
+    "title": "デッドマウント・デスプレイ",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 53613,
+    "endpoint": "anime",
+    "characters": [
+      "Corpse God",
+      "Kuruya",
+      "Takumi"
+    ]
+  },
+  {
+    "title": "紅の豚",
+    "type": "アニメ",
+    "start_year": 1992,
+    "mal_id": 416,
+    "endpoint": "anime",
+    "characters": [
+      "Curtis",
+      "Donald",
+      "Piccolo"
+    ]
+  },
+  {
+    "title": "進撃！巨人中学校",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 31374,
+    "endpoint": "anime",
+    "characters": [
+      "Ackerman",
+      "Mikasa",
+      "Arlert"
+    ]
+  },
+  {
+    "title": "ふらいんぐうぃっち",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31376,
+    "endpoint": "anime",
+    "characters": [
+      "Kowata",
+      "Makoto",
+      "Kuramoto"
+    ]
+  },
+  {
+    "title": "スキップ・ビート！",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 4722,
+    "endpoint": "anime",
+    "characters": [
+      "Fuwa",
+      "Shoutarou",
+      "Mogami"
+    ]
+  },
+  {
+    "title": "ハチミツとクローバー",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 16,
+    "endpoint": "anime",
+    "characters": [
+      "Hanamoto",
+      "Hagumi",
+      "Mayama"
+    ]
+  },
+  {
+    "title": "神様になった日",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 41930,
+    "endpoint": "anime",
+    "characters": [
+      "Narukami",
+      "Youta",
+      "Satou"
+    ]
+  },
+  {
+    "title": "魔王様、リトライ！",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38297,
+    "endpoint": "anime",
+    "characters": [
+      "Aku",
+      "Elegant",
+      "Luna"
+    ]
+  },
+  {
+    "title": "らんま1/2",
+    "type": "アニメ",
+    "start_year": 1989,
+    "mal_id": 210,
+    "endpoint": "anime",
+    "characters": [
+      "Saotome",
+      "Ranma",
+      "Tendou"
+    ]
+  },
+  {
+    "title": "ハイスコアガール",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 21877,
+    "endpoint": "anime",
+    "characters": [
+      "Hidaka",
+      "Koharu",
+      "Oono"
+    ]
+  },
+  {
+    "title": "悪魔のリドル",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 19429,
+    "endpoint": "anime",
+    "characters": [
+      "Azuma",
+      "Tokaku",
+      "Ichinose"
+    ]
+  },
+  {
+    "title": "プラネテス",
+    "type": "アニメ",
+    "start_year": 2003,
+    "mal_id": 329,
+    "endpoint": "anime",
+    "characters": [
+      "Hoshino",
+      "Hachirouta",
+      "Tanabe"
+    ]
+  },
+  {
+    "title": "ラブひな",
+    "type": "アニメ",
+    "start_year": 2000,
+    "mal_id": 189,
+    "endpoint": "anime",
+    "characters": [
+      "Aoyama",
+      "Motoko",
+      "Konno"
+    ]
+  },
+  {
+    "title": "Engage Kiss",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 51417,
+    "endpoint": "anime",
+    "characters": [
+      "Holygrail",
+      "Sharon",
+      "Kisara"
+    ]
+  },
+  {
+    "title": "しかのこのこのここしたんたん",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 58426,
+    "endpoint": "anime",
+    "characters": [
+      "Bashame",
+      "Meme",
+      "Koshi"
+    ]
+  },
+  {
+    "title": "錆喰いビスコ",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 48414,
+    "endpoint": "anime",
+    "characters": [
+      "Akaboshi",
+      "Bisco",
+      "Nekoyanagi"
+    ]
+  },
+  {
+    "title": "にゃんこい！",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 6512,
+    "endpoint": "anime",
+    "characters": [
+      "Kousaka",
+      "Junpei",
+      "Mizuno"
+    ]
+  },
+  {
+    "title": "最強陰陽師の異世界転生記",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 50932,
+    "endpoint": "anime",
+    "characters": [
+      "Amyu",
+      "Lamprogue",
+      "Seika"
+    ]
+  },
+  {
+    "title": "TVアニメ「ペルソナ５」",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 36023,
+    "endpoint": "anime",
+    "characters": [
+      "Amamiya",
+      "Ren",
+      "Kitagawa"
+    ]
+  },
+  {
+    "title": "ペルソナ4アニメーション",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10588,
+    "endpoint": "anime",
+    "characters": [
+      "Amagi",
+      "Yukiko",
+      "Hanamura"
+    ]
+  },
+  {
+    "title": "恋は世界征服のあとで",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 48643,
+    "endpoint": "anime",
+    "characters": [
+      "Aikawa",
+      "Fudou",
+      "Magahara"
+    ]
+  },
+  {
+    "title": "桜Trick",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 20047,
+    "endpoint": "anime",
+    "characters": [
+      "高山春香",
+      "園田優",
+      "野田コトネ"
+    ]
+  },
+  {
+    "title": "八男って、それはないでしょう！",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 38830,
+    "endpoint": "anime",
+    "characters": [
+      "Hillenbrand",
+      "Ena Susanne",
+      "Hohenheim"
+    ]
+  },
+  {
+    "title": "異世界薬局",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 49438,
+    "endpoint": "anime",
+    "characters": [
+      "Bonnefoi",
+      "Eléonore",
+      "Soller"
+    ]
+  },
+  {
+    "title": "空戦魔導士候補生の教官",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 25283,
+    "endpoint": "anime",
+    "characters": [
+      "Age",
+      "Kanata",
+      "Eisenach"
+    ]
+  },
+  {
+    "title": "暦物語",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 32268,
+    "endpoint": "anime",
+    "characters": [
+      "Araragi",
+      "Koyomi",
+      "Oshino"
+    ]
+  },
+  {
+    "title": "巌窟王",
+    "type": "アニメ",
+    "start_year": 2004,
+    "mal_id": 239,
+    "endpoint": "anime",
+    "characters": [
+      "The Count of Monte Cristo",
+      "d'Epinay",
+      "Franz"
+    ]
+  },
+  {
+    "title": "ef - a tale of memories.",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 2924,
+    "endpoint": "anime",
+    "characters": [
+      "Asou",
+      "Renji",
+      "Hirono"
+    ]
+  },
+  {
+    "title": "転生したら第七王子だったので、気ままに魔術を極めます",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 53516,
+    "endpoint": "anime",
+    "characters": [
+      "Grim",
+      "de Saloum",
+      "Lloyd"
+    ]
+  },
+  {
+    "title": "純情ロマンチカ",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 3092,
+    "endpoint": "anime",
+    "characters": [
+      "Kamijou",
+      "Hiroki",
+      "Kusama"
+    ]
+  },
+  {
+    "title": "サイダーのように言葉が湧き上がる",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 39175,
+    "endpoint": "anime",
+    "characters": [
+      "Cherry",
+      "Smile",
+      "Beaver"
+    ]
+  },
+  {
+    "title": "天狼〈シリウス〉 Sirius the Jaeger",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 37569,
+    "endpoint": "anime",
+    "characters": [
+      "Jirov",
+      "Yuliy",
+      "Agatha"
+    ]
+  },
+  {
+    "title": "WHITE ALBUM [ホワイトアルバム] 2",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 18245,
+    "endpoint": "anime",
+    "characters": [
+      "Kitahara",
+      "Haruki",
+      "Ogiso"
+    ]
+  },
+  {
+    "title": "恋と選挙とチョコレート",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 12175,
+    "endpoint": "anime",
+    "characters": [
+      "Aomi",
+      "Isara",
+      "Kiba"
+    ]
+  },
+  {
+    "title": "劇場版 BLEACH The DiamondDust Rebellion もう一つの氷輪丸",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 2889,
+    "endpoint": "anime",
+    "characters": [
+      "Hitsugaya",
+      "Toushirou",
+      "Kurosaki"
+    ]
+  },
+  {
+    "title": "魔法戦争",
+    "type": "アニメ",
+    "start_year": 2014,
+    "mal_id": 19769,
+    "endpoint": "anime",
+    "characters": [
+      "Aiba",
+      "Mui",
+      "Ida"
+    ]
+  },
+  {
+    "title": "魔法少女サイト",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 36266,
+    "endpoint": "anime",
+    "characters": [
+      "Anazawa",
+      "Nijimi",
+      "Asagiri"
+    ]
+  },
+  {
+    "title": "海月姫",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 8129,
+    "endpoint": "anime",
+    "characters": [
+      "Koibuchi",
+      "Kuranosuke",
+      "Kurashita"
+    ]
+  },
+  {
+    "title": "組長娘と世話係",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 49776,
+    "endpoint": "anime",
+    "characters": [
+      "Kirishima",
+      "Tooru",
+      "Sakuragi"
+    ]
+  },
+  {
+    "title": "かぐや姫の物語",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 16664,
+    "endpoint": "anime",
+    "characters": [
+      "Kaguya-hime",
+      "Abe no Udaijin",
+      "Ayabe no Uchimaro"
+    ]
+  },
+  {
+    "title": "Paradise kiss",
+    "type": "アニメ",
+    "start_year": 2005,
+    "mal_id": 322,
+    "endpoint": "anime",
+    "characters": [
+      "Hayasaka",
+      "Yukari",
+      "Koizumi"
+    ]
+  },
+  {
+    "title": "きみと、波にのれたら",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38594,
+    "endpoint": "anime",
+    "characters": [
+      "Hinageshi",
+      "Minato",
+      "Mukaimizu"
+    ]
+  },
+  {
+    "title": "恋と呼ぶには気持ち悪い",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 41103,
+    "endpoint": "anime",
+    "characters": [
+      "Amakusa",
+      "Ryou",
+      "Arima"
+    ]
+  },
+  {
+    "title": "神撃のバハムート VIRGIN SOUL",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 30736,
+    "endpoint": "anime",
+    "characters": [
+      "Azazel",
+      "Charioce XVII",
+      "Drango"
+    ]
+  },
+  {
+    "title": "とある科学の一方通行〈アクセラレータ〉",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 38480,
+    "endpoint": "anime",
+    "characters": [
+      "Accelerator",
+      "Last Order",
+      "Rosenthal"
+    ]
+  },
+  {
+    "title": "グリザイアの迷宮 カプリスの繭0",
+    "type": "アニメ",
+    "start_year": 2015,
+    "mal_id": 29093,
+    "endpoint": "anime",
+    "characters": [
+      "Kazami",
+      "Yuuji",
+      "Born"
+    ]
+  },
+  {
+    "title": "迷宮ブラックカンパニー",
+    "type": "アニメ",
+    "start_year": 2021,
+    "mal_id": 42340,
+    "endpoint": "anime",
+    "characters": [
+      "Ninomiya",
+      "Kinji",
+      "Rimu"
+    ]
+  },
+  {
+    "title": "夏へのトンネル, さよならの出口",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 50593,
+    "endpoint": "anime",
+    "characters": [
+      "Hanashiro",
+      "Anzu",
+      "Touno"
+    ]
+  },
+  {
+    "title": "セイレン",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 33836,
+    "endpoint": "anime",
+    "characters": [
+      "Kamita",
+      "Shouichi",
+      "Miyamae"
+    ]
+  },
+  {
+    "title": "ワンナウツ",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 5040,
+    "endpoint": "anime",
+    "characters": [
+      "Ideguchi",
+      "Satoshi",
+      "Kojima"
+    ]
+  },
+  {
+    "title": "魔道祖师",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 37208,
+    "endpoint": "anime",
+    "characters": [
+      "Lan",
+      "Wangji",
+      "Wei"
+    ]
+  },
+  {
+    "title": "劇場版 空の境界 the Garden of sinners 第二章『殺人考察（前）』",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 3782,
+    "endpoint": "anime",
+    "characters": [
+      "Kokutou",
+      "Mikiya",
+      "Ryougi"
+    ]
+  },
+  {
+    "title": "セキレイ～Pure Engagement～",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 5277,
+    "endpoint": "anime",
+    "characters": [
+      "Homura",
+      "Kazehana",
+      "Kusano"
+    ]
+  },
+  {
+    "title": "神達に拾われた男",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 41312,
+    "endpoint": "anime",
+    "characters": [
+      "Jamil",
+      "Eliaria",
+      "Takebayashi"
+    ]
+  },
+  {
+    "title": "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～",
+    "type": "アニメ",
+    "start_year": 2022,
+    "mal_id": 47163,
+    "endpoint": "anime",
+    "characters": [
+      "Dryad",
+      "Proud Wolf",
+      "Sano"
+    ]
+  },
+  {
+    "title": "彼氏彼女の事情",
+    "type": "アニメ",
+    "start_year": 1998,
+    "mal_id": 145,
+    "endpoint": "anime",
+    "characters": [
+      "Arima",
+      "Souichirou",
+      "Miyazawa"
+    ]
+  },
+  {
+    "title": "ずっと前から好きでした。～告白実行委員会～",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 31245,
+    "endpoint": "anime",
+    "characters": [
+      "Aida",
+      "Miou",
+      "Enomoto"
+    ]
+  },
+  {
+    "title": "凸变英雄X",
+    "type": "アニメ",
+    "start_year": 2025,
+    "mal_id": 53447,
+    "endpoint": "anime",
+    "characters": [
+      "Ahu",
+      "Dragon Boy",
+      "Ghostblade"
+    ]
+  },
+  {
+    "title": "劇場版 BLEACH Fade to Black 君の名を呼ぶ",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 4835,
+    "endpoint": "anime",
+    "characters": [
+      "Homura",
+      "Kuchiki",
+      "Rukia"
+    ]
+  },
+  {
+    "title": "プルートウ",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 35737,
+    "endpoint": "anime",
+    "characters": [
+      "Atom",
+      "Gesicht",
+      "Adolf's Brother"
+    ]
+  },
+  {
+    "title": "喰霊–零–",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 4725,
+    "endpoint": "anime",
+    "characters": [
+      "Isayama",
+      "Yomi",
+      "Tsuchimiya"
+    ]
+  },
+  {
+    "title": "続・終物語",
+    "type": "アニメ",
+    "start_year": 2019,
+    "mal_id": 36999,
+    "endpoint": "anime",
+    "characters": [
+      "Araragi",
+      "Koyomi",
+      "Araragi"
+    ]
+  },
+  {
+    "title": "いつだって僕らの恋は10センチだった。",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 36220,
+    "endpoint": "anime",
+    "characters": [
+      "Aida",
+      "Miou",
+      "Serizawa"
+    ]
+  },
+  {
+    "title": "学校の怪談",
+    "type": "アニメ",
+    "start_year": 2000,
+    "mal_id": 1281,
+    "endpoint": "anime",
+    "characters": [
+      "Amanojaku",
+      "Aoyama",
+      "Hajime"
+    ]
+  },
+  {
+    "title": "デス・ビリヤード",
+    "type": "アニメ",
+    "start_year": 2013,
+    "mal_id": 14353,
+    "endpoint": "anime",
+    "characters": [
+      "Decim",
+      "Kurokami no Onna",
+      "Otoko"
+    ]
+  },
+  {
+    "title": "エンジェルビーツ! アナザーエピローグ",
+    "type": "アニメ",
+    "start_year": 2010,
+    "mal_id": 10067,
+    "endpoint": "anime",
+    "characters": [
+      "Danshi A",
+      "Otonashi",
+      "Yuzuru"
+    ]
+  },
+  {
+    "title": "モンスター娘のお医者さん",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40708,
+    "endpoint": "anime",
+    "characters": [
+      "Litbeit",
+      "Glenn",
+      "Neikes"
+    ]
+  },
+  {
+    "title": "ラザロ",
+    "type": "アニメ",
+    "start_year": 2025,
+    "mal_id": 56038,
+    "endpoint": "anime",
+    "characters": [
+      "Christine",
+      "Eleina",
+      "Gilberto"
+    ]
+  },
+  {
+    "title": "魔王城でおやすみ",
+    "type": "アニメ",
+    "start_year": 2020,
+    "mal_id": 40397,
+    "endpoint": "anime",
+    "characters": [
+      "Demon Lord Tasogare",
+      "Kaymin",
+      "Aurora Suya Rhys"
+    ]
+  },
+  {
+    "title": "神様のメモ帳",
+    "type": "アニメ",
+    "start_year": 2011,
+    "mal_id": 10568,
+    "endpoint": "anime",
+    "characters": [
+      "Fujishima",
+      "Narumi",
+      "Shinozaki"
+    ]
+  },
+  {
+    "title": "少女革命ウテナ",
+    "type": "アニメ",
+    "start_year": 1997,
+    "mal_id": 440,
+    "endpoint": "anime",
+    "characters": [
+      "Himemiya",
+      "Anthy",
+      "Tenjou"
+    ]
+  },
+  {
+    "title": "精霊の守り人",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 1827,
+    "endpoint": "anime",
+    "characters": [
+      "Chagum",
+      "Yonsa",
+      "Balsa"
+    ]
+  },
+  {
+    "title": "デトロイト・メタル・シティ",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 3702,
+    "endpoint": "anime",
+    "characters": [
+      "Negishi",
+      "Souichi",
+      "Aikawa"
+    ]
+  },
+  {
+    "title": "青春ブタ野郎はサンタクロースの夢を見ない",
+    "type": "アニメ",
+    "start_year": 2025,
+    "mal_id": 57433,
+    "endpoint": "anime",
+    "characters": [
+      "Azusagawa",
+      "Sakuta",
+      "Miniskirt Santa"
+    ]
+  },
+  {
+    "title": "千年女優",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 1033,
+    "endpoint": "anime",
+    "characters": [
+      "Fujiwara",
+      "Chiyoko",
+      "Ida"
+    ]
+  },
+  {
+    "title": "诡秘之主 小丑篇",
+    "type": "アニメ",
+    "start_year": 2025,
+    "mal_id": 49818,
+    "endpoint": "anime",
+    "characters": [
+      "Moretti",
+      "Klein",
+      "Ademisaul"
+    ]
+  },
+  {
+    "title": "この世界の片隅に",
+    "type": "アニメ",
+    "start_year": 2016,
+    "mal_id": 15227,
+    "endpoint": "anime",
+    "characters": [
+      "Houjou",
+      "Shuusaku",
+      "Urano"
+    ]
+  },
+  {
+    "title": "青春ブタ野郎はランドセルガールの夢を見ない",
+    "type": "アニメ",
+    "start_year": 2023,
+    "mal_id": 54870,
+    "endpoint": "anime",
+    "characters": [
+      "Azusagawa",
+      "Sakuta",
+      "Sakurajima"
+    ]
+  },
+  {
+    "title": "プリンセスチュチュ",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 721,
+    "endpoint": "anime",
+    "characters": [
+      "Arima",
+      "Ahiru",
+      "Fakir"
+    ]
+  },
+  {
+    "title": "カイバ",
+    "type": "アニメ",
+    "start_year": 2008,
+    "mal_id": 3701,
+    "endpoint": "anime",
+    "characters": [
+      "Kaiba",
+      "Neiro",
+      "Popo"
+    ]
+  },
+  {
+    "title": "十二国記",
+    "type": "アニメ",
+    "start_year": 2002,
+    "mal_id": 153,
+    "endpoint": "anime",
+    "characters": [
+      "Keiki",
+      "Nakajima",
+      "Youko"
+    ]
+  },
+  {
+    "title": "頭文字 D Fifth Stage",
+    "type": "アニメ",
+    "start_year": 2012,
+    "mal_id": 15059,
+    "endpoint": "anime",
+    "characters": [
+      "Fujiwara",
+      "Takumi",
+      "Takahashi"
+    ]
+  },
+  {
+    "title": "リズと青い鳥",
+    "type": "アニメ",
+    "start_year": 2018,
+    "mal_id": 35677,
+    "endpoint": "anime",
+    "characters": [
+      "Kasaki",
+      "Nozomi",
+      "Yoroizuka"
+    ]
+  },
+  {
+    "title": "電脳コイル",
+    "type": "アニメ",
+    "start_year": 2007,
+    "mal_id": 2164,
+    "endpoint": "anime",
+    "characters": [
+      "Amasawa",
+      "Yuuko",
+      "Harakawa"
+    ]
+  },
+  {
+    "title": "夜は短し歩けよ乙女",
+    "type": "アニメ",
+    "start_year": 2017,
+    "mal_id": 34537,
+    "endpoint": "anime",
+    "characters": [
+      "Kurokami no Otome",
+      "Senpai",
+      "Furuhonichi no Kamisama"
+    ]
+  },
+  {
+    "title": "ガールズバンドクライ",
+    "type": "アニメ",
+    "start_year": 2024,
+    "mal_id": 55102,
+    "endpoint": "anime",
+    "characters": [
+      "Awa",
+      "Subaru",
+      "Ebizuka"
+    ]
+  },
+  {
+    "title": "クロスゲーム",
+    "type": "アニメ",
+    "start_year": 2009,
+    "mal_id": 5941,
+    "endpoint": "anime",
+    "characters": [
+      "Kitamura",
+      "Kou",
+      "Tsukishima"
+    ]
+  }
+]

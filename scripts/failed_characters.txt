@@ -1,4 +1,19 @@
-[IMG] char_03099 Collegue 1: image too small
-[IMG] char_03246 Announcement: image too small
-[IMG] char_03514 Jun: image too small
-[IMG] char_03897 Kyouya Hashiguchi: image too small
+[IMG] char_04679 Eisaku Donzawa: image too small
+[IMG] char_04680 Eisaku Donzawa: image too small
+[IMG] char_04889 Bus Conductor: image too small
+[IMG] char_05039 Algro: image too small
+[IMG] char_05044 Gosaku: image too small
+[IMG] char_05046 Oobayashi Chairman: image too small
+[IMG] char_05111 Ayumi: image too small
+[IMG] char_05135 Black Glasses Man A: image too small
+[IMG] char_05136 Black Glasses Man B: image too small
+[IMG] char_05158 Kouhei Fujiyoshi: image too small
+[IMG] char_05159 Moemi Funato: image too small
+[IMG] char_05312 Boy A: image too small
+[IMG] char_05370 Rose Barbaray: image too small
+[IMG] char_05472 Shuuhei Akamatsu: image too small
+[IMG] char_05654 M's Rose: image too small
+[IMG] char_05719 Sakiko Kawada: image too small
+[IMG] char_05720 Sakiko Kawada: image too small
+[IMG] char_05757 Dai: image too small
+[IMG] char_05818 Demolition Worker: image too small
